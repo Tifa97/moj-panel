@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-11-23T20:18:59.117Z",
+  "version": "202611232018",
+  "tabs": [
+    {
+      "id": "dubrovnik",
+      "label": "Dubrovnik",
+      "count": 24
+    },
+    {
+      "id": "hajduk",
+      "label": "Hajduk",
+      "count": 49
+    },
+    {
+      "id": "vrijeme",
+      "label": "Vrijeme",
+      "count": 2
+    }
+  ],
+  "sources": [
+    {
+      "name": "DuList",
+      "home": "https://dulist.hr",
+      "ok": true,
+      "count": 18
+    },
+    {
+      "name": "DubrovnikNet",
+      "home": "https://www.dubrovniknet.hr",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "name": "hajduk.hr",
+      "home": "https://hajduk.hr",
+      "ok": true,
+      "count": 35
+    },
+    {
+      "name": "Slobodna Dalmacija",
+      "home": "https://www.slobodnadalmacija.hr",
+      "ok": true,
+      "count": 3,
+      "note": "3 od 50 članaka spominje Hajduk"
+    },
+    {
+      "name": "hajduk.hr/raspored",
+      "home": "https://hajduk.hr/utakmice",
+      "ok": true,
+      "count": 26
+    },
+    {
+      "name": "hajduk.hr/poredak",
+      "home": "https://hajduk.hr/utakmice",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "name": "Open-Meteo (Dubrovnik)",
+      "home": "https://open-meteo.com",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "name": "Open-Meteo (Zagreb)",
+      "home": "https://open-meteo.com",
+      "ok": true,
+      "count": 7
+    }
+  ],
+  "healthy": true
+}

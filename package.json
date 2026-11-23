@@ -1,0 +1,17 @@
+{
+  "name": "central-info-panel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personalizirani info panel (PWA): Dubrovnik, Hajduk, Vrijeme",
+  "type": "module",
+  "scripts": {
+    "refresh": "node scripts/refresh.mjs",
+    "icons": "node scripts/gen-icons.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/refresh.mjs && node scripts/serve.mjs",
+    "backfill": "node scripts/backfill.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

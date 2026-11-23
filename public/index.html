@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Moj panel — Dubrovnik, Hajduk, Vrijeme</title>
+<meta name="description" content="Osobni info panel: vijesti iz Dubrovnika, Hajduk i vremenska prognoza za Dubrovnik i Zagreb.">
+<meta name="theme-color" content="#B8902B">
+<meta name="color-scheme" content="light">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Moj panel">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://api.open-meteo.com">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body data-tab="dubrovnik">
+
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="g-cloud"><path d="M7.2 17.5h9.3a3.6 3.6 0 1 0-.6-7.15A5.1 5.1 0 0 0 6.7 10.4a3.6 3.6 0 0 0 .5 7.1Z"/></g>
+    <g id="g-sun-sm"><circle cx="8" cy="7.6" r="2.6"/><path d="M8 2.6v1.4M8 11.2v1.4M3.5 7.6H2.1M13.9 7.6h-1.4M4.8 4.4 3.8 3.4M12.2 11.8l-1-1M11.2 4.4l1-1M4.8 10.8l-1 1"/></g>
+  </defs>
+
+  <!-- interface -->
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="m9.5 5.5 6.5 6.5-6.5 6.5"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-2.6-6.1"/><path d="M20.5 3.5V9h-5.5"/></symbol>
+  <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v12c0 1.66 3.13 3 7 3s7-1.34 7-3V6"/><path d="M5 12c0 1.66 3.13 3 7 3s7-1.34 7-3"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M3 13h5l1.2 3h5.6L16 13h5"/><path d="M5.5 4.5h13L21 13v6.5H3V13Z"/></symbol>
+  <symbol id="i-warning" viewBox="0 0 24 24"><path d="M12 3.6 2.4 20.4h19.2Z"/><path d="M12 10v4.2"/><circle cx="12" cy="17.4" r=".9" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M12 11.2v5"/><circle cx="12" cy="8.2" r=".9" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 2.8v4M16 2.8v4"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="M12 7v5.3l3.4 2"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.3s7-5.4 7-11.1a7 7 0 1 0-14 0c0 5.7 7 11.1 7 11.1Z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+  <symbol id="i-city" viewBox="0 0 24 24"><path d="M2.5 21h19"/><path d="M5 21V8.6l5.5-3.2V21"/><path d="M14.5 21v-9.4l4.5 2.2V21"/><path d="M7.4 9.9v1.4M7.4 13.6V15M12.9 13.6V15"/></symbol>
+  <symbol id="i-ball" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.6"/><path d="m12 7.3 4 2.9-1.5 4.7h-5L8 10.2Z"/><path d="M12 3.4v3.9M19.9 9.6 16 10.2M16.8 19.1 14.5 15M7.2 19.1 9.5 15M4.1 9.6 8 10.2"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.3"/><path d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.4 5.4 7.2 7.2M16.8 16.8l1.8 1.8M18.6 5.4l-1.8 1.8M7.2 16.8l-1.8 1.8"/></symbol>
+  <symbol id="i-wind" viewBox="0 0 24 24"><path d="M3 8.5h9.8a2.8 2.8 0 1 0-2.8-2.9"/><path d="M3 12.5h13a2.8 2.8 0 1 1-2.8 2.9"/><path d="M3 16.5h6.5"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3.2s6.4 7.3 6.4 11a6.4 6.4 0 1 1-12.8 0c0-3.7 6.4-11 6.4-11Z"/></symbol>
+  <symbol id="i-umbrella" viewBox="0 0 24 24"><path d="M12 3.3a8.9 8.9 0 0 1 8.9 8.9H3.1A8.9 8.9 0 0 1 12 3.3Z"/><path d="M12 12.2v6.4a2.4 2.4 0 0 0 4.8 0M12 3.3V1.8"/></symbol>
+  <symbol id="i-sunrise" viewBox="0 0 24 24"><path d="M2.8 19h18.4"/><path d="M7.4 15a4.6 4.6 0 0 1 9.2 0"/><path d="M12 3v3.6M5.6 7.1 7 8.5M18.4 7.1 17 8.5M2.8 15h1.8M19.4 15h1.8"/><path d="m9.6 5.6 2.4-2.6 2.4 2.6"/></symbol>
+
+  <!-- weather -->
+  <symbol id="i-wx-clear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.4"/><path d="M12 2.4v2.8M12 18.8v2.8M2.4 12h2.8M18.8 12h2.8M5.2 5.2 7.2 7.2M16.8 16.8l2 2M18.8 5.2l-2 2M7.2 16.8l-2 2"/></symbol>
+  <symbol id="i-wx-clear-night" viewBox="0 0 24 24"><path d="M20.3 14.8A8.6 8.6 0 0 1 9.2 3.7a8.6 8.6 0 1 0 11.1 11.1Z"/></symbol>
+  <symbol id="i-wx-partly" viewBox="0 0 24 24"><use href="#g-sun-sm" transform="translate(1.5 -0.5)"/><use href="#g-cloud" transform="translate(1.5 2.2) scale(0.96)"/></symbol>
+  <symbol id="i-wx-partly-night" viewBox="0 0 24 24"><path d="M12.6 8.6A5.6 5.6 0 0 1 7.3 2a5.6 5.6 0 1 0 6.9 7.5" transform="translate(0.6 0.4)"/><use href="#g-cloud" transform="translate(1.6 2.4) scale(0.95)"/></symbol>
+  <symbol id="i-wx-cloudy" viewBox="0 0 24 24"><use href="#g-cloud" transform="translate(0 1.2)"/><path d="M8.4 8.6A4.6 4.6 0 0 1 17 7.9"/></symbol>
+  <symbol id="i-wx-fog" viewBox="0 0 24 24"><use href="#g-cloud" transform="translate(0 -1.6)"/><path d="M4.5 18.5h9M7 21.3h11"/></symbol>
+  <symbol id="i-wx-drizzle" viewBox="0 0 24 24"><use href="#g-cloud" transform="translate(0 -2.6)"/><path d="M8.8 17.6v1.6M12 18.6v1.6M15.2 17.6v1.6"/></symbol>
+  <symbol id="i-wx-rain" viewBox="0 0 24 24"><use href="#g-cloud" transform="translate(0 -2.8)"/><path d="m8.6 17.2-1.1 3.4M12 17.2l-1.1 3.4M15.4 17.2l-1.1 3.4"/></symbol>
+  <symbol id="i-wx-showers" viewBox="0 0 24 24"><use href="#g-cloud" transform="translate(0 -3)"/><path d="m8.2 16.6-1.4 4.4M12 16.6l-1.4 4.4M15.8 16.6l-1.4 4.4"/><path d="M5.6 19.4h.01"/></symbol>
+  <symbol id="i-wx-snow" viewBox="0 0 24 24"><use href="#g-cloud" transform="translate(0 -2.8)"/><path d="M8.6 17.4v2.8M7.4 18.1l2.4 1.4M9.8 18.1l-2.4 1.4M15.4 17.4v2.8M14.2 18.1l2.4 1.4M16.6 18.1l-2.4 1.4"/><circle cx="12" cy="20.6" r=".8" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-wx-sleet" viewBox="0 0 24 24"><use href="#g-cloud" transform="translate(0 -2.8)"/><path d="m8.6 17.2-1.1 3.4M15.4 17.2l-1.1 3.4"/><path d="M12 17.6v2.6M10.9 18.2l2.2 1.3M13.1 18.2l-2.2 1.3"/></symbol>
+  <symbol id="i-wx-thunder" viewBox="0 0 24 24"><use href="#g-cloud" transform="translate(0 -3)"/><path d="M13.4 15.6 9.6 19.8h3.1l-1.4 3.4 4.1-4.6h-3.1Z"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Preskoči na sadržaj</a>
+
+<header class="appbar">
+  <div class="appbar__brand">
+    <span class="appbar__mark" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="appbar__text">
+      <strong class="appbar__title">Moj panel</strong>
+      <span class="appbar__today" id="today"></span>
+    </span>
+  </div>
+  <div class="appbar__actions">
+    <span class="appbar__updated" id="updated"></span>
+    <button class="iconbtn" id="refresh" type="button" title="Osvježi" aria-label="Osvježi podatke">
+      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-refresh"/></svg>
+    </button>
+  </div>
+</header>
+
+<p class="offline" id="offline" hidden>
+  <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-warning"/></svg>
+  Offline — prikazujem zadnje spremljene podatke.
+</p>
+
+<nav class="tabbar" id="tabbar" role="tablist" aria-label="Paneli"></nav>
+
+<main id="main" class="main">
+  <section class="panel" id="panel-dubrovnik" role="tabpanel" aria-labelledby="tab-dubrovnik"></section>
+  <section class="panel" id="panel-hajduk" role="tabpanel" aria-labelledby="tab-hajduk" hidden></section>
+  <section class="panel" id="panel-vrijeme" role="tabpanel" aria-labelledby="tab-vrijeme" hidden></section>
+</main>
+
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
