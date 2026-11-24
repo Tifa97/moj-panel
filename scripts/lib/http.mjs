@@ -32,12 +32,22 @@ export async function getText(url, { timeout = 20000, retries = 2, accept, heade
       clearTimeout(timer);
     }
   }
-  throw new Error(`GET ${url} failed: ${lastErr?.message || lastErr}`);
+  throw new Error(`GET ${shortUrl(url)} failed: ${lastErr?.message || lastErr}`);
 }
 
 export async function getJson(url, opts = {}) {
   const txt = await getText(url, { accept: 'application/json,*/*', ...opts });
   return JSON.parse(stripBom(txt));
+}
+
+/** Drops the query string so the reason survives the status-line budget. */
+function shortUrl(url) {
+  try {
+    const u = new URL(url);
+    return u.origin + u.pathname;
+  } catch {
+    return String(url);
+  }
 }
 
 const stripBom = (s) => (s.charCodeAt(0) === 0xfeff ? s.slice(1) : s);

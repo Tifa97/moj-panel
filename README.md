@@ -29,8 +29,25 @@ npm run backfill    # ~250 vijesti unatrag; "npm run backfill -- 600" ide dalje
 npm run refresh
 ```
 
-Server ispiše i LAN adresu (`http://192.168.x.x:4173`) pa app možeš otvoriti
-na mobitelu na istoj Wi-Fi mreži i dodati ga na home screen.
+Server ispiše i LAN adresu (`http://192.168.x.x:4173`). Otvorit će se na
+mobitelu, ali **service worker se preko plain HTTP-a na privatnoj IP adresi
+ne registrira** — browseri traže HTTPS ili `localhost`. Za pravu PWA s
+offlineom i "Add to Home Screen" koristi objavljenu verziju.
+
+## Objavljeno
+
+**https://tifa97.github.io/moj-panel/**
+
+GitHub Action (`.github/workflows/pages.yml`) svakih 30 minuta povuče svježe
+podatke, commita ih natrag u repo i deploya `public/` na Pages. Refresh i
+deploy su namjerno u istom jobu: commit napravljen s `GITHUB_TOKEN`-om ne
+okida druge workflowe, pa lanac "commit → deploy" ne bi radio.
+
+Pokretanje ručno: `gh workflow run pages.yml`.
+
+> Ako lokalno pokreneš `npm run refresh` i commitaš, prvo `git pull --rebase`.
+> Generirani JSON-i se sudaraju s onima koje je commitao CI; svejedno je koju
+> stranu uzmeš jer se oba regeneriraju.
 
 ## Izvori podataka
 
@@ -133,10 +150,17 @@ data/store.json         akumulirani podaci (u gitu)
 
 ## Poznata ograničenja prototipa
 
-- **Živi podaci traže da `npm run serve` radi** na nekom računalu u mreži.
-  Na statičkom hostingu app pada na snapshot iz `npm run refresh`. Kad
-  zatreba 24/7, `scripts/lib/pipeline.mjs` se seli u serverless funkciju —
-  `buildPayloads()` je već jedina točka koju treba pozvati.
+- **Živi `/api` traži da `npm run serve` radi** na nekom računalu u mreži.
+  Na Pagesu app koristi snapshot koji cron osvježava svakih 30 min. Kad
+  zatreba pravi live 24/7, `scripts/lib/pipeline.mjs` se seli u serverless
+  funkciju — `buildPayloads()` je već jedina točka koju treba pozvati.
+- **S GitHubovih runnera `hajduk.hr/json/*` vraća 403**, a Open-Meteo zna
+  odbiti zahtjev. Blokada je po IP adresi (datacentar); probani su
+  browserski `referer`/`origin`/`sec-fetch-*` — bez efekta. Posljedica:
+  raspored i HNL tablica se u cloudu ne osvježavaju, nego se drži zadnja
+  ispravna kopija iz `data/store.json`. Oboje se mijenja tjedno, a lokalni
+  `npm run refresh` ih uvijek povuče. Prognoza nije pogođena jer je browser
+  dohvaća direktno s Open-Meteoa.
 - **Prvi dohvat traje ~5 s** ako je cache servera hladan (osam izvora
   paralelno). Zato se cache zagrijava pri startu.
 - **Duplikati u vijestima.** Dva portala isti događaj znaju objaviti pod

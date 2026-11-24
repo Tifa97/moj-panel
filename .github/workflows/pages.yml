@@ -7,9 +7,9 @@ on:
   push:
     branches: [main]
   schedule:
-    # Svakih 15 minuta (UTC). GitHub zna kasniti ili preskočiti termin kad je
-    # opterećen — za vijesti je to svejedno.
-    - cron: '*/15 * * * *'
+    # Svakih 30 minuta (UTC). GitHub zna kasniti ili preskočiti termin kad je
+    # opterećen — za vijesti je to svejedno, a izvorima je lakše.
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:

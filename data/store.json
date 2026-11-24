@@ -3652,7 +3652,7 @@
       "zagreb": "https://api.open-meteo.com/v1/forecast?latitude=45.815&longitude=15.9819&current=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cweather_code%2Cwind_speed_10m%2Cwind_direction_10m%2Cis_day%2Cprecipitation&hourly=temperature_2m%2Cweather_code%2Cprecipitation_probability&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Csunrise%2Csunset&timezone=Europe%2FZagreb&forecast_days=7"
     }
   },
-  "weatherGeneratedAt": "2026-11-24T13:41:15.996Z",
+  "weatherGeneratedAt": "2026-11-24T13:44:53.787Z",
   "hajdukResults": [
     {
       "home": "Lokomotiva",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T13:42:47.327Z",
+  "generatedAt": "2026-11-24T13:44:53.787Z",
   "live": false,
   "club": "HNK Hajduk Split",
   "news": [
@@ -887,16 +887,14 @@
     {
       "name": "hajduk.hr/raspored",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/raspored.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 26
     },
     {
       "name": "hajduk.hr/poredak",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 10
     }
   ]
 }

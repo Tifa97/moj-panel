@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T13:42:47.327Z",
+  "generatedAt": "2026-11-24T13:44:53.787Z",
   "live": false,
   "places": [
     {
@@ -2231,16 +2231,14 @@
     {
       "name": "Open-Meteo (Dubrovnik)",
       "home": "https://open-meteo.com",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://api.open-meteo.com/v1/forecast?latitude=42.6507&longitude=18.0944&current=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cweather_cod"
+      "ok": true,
+      "count": 7
     },
     {
       "name": "Open-Meteo (Zagreb)",
       "home": "https://open-meteo.com",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://api.open-meteo.com/v1/forecast?latitude=45.815&longitude=15.9819&current=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cweather_code"
+      "ok": true,
+      "count": 7
     }
   ]
 }
