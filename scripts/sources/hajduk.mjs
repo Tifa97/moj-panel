@@ -23,11 +23,25 @@ const NOT_FIRST_TEAM = [
   'omladinci', 'akademij',
 ];
 
+/**
+ * The /json/ endpoints are fetched by hajduk.hr's own fixtures page. From a
+ * datacenter IP they answer 403 unless the request looks like it came from
+ * that page, so send what the browser sends.
+ */
+const PAGE_HEADERS = {
+  referer: 'https://hajduk.hr/utakmice',
+  origin: 'https://hajduk.hr',
+  'x-requested-with': 'XMLHttpRequest',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+};
+
 export async function collectHajduk() {
   const [rss, schedule, standings, sd] = await Promise.allSettled([
     getText(OFFICIAL_RSS),
-    getJson(SCHEDULE),
-    getJson(STANDINGS),
+    getJson(SCHEDULE, { headers: PAGE_HEADERS }),
+    getJson(STANDINGS, { headers: PAGE_HEADERS }),
     getText(SD_RSS),
   ]);
 

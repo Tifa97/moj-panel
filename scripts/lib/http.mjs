@@ -7,7 +7,7 @@ const UA =
  * Several of our sources (Slobodna Dalmacija especially) reject the default
  * Node UA, so sending one is not optional.
  */
-export async function getText(url, { timeout = 20000, retries = 2, accept } = {}) {
+export async function getText(url, { timeout = 20000, retries = 2, accept, headers } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
     const ctrl = new AbortController();
@@ -20,6 +20,7 @@ export async function getText(url, { timeout = 20000, retries = 2, accept } = {}
           'user-agent': UA,
           'accept': accept || 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
           'accept-language': 'hr-HR,hr;q=0.9,en;q=0.6',
+          ...headers,
         },
       });
       if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);

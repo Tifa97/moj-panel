@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T13:39:37.060Z",
+  "generatedAt": "2026-11-24T13:41:15.996Z",
   "live": false,
-  "version": "202611241339",
+  "version": "202611241341",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -48,16 +48,14 @@
     {
       "name": "hajduk.hr/raspored",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/raspored.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 26
     },
     {
       "name": "hajduk.hr/poredak",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 10
     },
     {
       "name": "Open-Meteo (Dubrovnik)",
@@ -72,5 +70,5 @@
       "count": 7
     }
   ],
-  "healthy": false
+  "healthy": true
 }
