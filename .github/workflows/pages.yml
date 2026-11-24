@@ -1,0 +1,67 @@
+name: Osvježi podatke i objavi
+
+# Jedan workflow radi oboje namjerno: commit napravljen s GITHUB_TOKEN-om ne
+# okida druge workflowe, pa lanac "refresh commita → deploy se pokrene" ne bi
+# radio. Ovako refresh i deploy idu u istom runu.
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Svakih 15 minuta (UTC). GitHub zna kasniti ili preskočiti termin kad je
+    # opterećen — za vijesti je to svejedno.
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit osvježenih podataka natrag u repo
+  pages: write
+  id-token: write
+
+# Ne deployati dva puta odjednom, ali ni prekidati deploy u tijeku.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Projekt nema dependencyje, pa nema ni npm install.
+      - name: Povuci svježe podatke
+        id: refresh
+        continue-on-error: true   # loš dan jednog izvora ne smije srušiti stranicu
+        run: npm run refresh
+
+      - name: Commitaj podatke ako su se promijenili
+        run: |
+          if git diff --quiet -- data public/data; then
+            echo "Nema promjena u podacima."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/data
+          git commit -m "Podaci: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

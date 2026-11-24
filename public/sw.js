@@ -10,7 +10,15 @@
  *        /data/ key so the offline fallback holds live data, not the build.
  */
 const SHELL_TIMEOUT_MS = 1500;
-const VERSION = 'v2';
+const VERSION = 'v3';
+
+/**
+ * Everything is addressed relative to where sw.js lives, so the app works
+ * both at the root (dev server) and under a path (GitHub Pages project
+ * site, e.g. /CentralInfoPanel/).
+ */
+const BASE = new URL('./', self.location.href).pathname;
+const under = (path, prefix) => path.startsWith(BASE + prefix);
 const SHELL_CACHE = `cip-shell-${VERSION}`;
 const DATA_CACHE = `cip-data-${VERSION}`;
 
@@ -86,12 +94,12 @@ self.addEventListener('fetch', (event) => {
   // A successful answer is stored under the matching /data/ key, though:
   // when the server is gone the app falls back to that path, and this way
   // it gets the last live data instead of the last committed build.
-  if (url.pathname.startsWith('/api/')) {
+  if (under(url.pathname, 'api/')) {
     event.respondWith(passThroughAndMirror(request, url));
     return;
   }
 
-  if (url.pathname.includes('/data/')) {
+  if (under(url.pathname, 'data/')) {
     event.respondWith(networkFirst(request, DATA_CACHE));
     return;
   }
@@ -118,8 +126,8 @@ self.addEventListener('fetch', (event) => {
 async function passThroughAndMirror(request, url) {
   const response = await fetch(request);
   if (response.ok) {
-    const name = url.pathname.replace(/^\/api\//, '').replace(/\?.*$/, '');
-    const mirror = new URL(`data/${name}`, self.registration.scope).toString();
+    const name = url.pathname.slice((BASE + 'api/').length);
+    const mirror = new URL(`data/${name}`, self.location.href).toString();
     const cache = await caches.open(DATA_CACHE);
     await cache.put(mirror, response.clone());
   }
