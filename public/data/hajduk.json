@@ -1,8 +1,35 @@
 {
-  "generatedAt": "2026-11-24T13:45:51.310Z",
+  "generatedAt": "2026-11-24T23:24:47.183Z",
   "live": false,
   "club": "HNK Hajduk Split",
   "news": [
+    {
+      "title": "Hajduku na prazni Poljud stiže ekipa s novim trenerom i hrpom Japanaca, a vlasnik im se obogatio na pornografiji",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/hajduku-na-prazni-poljud-stize-ekipa-s-novim-trenerom-i-hrpom-japanaca-a-vlasnik-im-se-obogatio-na-pornografiji-1592194",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-24T20:03:00.000Z",
+      "summary": "Prije nego je Hajduk započeo svoj nastup i ligaškoj fazi Konferencije lige, projekcije su govorile da bi za plasman dalje trebalo sedam ili osam bodova. Bijeli su…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/32901829.jpg"
+    },
+    {
+      "title": "Pala odluka, Hrvatska ključnu utakmicu igra na Poljudu, poznati su i detalji vezani uz satnicu susreta",
+      "link": "https://slobodnadalmacija.hr/sport/domaci-nogomet/pala-odluka-hrvatska-kljucnu-utakmicu-igra-na-poljudu-1592163",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-24T16:03:00.000Z",
+      "summary": "Ždrijeb doigravanja za ostanak u Ligi A spojio je hrvatsku nogometnu reprezentaciju s Republikom Irskom, a nakon prve utakmice u gostima, izabranici Slavena Bilića bit…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/32631775.jpg"
+    },
+    {
+      "title": "Brodomerkur nakon skoro 20 godina ponovno među sponzorima Hajduka",
+      "link": "https://hajduk.hr/vijest/brodomerkur-nakon-skoro-20-godina-ponovno-medu-sponzorima-hajduka-/18721",
+      "source": "hajduk.hr",
+      "official": true,
+      "publishedAt": "2026-11-24T15:04:00.000Z",
+      "summary": "Brodomerkur se vraća među sponzore Kluba s kojim je povezana još od devedesetih godina",
+      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-24-17-05-3561-.JPG"
+    },
     {
       "title": "VIDEO Hajduk objavio snimku penala iz drugog kuta: Ovog kadra nema u sažetku MAXSporta, pogledajte",
       "link": "https://slobodnadalmacija.hr/sport/hajduk/video-hajduk-objavio-snimku-penala-iz-drugog-kuta-ovog-kadra-nema-u-sazetku-maxsporta-pogledajte-1592114",
@@ -155,33 +182,6 @@
       "publishedAt": "2026-11-21T19:14:00.000Z",
       "summary": "Konferencija za medije nakon pobjede na Maksimiru",
       "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-21-21-14-6323-.JPG"
-    },
-    {
-      "title": "Zagreb: Lokomotiva - Hajduk 1:2",
-      "link": "https://hajduk.hr/vijest/zagreb-lokomotiva--hajduk-1-2/18709",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-21T14:45:00.000Z",
-      "summary": "Pobjeda Bijelih u 14. kolu SuperSport HNL",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-21-17-50-3044-.jpeg"
-    },
-    {
-      "title": "Poraz Hajduka II u Imotskom",
-      "link": "https://hajduk.hr/vijest/poraz-hajduka-ii-u-imotskom/18711",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-21T14:30:00.000Z",
-      "summary": "Rezultat je bio 4:0",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-21-16-30-2545-.JPG"
-    },
-    {
-      "title": "Uvjerljive pobjede pionira i kadeta II protiv Slaven Belupa",
-      "link": "https://hajduk.hr/vijest/uvjerljive-pobjede-pionira-i-kadeta-ii-protiv-slaven-belupa/18710",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-21T13:30:00.000Z",
-      "summary": "Četiri pogotka postigao je Tomaš",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-21-15-30-6046-.jfif"
     }
   ],
   "nextMatch": {

@@ -1,6 +1,213 @@
 {
   "dubrovnikNews": [
     {
+      "title": "Velika večer dubrovačkog kazališta na 34. dodjeli Nagrada hrvatskog glumišta",
+      "link": "https://dulist.hr/velika-vecer-dubrovackog-kazalista-na-34-dodjeli-nagrada-hrvatskog-glumista/1058803/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T21:44:03.000Z",
+      "summary": "Dubrovačka kazališna scena ostvarila je izniman uspjeh na večerašnjoj, 34. svečanoj dodjeli Nagrada hrvatskog glumišta održanoj u Hrvatskom narodnom kazalištu u Zagrebu, odakle u Grad stižu…",
+      "image": ""
+    },
+    {
+      "title": "Romano Nikolić i Mirej Stanić dobitnici Nagrada hrvatskog glumišta. “Kuća je velika, ne može se ona nosit” ostvarila velike rezultate",
+      "link": "https://www.dubrovniknet.hr/romano-nikolic-i-mirej-stanic-dobitnici-nagrada-hrvatskog-glumista-kuca-je-velika-ne-moze-se-ona-nosit-ostvarila-velike-rezultate/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T21:30:00.000Z",
+      "summary": "U Hrvatskom narodnom kazalištu u Zagrebu u utorak se održava svečana dodjela Nagrada hrvatskog glumišta. Nagradu za najbolji praizvedeni suvremeni hrvatski dramski tekst ili najbolju…",
+      "image": ""
+    },
+    {
+      "title": "LOKACIJA, CIJENA PA ASORTIMAN Ovo su glavni kriteriji Hrvata pri odabiru trgovine",
+      "link": "https://dulist.hr/lokacija-cijena-pa-asortiman-ovo-su-glavni-kriteriji-hrvata-pri-odabiru-trgovine/1058429/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T21:16:48.000Z",
+      "summary": "Lokacija trgovine Hrvatima je važnija od cijene, pokazalo je najnovije istraživanje Hrvatske gospodarske komore (HGK). Ipak, sve veći broj velikih prodavaonica i zatvaranje manjih trgovina…",
+      "image": ""
+    },
+    {
+      "title": "Tjedan obilježen međunarodnim bridž susretima, natjecanjem i druženjem",
+      "link": "https://dulist.hr/tjedan-obiljezen-medunarodnim-bridz-susretima-natjecanjem-i-druzenjem/1058786/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T20:44:00.000Z",
+      "summary": "Protekli tjedan i vikend Dubrovnik su obilježili međunarodni bridž susreti, vrhunsko natjecanje, brojni domaći i strani igrači te druženje koje je još jednom pokazalo koliko je bridž snažno…",
+      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/bridz-memorijal-1200x845.jpg"
+    },
+    {
+      "title": "Dubrovnik i županija pri dnu po broju potpora mladima za prvu nekretninu",
+      "link": "https://dulist.hr/dubrovnik-i-zupanija-pri-dnu-po-broju-potpora-mladima-za-prvu-nekretninu/1058745/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T20:09:55.000Z",
+      "summary": "Iako je Agencija za pravni promet i posredovanje nekretninama (APN) do 20. studenoga odobrila ukupno 6.001 zahtjev za povrat poreza mladima pri kupnji ili gradnji prve nekretnine, Dubrovnik…",
+      "image": ""
+    },
+    {
+      "title": "Kuća Bukovac dio velike zagrebačke priče o praškom razdoblju Vlaha Bukovca",
+      "link": "https://dulist.hr/kuca-bukovac-dio-velike-zagrebacke-price-o-praskom-razdoblju-vlaha-bukovca/1058740/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T19:41:00.000Z",
+      "summary": "Izložba „Između svjetla i sjene. Vlaho Bukovac – praško razdoblje 1903. – 1922.“, otvorena 12. studenoga u zagrebačkoj Galeriji Klovićevi dvori, zaokružila je veliki izložbeni ciklus „Vlaho…",
+      "image": ""
+    },
+    {
+      "title": "Čeka li nas ekstremna zima? Oglasio se poznati meteorolog",
+      "link": "https://www.dubrovniknet.hr/ceka-li-nas-ekstremna-zima-oglasio-se-poznati-meteorolog/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T19:29:57.000Z",
+      "summary": "U javnosti se posljednjih dana pojavljuju najave o raspadu polarnog vrtloga, mogućoj polarnoj zimi i snažnom El Niñu. No, znače li te pojave da Hrvatskoj prijeti iznimno hladna zima? O tome…",
+      "image": ""
+    },
+    {
+      "title": "Na Vojnoviću počela sadnja drvoreda košćela kod Hotela Lero",
+      "link": "https://www.dubrovniknet.hr/na-vojnovicu-pocela-sadnja-drvoreda-koscela-kod-hotela-lero/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T19:26:20.000Z",
+      "summary": "Započela je sadnja novog drvoreda u Ulici Iva Vojnovića, koji će obuhvatiti ukupno 62 stabla košćele na dvije dionice. U tijeku je sadnja manjih sadnica, odnosno 31 manjeg stabla preko puta…",
+      "image": ""
+    },
+    {
+      "title": "NA DANAŠNJI DAN 1934. Rođen Nikola Debelić, dirigent koji je Orkestar odveo na velike američke turneje",
+      "link": "https://dulist.hr/na-danasnji-dan-1934-roden-nikola-debelic-dirigent-koji-je-orkestar-odveo-na-velike-americke-turneje/1058747/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T19:00:05.000Z",
+      "summary": "Na današnji dan, 24. studenoga 1934. godine, u Zagrebu je rođen istaknuti hrvatski dirigent, pedagog i diplomat Nikola Debelić. Dirigiranje je diplomirao 1958. na Muzičkoj akademiji u…",
+      "image": ""
+    },
+    {
+      "title": "FOTO: Komorni orkestar Tijardović prvi put nastupio u Dubrovniku uz program „Biseri barokne glazbe“",
+      "link": "https://www.dubrovniknet.hr/foto-komorni-orkestar-tijardovic-prvi-put-nastupio-u-dubrovniku-uz-program-biseri-barokne-glazbe/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T18:35:40.000Z",
+      "summary": "Komorni orkestar Tijardović iz Splita prvi je put gostovao u Dubrovniku, te je sinoć održao koncert u glazbenoj dvorani Kneževa dvora pred brojnom publikom, u sklopu Dalmatinskog ciklusa te…",
+      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/komorni-orkestar-tijardovic_23112026_vlevi-0484-1536x1024.jpg"
+    },
+    {
+      "title": "DURA poziva na radionicu „Napredni AI – Od pametnog chata do digitalnog zaposlenika“",
+      "link": "https://www.dubrovniknet.hr/dura-poziva-na-radionicu-napredni-ai-od-pametnog-chata-do-digitalnog-zaposlenika/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T18:35:19.000Z",
+      "summary": "Nakon iznimno posjećenih uvodnih radionice koje su sudionicima otvorila vrata svijetu generativne umjetne inteligencije, DURA-a kao korak više, za vas organizira radionicu „Napredni AI – Od…",
+      "image": ""
+    },
+    {
+      "title": "Ove ulice sutra će biti bez vode zbog popravka kvara i radova",
+      "link": "https://dulist.hr/ove-ulice-sutra-ce-biti-bez-vode-zbog-popravka-kvara-i-radova/1058779/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T18:16:00.000Z",
+      "summary": "Zbog popravka kvara na vodoopskrbnoj mreži 25. studenog bez vode će biti više ulica. Kako javljaju iz Vodovoda Dubrovnik, bez vode će biti neparni kućni brojevi od 1 do 11 u Ulici Bartola…",
+      "image": ""
+    },
+    {
+      "title": "Ove su ulice u srijedu bez vode",
+      "link": "https://www.dubrovniknet.hr/ove-su-ulice-u-srijedu-bez-vode-2/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T17:50:51.000Z",
+      "summary": "“Zbog popravka kvara na vodoopskrbnoj mreži 25. studenog bez vode će biti neparni kućni brojevi od 1 do 11 u Ulici Bartola Kašića u vremenu 8.30 do 15.00 sati, a zbog radova na…",
+      "image": ""
+    },
+    {
+      "title": "Mali ribari u Slanom dolaze na svoje: SRED Šijun pokreće školu udičarenja za djecu",
+      "link": "https://dulist.hr/mali-ribari-u-slanom-dolaze-na-svoje-sred-sijun-pokrece-skolu-udicarenja-za-djecu/1058536/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T17:39:58.000Z",
+      "summary": "Sportsko-ribolovno ekološko društvo Šijun iz Slanoga pokreće školu udičarenja namijenjenu djeci od navršenih sedam godina života. Prvi uvodni susret održat će se u srijedu, 25. studenoga, s…",
+      "image": ""
+    },
+    {
+      "title": "‘VALOVI PODRŠKE’ U Dubrovniku predstavljanje knjige o vodi, djeci i snazi zajedničke igre",
+      "link": "https://dulist.hr/valovi-podrske-u-dubrovniku-predstavljanje-knjige-o-vodi-djeci-i-snazi-zajednicke-igre/1058706/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T17:00:33.000Z",
+      "summary": "O vodi kao prostoru sigurnosti, igre i učenja za djecu s teškoćama u razvoju govori knjiga ‘Valovi podrške’ autora Hrvoja Gudlina, koja će biti predstavljena u četvrtak, 26. studenoga, s…",
+      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/valovi-podrske-knjiga-najava.jpg"
+    },
+    {
+      "title": "Gostujuća predstava ‘Početak’ ovog četvrtka u Kazalištu Marina Držića",
+      "link": "https://dulist.hr/gostujuca-predstava-pocetak-ovog-cetvrtka-u-kazalistu-marina-drzica/1058736/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T17:00:33.000Z",
+      "summary": "Predstava „Početak“ u režiji Aide Bukvić gostuje ovog četvrtka, 26. studenoga, s početkom u 20 sati na Velikoj sceni Kazališta Marina Držića. Kroz dramu suvremenoga britanskog autora Davida…",
+      "image": ""
+    },
+    {
+      "title": "Dubrovnik domaćin Europskog prvenstva malih federacija u briždu. Održan i memorijalni turnir „Jerko Kovač“",
+      "link": "https://www.dubrovniknet.hr/dubrovnik-domacin-europskog-prvenstva-malih-federacija-u-brizdu-odrzan-i-memorijalni-turnir-jerko-kovac/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T16:55:42.000Z",
+      "summary": "Protekli tjedan i vikend Dubrovnik su obilježili međunarodni bridž susreti, vrhunsko natjecanje, brojni domaći i strani igrači te druženje koje je još jednom pokazalo koliko je bridž snažno…",
+      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/Trece-mjesto-1-1024x743.jpg"
+    },
+    {
+      "title": "Doček Nove godine u Dubrovačkim Vrtovima Sunca: gala večer za odrasle, party za djecu",
+      "link": "https://www.dubrovniknet.hr/novogodisnji-disco-fever-u-dubrovackim-vrtovima-sunca-gala-vecer-za-odrasle-party-za-djecu/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T16:41:09.000Z",
+      "summary": "Dubrovački Vrtovi Sunca ove godine Novu godinu dočekuju u ritmu legendarne disco ere, uz retro glamur i plesni podij koji ne miruje do kasno u noć. Program Disco Fever odraslima donosi…",
+      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/New-Year-2027-at-Sun-Gardens-Dubrovnik-1.jpg"
+    },
+    {
+      "title": "RUPE ZA SADNJU KOŠĆELA BEZ ZAŠTITE Otvorena udubljenja na Vojnoviću već uzrokovala ozljede?",
+      "link": "https://dulist.hr/rupe-za-sadnju-koscela-bez-zastite-otvorena-udubljenja-na-vojnovicu-vec-uzrokovala-ozljede/1058772/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T16:25:44.000Z",
+      "summary": "Na području Vojnovića nalazi se nekoliko otvorenih betonskih udubljenja namijenjenih sadnji košćela, koja su, prema upozorenju građana, ostavljena bez ikakve zaštitne ograde ili drugog…",
+      "image": ""
+    },
+    {
+      "title": "(FOTO) POČELO POSTAVLJANJE BINE NA STRADUNU Dubrovnik se priprema za blagdane",
+      "link": "https://dulist.hr/foto-pocelo-postavljanje-bine-na-stradunu-dubrovnik-se-priprema-za-blagdane/1058756/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T15:30:10.000Z",
+      "summary": "Na prostoru između Palače Sponza i crkve sv. Vlaha počelo je postavljanje glavne koncertne pozornice. U Gradu su nam tako krenule pripreme za blagdanska događanja i tradicionalni doček Nove…",
+      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/bina-stradun-blagdani-postavljanje-bine-2-1200x810.jpg"
+    },
+    {
+      "title": "Nada Burum nova predsjednica Strukovne grupe posrednika u prometu nekretnina",
+      "link": "https://dulist.hr/nada-burum-nova-predsjednica-strukovne-grupe-posrednika-u-prometu-nekretnina/1058769/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T15:17:00.000Z",
+      "summary": "U HGK, Županijskoj komori Dubrovnik 24. studenoga održana je izborna sjednica Strukovne grupe posrednika u prometu nekretnina, na kojoj se raspravljalo o aktualnim izazovima u poslovanju…",
+      "image": ""
+    },
+    {
+      "title": "Texo Molior: stabilan rast koji se gradi na izvrsnosti izvedbe, ulaganju u ljude i dugoročnom povjerenju",
+      "link": "https://dulist.hr/texo-molior-stabilan-rast-koji-se-gradi-na-izvrsnosti-izvedbe-ulaganju-u-ljude-i-dugorocnom-povjerenju/1058710/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T14:46:22.000Z",
+      "summary": "Od cavtatske tvrtke koja je u sredini orijentiranoj turizmu prije 15 godina krenula u sasvim drugom smjeru, do jednog od vodećih domaćih građevinskih sustava, Texo Molior danas sudjeluje u…",
+      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/texo-molior-groblje-dubac.jpg"
+    },
+    {
+      "title": "SVJETSKI PRVACI U MALOM NOGOMETU Četvorica naših policajaca među zlatnim reprezentativcima Hrvatske",
+      "link": "https://dulist.hr/svjetski-prvaci-u-malom-nogometu-cetvorica-nasih-policajaca-medu-zlatnim-reprezentativcima-hrvatske/1058694/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T13:50:52.000Z",
+      "summary": "Malonogometna reprezentacija Ministarstva unutarnjih poslova RH sudjelovala je na Svjetskom prvenstvu u malom nogometu za policijske službenike koje se održavalo u nizozemskom Eibergenu. U…",
+      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/mup-reprezentacija-mali-nogomet-1.jpg"
+    },
+    {
       "title": "VIDEO/FOTO: Zavod za javno zdravstvo DNŽ obilježio veliku obljetnicu: Tri desetljeća predanog rada za dobrobit građana",
       "link": "https://www.dubrovniknet.hr/video-foto-zavod-za-javno-zdravstvo-dnz-obiljezio-veliku-obljetnicu-tri-desetljeca-predanog-rada-za-dobrobit-gradana/",
       "source": "DubrovnikNet",
@@ -512,108 +719,36 @@
       "publishedAt": "2026-11-23T10:19:17.000Z",
       "summary": "Zbog neophodnih strojarskih i ronilačkih radova na sanaciji cjevovoda na kanalizacijskoj crpnoj stanici Batala od večeras, 23. STUDENOG do srijede poslijepodne dolazit će do povremenih…",
       "image": ""
-    },
-    {
-      "title": "Akademski pjevački zbor iz Osijeka izvest će Papandopulovu ‘Hrvatsku misu’ u dubrovačkoj katedrali",
-      "link": "https://dulist.hr/akademski-pjevacki-zbor-iz-osijeka-izvest-ce-papandopulovu-hrvatsku-misu-u-dubrovackoj-katedrali/1057245/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T10:10:33.000Z",
-      "summary": "Akademski pjevački zbor Akademije za umjetnost i kulturu u Osijeku (AUKOS) gostovat će u Dubrovniku u petak, 27. studenoga 2026. godine, kada će u Katedrali Uznesenja Blažene Djevice Marije…",
-      "image": ""
-    },
-    {
-      "title": "Osmijeh za Lukasov osmijeh – župski fotokutak u kojemu nastaju najljepše uspomene",
-      "link": "https://www.dubrovniknet.hr/osmijeh-za-lukasov-osmijeh-zupski-fotokutak-u-kojemu-nastaju-najljepse-uspomene/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T10:10:21.000Z",
-      "summary": "Od 27. do 29. studenoga 2026. godine u Hotelu Sheraton Dubrovnik Riviera održat će se šesta po redu humanitarna akcija „Osmijeh za osmijeh”, koju organizira Udruga Sorriso. Ovogodišnja…",
-      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/0ZM-4-1024x683.jpg"
-    },
-    {
-      "title": "Poduzetnici traže od Ministarstva financija da pokaže gdje država štedi",
-      "link": "https://www.dubrovniknet.hr/poduzetnici-traze-od-ministarstva-financija-da-pokaze-gdje-drzava-stedi/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T09:54:25.000Z",
-      "summary": "Uoči saborske rasprave o prijedlogu državnog proračuna za 2027. godinu, zakazane za 24. studenoga, Udruga Glas poduzetnika (UGP) uputila je Ministarstvu financija zahtjev za pristup…",
-      "image": ""
-    },
-    {
-      "title": "Gotovo 300 polaznika na 11. Robo.Du Daysima: Pet dana robotike, programiranja i kreativnosti",
-      "link": "https://dulist.hr/gotovo-300-polaznika-na-11-robo-du-daysima-pet-dana-robotike-programiranja-i-kreativnosti/1058457/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T09:27:48.000Z",
-      "summary": "Uspješno je završeno 11. izdanje manifestacije Robo.Du Days, koje je od 18. do 22. studenoga u Centru za djecu, mlade i obitelj Dubrovnik u TUP-u okupilo gotovo 300 polaznika. Tijekom pet…",
-      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/robodudays2026-2.jpg"
-    },
-    {
-      "title": "Marende!",
-      "link": "https://www.dubrovniknet.hr/marende-68/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T09:02:24.000Z",
-      "summary": "Pogledajte dnevnu ponudu marendi, izaberite i uz ukusnu marendu začinite dan! A sad provjerite gdje se što danas skuhalo. Dobar tek! Restoran KOGO, Srebreno, Župa dubrovačka – 095 384 8484…",
-      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/Screenshot_20261123_100001_Instagram-694x1024.jpg"
-    },
-    {
-      "title": "UDRUŽIMO OSMIJEHE ZA LUKASA Prikuplja se 25 tisuća eura za liječenje i terapije",
-      "link": "https://dulist.hr/udruzimo-osmijehe-za-lukasa-prikuplja-se-25-tisuca-eura-za-lijecenje-i-terapije/1058452/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T08:27:11.000Z",
-      "summary": "Pred nama je šesta humanitarna akcija ‘Osmijeh za osmijeh’ udruge Sorriso koja se ove godine održava od 27. do 29. studenog. Ovogodišnja akcija posvećena je 11 godišnjem dječaku, Lukasu…",
-      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/bar-kod-osmijeh-za-osmijeh.png"
-    },
-    {
-      "title": "Adventska čarolija u knjižnici! Mali kreativci izrađivat će adventske vijence",
-      "link": "https://dulist.hr/adventska-carolija-u-knjiznici-mali-kreativci-izradivat-ce-adventske-vijence/1058386/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T07:52:00.000Z",
-      "summary": "Ususret prvoj adventskoj nedjelji Dubrovačke knjižnice organiziraju kreativnu radionicu za najmlađe. Pod nazivom „Adventska čarolija – izrada adventskih vijenaca“, radionica će se održati u…",
-      "image": ""
-    },
-    {
-      "title": "Dijeljenje intimnih snimki bez pristanka kažnjavat će se strože, odgovarat će i oni koji ih prosljeđuju",
-      "link": "https://dulist.hr/dijeljenje-intimnih-snimki-bez-pristanka-kaznjavat-ce-se-stroze-odgovarat-ce-i-oni-koji-ih-prosljeduju/1058442/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T06:47:00.000Z",
-      "summary": "Dijeljenje intimnih snimki bez pristanka, digitalno uhođenje i uznemiravanje uskoro bi se mogli strože kažnjavati. Hrvatska do lipnja iduće godine mora uskladiti Kazneni zakon s direktivom…",
-      "image": ""
-    },
-    {
-      "title": "NOVA PRAVILA ZA PODUZETNIKE Računi će se automatski povezivati s ugovorima javne nabave",
-      "link": "https://dulist.hr/nova-pravila-za-poduzetnike-racuni-ce-se-automatski-povezivati-s-ugovorima-javne-nabave/1058283/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T05:56:00.000Z",
-      "summary": "Vlada planira povezati sustav elektroničkih računa s Elektroničkim oglasnikom javne nabave (EOJN RH), čime bi se omogućilo automatsko praćenje financijskog izvršenja ugovora koje javne…",
-      "image": ""
-    },
-    {
-      "title": "Odvjetnik Tomo Šoletić osvojio 10.000 eura na Superpotjeri",
-      "link": "https://dulist.hr/odvjetnik-tomo-soletic-osvojio-10-000-eura-na-superpotjeri/1058448/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-22T21:03:17.000Z",
-      "summary": "Tomo Šoletić iz Dubrovnika, pravnik koji vodi vlastiti odvjetnički ured, osvojio je 10.000 eura na HRT-ovom kvizu Superpotjera. U emisiju se prijavio ponajprije zbog igre, a osvojenim…",
-      "image": ""
-    },
-    {
-      "title": "Franković uz pjesmu ‘My way’ poručio: ‘Zaplotne igre prepuštam drugima’",
-      "link": "https://dulist.hr/frankovic-uz-pjesmu-my-way-porucio-zaplotne-igre-prepustam-drugima/1058437/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-22T20:11:42.000Z",
-      "summary": "O političkim kritikama, uvođenju Zone posebnog prometnog režima, kratkoročnom najmu i borbi protiv narkotika progovorio je dubrovački gradonačelnik Mato Franković u novoj objavi na…",
-      "image": ""
     }
   ],
   "hajdukNews": [
+    {
+      "title": "Hajduku na prazni Poljud stiže ekipa s novim trenerom i hrpom Japanaca, a vlasnik im se obogatio na pornografiji",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/hajduku-na-prazni-poljud-stize-ekipa-s-novim-trenerom-i-hrpom-japanaca-a-vlasnik-im-se-obogatio-na-pornografiji-1592194",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-24T20:03:00.000Z",
+      "summary": "Prije nego je Hajduk započeo svoj nastup i ligaškoj fazi Konferencije lige, projekcije su govorile da bi za plasman dalje trebalo sedam ili osam bodova. Bijeli su…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/32901829.jpg"
+    },
+    {
+      "title": "Pala odluka, Hrvatska ključnu utakmicu igra na Poljudu, poznati su i detalji vezani uz satnicu susreta",
+      "link": "https://slobodnadalmacija.hr/sport/domaci-nogomet/pala-odluka-hrvatska-kljucnu-utakmicu-igra-na-poljudu-1592163",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-24T16:03:00.000Z",
+      "summary": "Ždrijeb doigravanja za ostanak u Ligi A spojio je hrvatsku nogometnu reprezentaciju s Republikom Irskom, a nakon prve utakmice u gostima, izabranici Slavena Bilića bit…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/32631775.jpg"
+    },
+    {
+      "title": "Brodomerkur nakon skoro 20 godina ponovno među sponzorima Hajduka",
+      "link": "https://hajduk.hr/vijest/brodomerkur-nakon-skoro-20-godina-ponovno-medu-sponzorima-hajduka-/18721",
+      "source": "hajduk.hr",
+      "official": true,
+      "publishedAt": "2026-11-24T15:04:00.000Z",
+      "summary": "Brodomerkur se vraća među sponzore Kluba s kojim je povezana još od devedesetih godina",
+      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-24-17-05-3561-.JPG"
+    },
     {
       "title": "VIDEO Hajduk objavio snimku penala iz drugog kuta: Ovog kadra nema u sažetku MAXSporta, pogledajte",
       "link": "https://slobodnadalmacija.hr/sport/hajduk/video-hajduk-objavio-snimku-penala-iz-drugog-kuta-ovog-kadra-nema-u-sazetku-maxsporta-pogledajte-1592114",
@@ -1422,36 +1557,25 @@
           "wind": "km/h"
         },
         "current": {
-          "time": "2026-11-24T14:45",
-          "temp": 13,
-          "feelsLike": 9,
-          "humidity": 33,
+          "time": "2026-11-25T00:15",
+          "temp": 9,
+          "feelsLike": 6,
+          "humidity": 47,
           "code": 1,
-          "wind": 4,
-          "windDir": 221,
-          "isDay": true,
+          "wind": 10,
+          "windDir": 36,
+          "isDay": false,
           "precipitation": 0
         },
         "days": [
           {
-            "date": "2026-11-24",
-            "code": 2,
-            "max": 13,
-            "min": 8,
-            "precipProb": 0,
-            "precipSum": 0,
-            "windMax": 12,
-            "sunrise": "2026-11-24T06:49",
-            "sunset": "2026-11-24T16:18"
-          },
-          {
             "date": "2026-11-25",
-            "code": 65,
+            "code": 63,
             "max": 15,
-            "min": 10,
+            "min": 9,
             "precipProb": 100,
-            "precipSum": 37,
-            "windMax": 36,
+            "precipSum": 19.9,
+            "windMax": 35,
             "sunrise": "2026-11-25T06:50",
             "sunset": "2026-11-25T16:17"
           },
@@ -1461,216 +1585,83 @@
             "max": 17,
             "min": 14,
             "precipProb": 100,
-            "precipSum": 57.4,
-            "windMax": 49,
+            "precipSum": 84.9,
+            "windMax": 43,
             "sunrise": "2026-11-26T06:52",
             "sunset": "2026-11-26T16:17"
           },
           {
             "date": "2026-11-27",
-            "code": 80,
-            "max": 15,
-            "min": 14,
-            "precipProb": 45,
-            "precipSum": 10,
-            "windMax": 8,
+            "code": 95,
+            "max": 16,
+            "min": 13,
+            "precipProb": 53,
+            "precipSum": 8.5,
+            "windMax": 14,
             "sunrise": "2026-11-27T06:53",
             "sunset": "2026-11-27T16:16"
           },
           {
             "date": "2026-11-28",
-            "code": 61,
-            "max": 15,
-            "min": 13,
-            "precipProb": 35,
-            "precipSum": 0.1,
-            "windMax": 17,
+            "code": 3,
+            "max": 17,
+            "min": 11,
+            "precipProb": 26,
+            "precipSum": 0,
+            "windMax": 27,
             "sunrise": "2026-11-28T06:54",
             "sunset": "2026-11-28T16:16"
           },
           {
             "date": "2026-11-29",
-            "code": 61,
-            "max": 16,
-            "min": 9,
+            "code": 3,
+            "max": 14,
+            "min": 10,
             "precipProb": 31,
-            "precipSum": 0.8,
-            "windMax": 17,
+            "precipSum": 0,
+            "windMax": 25,
             "sunrise": "2026-11-29T06:55",
             "sunset": "2026-11-29T16:15"
           },
           {
             "date": "2026-11-30",
-            "code": 3,
-            "max": 13,
+            "code": 61,
+            "max": 11,
             "min": 6,
-            "precipProb": 14,
-            "precipSum": 0,
-            "windMax": 10,
+            "precipProb": 13,
+            "precipSum": 14.6,
+            "windMax": 11,
             "sunrise": "2026-11-30T06:56",
             "sunset": "2026-11-30T16:15"
+          },
+          {
+            "date": "2026-12-01",
+            "code": 61,
+            "max": 8,
+            "min": 3,
+            "precipProb": 10,
+            "precipSum": 1.6,
+            "windMax": 15,
+            "sunrise": "2026-12-01T06:57",
+            "sunset": "2026-12-01T16:15"
           }
         ],
         "hours": [
           {
-            "time": "2026-11-24T00:00",
-            "temp": 9,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T01:00",
-            "temp": 9,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T02:00",
-            "temp": 8,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T03:00",
-            "temp": 8,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T04:00",
-            "temp": 8,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T05:00",
-            "temp": 8,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T06:00",
-            "temp": 8,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T07:00",
-            "temp": 8,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T08:00",
-            "temp": 8,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T09:00",
-            "temp": 9,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T10:00",
-            "temp": 10,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T11:00",
-            "temp": 11,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T12:00",
-            "temp": 12,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T13:00",
-            "temp": 13,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T14:00",
-            "temp": 13,
-            "code": 2,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T15:00",
-            "temp": 13,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T16:00",
-            "temp": 12,
-            "code": 2,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T17:00",
-            "temp": 12,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T18:00",
-            "temp": 12,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T19:00",
-            "temp": 11,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T20:00",
-            "temp": 10,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T21:00",
-            "temp": 10,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T22:00",
-            "temp": 10,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T23:00",
-            "temp": 10,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
             "time": "2026-11-25T00:00",
-            "temp": 10,
-            "code": 1,
+            "temp": 9,
+            "code": 2,
             "precipProb": 0
           },
           {
             "time": "2026-11-25T01:00",
-            "temp": 10,
+            "temp": 9,
             "code": 1,
             "precipProb": 0
           },
           {
             "time": "2026-11-25T02:00",
-            "temp": 10,
+            "temp": 9,
             "code": 2,
             "precipProb": 0
           },
@@ -1700,7 +1691,7 @@
           },
           {
             "time": "2026-11-25T07:00",
-            "temp": 11,
+            "temp": 10,
             "code": 3,
             "precipProb": 0
           },
@@ -1708,61 +1699,61 @@
             "time": "2026-11-25T08:00",
             "temp": 11,
             "code": 3,
-            "precipProb": 3
+            "precipProb": 0
           },
           {
             "time": "2026-11-25T09:00",
             "temp": 12,
-            "code": 3,
-            "precipProb": 3
-          },
-          {
-            "time": "2026-11-25T10:00",
-            "temp": 13,
-            "code": 3,
+            "code": 61,
             "precipProb": 5
           },
           {
-            "time": "2026-11-25T11:00",
-            "temp": 14,
+            "time": "2026-11-25T10:00",
+            "temp": 12,
             "code": 3,
-            "precipProb": 3
+            "precipProb": 0
+          },
+          {
+            "time": "2026-11-25T11:00",
+            "temp": 13,
+            "code": 3,
+            "precipProb": 0
           },
           {
             "time": "2026-11-25T12:00",
-            "temp": 14,
+            "temp": 13,
             "code": 3,
             "precipProb": 3
           },
           {
             "time": "2026-11-25T13:00",
-            "temp": 14,
+            "temp": 13,
             "code": 3,
-            "precipProb": 13
+            "precipProb": 8
           },
           {
             "time": "2026-11-25T14:00",
-            "temp": 15,
+            "temp": 14,
             "code": 3,
-            "precipProb": 28
+            "precipProb": 38
           },
           {
             "time": "2026-11-25T15:00",
             "temp": 13,
             "code": 61,
-            "precipProb": 60
+            "precipProb": 73
           },
           {
             "time": "2026-11-25T16:00",
-            "temp": 13,
-            "code": 61,
+            "temp": 12,
+            "code": 63,
             "precipProb": 83
           },
           {
             "time": "2026-11-25T17:00",
             "temp": 13,
             "code": 61,
-            "precipProb": 93
+            "precipProb": 95
           },
           {
             "time": "2026-11-25T18:00",
@@ -1780,47 +1771,47 @@
             "time": "2026-11-25T20:00",
             "temp": 14,
             "code": 63,
-            "precipProb": 100
+            "precipProb": 95
           },
           {
             "time": "2026-11-25T21:00",
-            "temp": 14,
+            "temp": 15,
             "code": 63,
-            "precipProb": 98
+            "precipProb": 100
           },
           {
             "time": "2026-11-25T22:00",
-            "temp": 14,
+            "temp": 15,
             "code": 63,
             "precipProb": 100
           },
           {
             "time": "2026-11-25T23:00",
             "temp": 14,
-            "code": 65,
+            "code": 61,
             "precipProb": 100
           },
           {
             "time": "2026-11-26T00:00",
+            "temp": 14,
+            "code": 63,
+            "precipProb": 100
+          },
+          {
+            "time": "2026-11-26T01:00",
+            "temp": 14,
+            "code": 65,
+            "precipProb": 100
+          },
+          {
+            "time": "2026-11-26T02:00",
             "temp": 15,
             "code": 65,
             "precipProb": 100
           },
           {
-            "time": "2026-11-26T01:00",
-            "temp": 16,
-            "code": 63,
-            "precipProb": 100
-          },
-          {
-            "time": "2026-11-26T02:00",
-            "temp": 16,
-            "code": 63,
-            "precipProb": 100
-          },
-          {
             "time": "2026-11-26T03:00",
-            "temp": 16,
+            "temp": 15,
             "code": 63,
             "precipProb": 100
           },
@@ -1832,693 +1823,837 @@
           },
           {
             "time": "2026-11-26T05:00",
-            "temp": 16,
-            "code": 81,
+            "temp": 17,
+            "code": 95,
             "precipProb": 100
           },
           {
             "time": "2026-11-26T06:00",
-            "temp": 16,
+            "temp": 17,
             "code": 95,
-            "precipProb": 98
+            "precipProb": 100
           },
           {
             "time": "2026-11-26T07:00",
-            "temp": 16,
+            "temp": 17,
             "code": 95,
-            "precipProb": 95
+            "precipProb": 100
           },
           {
             "time": "2026-11-26T08:00",
-            "temp": 16,
+            "temp": 17,
             "code": 81,
-            "precipProb": 96
+            "precipProb": 98
           },
           {
             "time": "2026-11-26T09:00",
             "temp": 17,
             "code": 81,
-            "precipProb": 99
+            "precipProb": 98
           },
           {
             "time": "2026-11-26T10:00",
             "temp": 17,
-            "code": 80,
-            "precipProb": 98
+            "code": 81,
+            "precipProb": 88
           },
           {
             "time": "2026-11-26T11:00",
             "temp": 17,
-            "code": 95,
-            "precipProb": 92
+            "code": 81,
+            "precipProb": 73
           },
           {
             "time": "2026-11-26T12:00",
             "temp": 17,
             "code": 95,
-            "precipProb": 83
+            "precipProb": 80
           },
           {
             "time": "2026-11-26T13:00",
             "temp": 17,
             "code": 80,
-            "precipProb": 73
+            "precipProb": 75
           },
           {
             "time": "2026-11-26T14:00",
             "temp": 17,
             "code": 80,
-            "precipProb": 63
+            "precipProb": 73
           },
           {
             "time": "2026-11-26T15:00",
             "temp": 16,
             "code": 80,
-            "precipProb": 52
+            "precipProb": 50
           },
           {
             "time": "2026-11-26T16:00",
             "temp": 16,
-            "code": 3,
-            "precipProb": 43
+            "code": 80,
+            "precipProb": 48
           },
           {
             "time": "2026-11-26T17:00",
             "temp": 16,
             "code": 3,
-            "precipProb": 36
+            "precipProb": 43
           },
           {
             "time": "2026-11-26T18:00",
-            "temp": 15,
-            "code": 80,
-            "precipProb": 31
+            "temp": 16,
+            "code": 3,
+            "precipProb": 40
           },
           {
             "time": "2026-11-26T19:00",
-            "temp": 15,
+            "temp": 16,
             "code": 3,
-            "precipProb": 28
+            "precipProb": 30
           },
           {
             "time": "2026-11-26T20:00",
-            "temp": 15,
+            "temp": 16,
             "code": 3,
-            "precipProb": 27
+            "precipProb": 28
           },
           {
             "time": "2026-11-26T21:00",
             "temp": 15,
             "code": 3,
-            "precipProb": 29
+            "precipProb": 28
           },
           {
             "time": "2026-11-26T22:00",
-            "temp": 14,
+            "temp": 15,
             "code": 3,
-            "precipProb": 30
+            "precipProb": 28
           },
           {
             "time": "2026-11-26T23:00",
-            "temp": 14,
+            "temp": 15,
             "code": 3,
-            "precipProb": 30
+            "precipProb": 27
           },
           {
             "time": "2026-11-27T00:00",
             "temp": 14,
             "code": 3,
-            "precipProb": 30
+            "precipProb": 25
           },
           {
             "time": "2026-11-27T01:00",
             "temp": 14,
             "code": 80,
-            "precipProb": 30
+            "precipProb": 25
           },
           {
             "time": "2026-11-27T02:00",
-            "temp": 14,
-            "code": 80,
-            "precipProb": 29
+            "temp": 15,
+            "code": 3,
+            "precipProb": 27
           },
           {
             "time": "2026-11-27T03:00",
             "temp": 14,
-            "code": 80,
-            "precipProb": 28
+            "code": 3,
+            "precipProb": 30
           },
           {
             "time": "2026-11-27T04:00",
             "temp": 14,
             "code": 80,
-            "precipProb": 28
+            "precipProb": 33
           },
           {
             "time": "2026-11-27T05:00",
             "temp": 14,
             "code": 80,
-            "precipProb": 37
+            "precipProb": 36
           },
           {
             "time": "2026-11-27T06:00",
             "temp": 14,
-            "code": 80,
-            "precipProb": 39
+            "code": 3,
+            "precipProb": 40
           },
           {
             "time": "2026-11-27T07:00",
             "temp": 14,
             "code": 80,
-            "precipProb": 40
+            "precipProb": 43
           },
           {
             "time": "2026-11-27T08:00",
-            "temp": 14,
-            "code": 80,
-            "precipProb": 41
+            "temp": 15,
+            "code": 3,
+            "precipProb": 47
           },
           {
             "time": "2026-11-27T09:00",
-            "temp": 14,
-            "code": 80,
-            "precipProb": 42
+            "temp": 15,
+            "code": 3,
+            "precipProb": 51
           },
           {
             "time": "2026-11-27T10:00",
-            "temp": 15,
-            "code": 3,
-            "precipProb": 42
+            "temp": 16,
+            "code": 80,
+            "precipProb": 53
           },
           {
             "time": "2026-11-27T11:00",
             "temp": 15,
-            "code": 3,
-            "precipProb": 42
+            "code": 95,
+            "precipProb": 53
           },
           {
             "time": "2026-11-27T12:00",
             "temp": 15,
-            "code": 61,
-            "precipProb": 43
+            "code": 80,
+            "precipProb": 51
           },
           {
             "time": "2026-11-27T13:00",
             "temp": 15,
-            "code": 61,
-            "precipProb": 43
+            "code": 95,
+            "precipProb": 50
           },
           {
             "time": "2026-11-27T14:00",
             "temp": 15,
-            "code": 61,
-            "precipProb": 43
+            "code": 95,
+            "precipProb": 50
           },
           {
             "time": "2026-11-27T15:00",
             "temp": 15,
-            "code": 61,
-            "precipProb": 44
+            "code": 80,
+            "precipProb": 51
           },
           {
             "time": "2026-11-27T16:00",
             "temp": 15,
-            "code": 61,
-            "precipProb": 44
+            "code": 3,
+            "precipProb": 50
           },
           {
             "time": "2026-11-27T17:00",
-            "temp": 14,
-            "code": 61,
-            "precipProb": 45
+            "temp": 15,
+            "code": 3,
+            "precipProb": 41
           },
           {
             "time": "2026-11-27T18:00",
-            "temp": 14,
-            "code": 61,
-            "precipProb": 44
+            "temp": 15,
+            "code": 3,
+            "precipProb": 38
           },
           {
             "time": "2026-11-27T19:00",
-            "temp": 14,
-            "code": 61,
-            "precipProb": 43
+            "temp": 15,
+            "code": 3,
+            "precipProb": 35
           },
           {
             "time": "2026-11-27T20:00",
             "temp": 14,
             "code": 3,
-            "precipProb": 41
+            "precipProb": 32
           },
           {
             "time": "2026-11-27T21:00",
             "temp": 14,
-            "code": 3,
-            "precipProb": 37
+            "code": 2,
+            "precipProb": 30
           },
           {
             "time": "2026-11-27T22:00",
-            "temp": 14,
-            "code": 3,
-            "precipProb": 33
+            "temp": 13,
+            "code": 2,
+            "precipProb": 27
           },
           {
             "time": "2026-11-27T23:00",
-            "temp": 14,
-            "code": 3,
-            "precipProb": 29
-          },
-          {
-            "time": "2026-11-28T00:00",
-            "temp": 14,
+            "temp": 13,
             "code": 3,
             "precipProb": 25
           },
           {
-            "time": "2026-11-28T01:00",
-            "temp": 14,
+            "time": "2026-11-28T00:00",
+            "temp": 13,
             "code": 3,
-            "precipProb": 23
+            "precipProb": 22
+          },
+          {
+            "time": "2026-11-28T01:00",
+            "temp": 13,
+            "code": 3,
+            "precipProb": 20
           },
           {
             "time": "2026-11-28T02:00",
-            "temp": 14,
+            "temp": 13,
             "code": 3,
-            "precipProb": 22
+            "precipProb": 18
           },
           {
             "time": "2026-11-28T03:00",
-            "temp": 14,
+            "temp": 13,
             "code": 3,
-            "precipProb": 22
+            "precipProb": 15
           },
           {
             "time": "2026-11-28T04:00",
-            "temp": 14,
+            "temp": 13,
             "code": 3,
-            "precipProb": 22
+            "precipProb": 12
           },
           {
             "time": "2026-11-28T05:00",
             "temp": 13,
             "code": 3,
-            "precipProb": 23
+            "precipProb": 10
           },
           {
             "time": "2026-11-28T06:00",
             "temp": 13,
             "code": 3,
-            "precipProb": 24
+            "precipProb": 9
           },
           {
             "time": "2026-11-28T07:00",
-            "temp": 13,
+            "temp": 14,
             "code": 3,
-            "precipProb": 25
+            "precipProb": 8
           },
           {
             "time": "2026-11-28T08:00",
             "temp": 14,
-            "code": 3,
-            "precipProb": 26
+            "code": 2,
+            "precipProb": 8
           },
           {
             "time": "2026-11-28T09:00",
             "temp": 15,
-            "code": 3,
-            "precipProb": 26
+            "code": 2,
+            "precipProb": 10
           },
           {
             "time": "2026-11-28T10:00",
-            "temp": 15,
-            "code": 3,
-            "precipProb": 27
+            "temp": 16,
+            "code": 2,
+            "precipProb": 12
           },
           {
             "time": "2026-11-28T11:00",
-            "temp": 15,
+            "temp": 16,
             "code": 3,
-            "precipProb": 28
+            "precipProb": 14
           },
           {
             "time": "2026-11-28T12:00",
-            "temp": 15,
+            "temp": 17,
             "code": 3,
-            "precipProb": 29
+            "precipProb": 17
           },
           {
             "time": "2026-11-28T13:00",
-            "temp": 15,
+            "temp": 17,
             "code": 3,
-            "precipProb": 30
+            "precipProb": 18
           },
           {
             "time": "2026-11-28T14:00",
-            "temp": 15,
+            "temp": 16,
             "code": 3,
-            "precipProb": 31
+            "precipProb": 19
           },
           {
             "time": "2026-11-28T15:00",
-            "temp": 14,
+            "temp": 16,
             "code": 3,
-            "precipProb": 32
+            "precipProb": 19
           },
           {
             "time": "2026-11-28T16:00",
-            "temp": 14,
+            "temp": 15,
             "code": 3,
-            "precipProb": 33
+            "precipProb": 19
           },
           {
             "time": "2026-11-28T17:00",
             "temp": 14,
-            "code": 3,
-            "precipProb": 34
+            "code": 2,
+            "precipProb": 19
           },
           {
             "time": "2026-11-28T18:00",
             "temp": 13,
-            "code": 3,
-            "precipProb": 35
+            "code": 2,
+            "precipProb": 19
           },
           {
             "time": "2026-11-28T19:00",
             "temp": 13,
-            "code": 3,
-            "precipProb": 35
+            "code": 2,
+            "precipProb": 20
           },
           {
             "time": "2026-11-28T20:00",
-            "temp": 13,
+            "temp": 12,
             "code": 3,
-            "precipProb": 35
+            "precipProb": 21
           },
           {
             "time": "2026-11-28T21:00",
-            "temp": 13,
+            "temp": 12,
             "code": 3,
-            "precipProb": 34
+            "precipProb": 22
           },
           {
             "time": "2026-11-28T22:00",
-            "temp": 13,
-            "code": 3,
-            "precipProb": 33
-          },
-          {
-            "time": "2026-11-28T23:00",
-            "temp": 13,
-            "code": 61,
-            "precipProb": 32
-          },
-          {
-            "time": "2026-11-29T00:00",
-            "temp": 13,
-            "code": 61,
-            "precipProb": 31
-          },
-          {
-            "time": "2026-11-29T01:00",
-            "temp": 12,
-            "code": 61,
-            "precipProb": 30
-          },
-          {
-            "time": "2026-11-29T02:00",
-            "temp": 12,
-            "code": 61,
-            "precipProb": 29
-          },
-          {
-            "time": "2026-11-29T03:00",
-            "temp": 12,
-            "code": 61,
-            "precipProb": 28
-          },
-          {
-            "time": "2026-11-29T04:00",
-            "temp": 12,
-            "code": 61,
-            "precipProb": 27
-          },
-          {
-            "time": "2026-11-29T05:00",
             "temp": 12,
             "code": 3,
             "precipProb": 24
           },
           {
+            "time": "2026-11-28T23:00",
+            "temp": 11,
+            "code": 1,
+            "precipProb": 26
+          },
+          {
+            "time": "2026-11-29T00:00",
+            "temp": 11,
+            "code": 1,
+            "precipProb": 27
+          },
+          {
+            "time": "2026-11-29T01:00",
+            "temp": 11,
+            "code": 1,
+            "precipProb": 28
+          },
+          {
+            "time": "2026-11-29T02:00",
+            "temp": 11,
+            "code": 2,
+            "precipProb": 29
+          },
+          {
+            "time": "2026-11-29T03:00",
+            "temp": 11,
+            "code": 2,
+            "precipProb": 30
+          },
+          {
+            "time": "2026-11-29T04:00",
+            "temp": 11,
+            "code": 2,
+            "precipProb": 30
+          },
+          {
+            "time": "2026-11-29T05:00",
+            "temp": 11,
+            "code": 1,
+            "precipProb": 31
+          },
+          {
             "time": "2026-11-29T06:00",
             "temp": 11,
-            "code": 3,
-            "precipProb": 22
+            "code": 1,
+            "precipProb": 31
           },
           {
             "time": "2026-11-29T07:00",
             "temp": 11,
+            "code": 1,
+            "precipProb": 30
+          },
+          {
+            "time": "2026-11-29T08:00",
+            "temp": 11,
+            "code": 3,
+            "precipProb": 28
+          },
+          {
+            "time": "2026-11-29T09:00",
+            "temp": 12,
+            "code": 3,
+            "precipProb": 26
+          },
+          {
+            "time": "2026-11-29T10:00",
+            "temp": 12,
+            "code": 3,
+            "precipProb": 23
+          },
+          {
+            "time": "2026-11-29T11:00",
+            "temp": 13,
             "code": 3,
             "precipProb": 20
           },
           {
-            "time": "2026-11-29T08:00",
-            "temp": 13,
-            "code": 3,
-            "precipProb": 18
-          },
-          {
-            "time": "2026-11-29T09:00",
-            "temp": 14,
-            "code": 3,
-            "precipProb": 18
-          },
-          {
-            "time": "2026-11-29T10:00",
-            "temp": 14,
-            "code": 3,
-            "precipProb": 18
-          },
-          {
-            "time": "2026-11-29T11:00",
-            "temp": 15,
-            "code": 2,
-            "precipProb": 18
-          },
-          {
             "time": "2026-11-29T12:00",
-            "temp": 16,
-            "code": 2,
-            "precipProb": 18
+            "temp": 14,
+            "code": 3,
+            "precipProb": 17
           },
           {
             "time": "2026-11-29T13:00",
-            "temp": 16,
-            "code": 2,
-            "precipProb": 18
+            "temp": 14,
+            "code": 3,
+            "precipProb": 15
           },
           {
             "time": "2026-11-29T14:00",
-            "temp": 15,
-            "code": 2,
-            "precipProb": 18
+            "temp": 14,
+            "code": 3,
+            "precipProb": 14
           },
           {
             "time": "2026-11-29T15:00",
-            "temp": 15,
-            "code": 2,
-            "precipProb": 18
+            "temp": 13,
+            "code": 3,
+            "precipProb": 12
           },
           {
             "time": "2026-11-29T16:00",
-            "temp": 14,
-            "code": 2,
-            "precipProb": 17
+            "temp": 13,
+            "code": 3,
+            "precipProb": 12
           },
           {
             "time": "2026-11-29T17:00",
-            "temp": 13,
-            "code": 1,
-            "precipProb": 17
+            "temp": 12,
+            "code": 3,
+            "precipProb": 13
           },
           {
             "time": "2026-11-29T18:00",
-            "temp": 12,
-            "code": 1,
-            "precipProb": 17
+            "temp": 11,
+            "code": 3,
+            "precipProb": 14
           },
           {
             "time": "2026-11-29T19:00",
-            "temp": 11,
-            "code": 1,
-            "precipProb": 16
+            "temp": 10,
+            "code": 3,
+            "precipProb": 15
           },
           {
             "time": "2026-11-29T20:00",
-            "temp": 11,
-            "code": 1,
+            "temp": 12,
+            "code": 3,
             "precipProb": 16
           },
           {
             "time": "2026-11-29T21:00",
-            "temp": 10,
-            "code": 1,
+            "temp": 11,
+            "code": 3,
             "precipProb": 15
           },
           {
             "time": "2026-11-29T22:00",
-            "temp": 10,
-            "code": 1,
+            "temp": 11,
+            "code": 3,
             "precipProb": 15
           },
           {
             "time": "2026-11-29T23:00",
-            "temp": 10,
-            "code": 1,
+            "temp": 11,
+            "code": 3,
             "precipProb": 14
           },
           {
             "time": "2026-11-30T00:00",
-            "temp": 9,
-            "code": 1,
-            "precipProb": 14
+            "temp": 11,
+            "code": 3,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T01:00",
-            "temp": 9,
-            "code": 1,
+            "temp": 11,
+            "code": 3,
             "precipProb": 13
           },
           {
             "time": "2026-11-30T02:00",
-            "temp": 9,
-            "code": 2,
-            "precipProb": 12
+            "temp": 11,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T03:00",
-            "temp": 8,
-            "code": 2,
-            "precipProb": 11
+            "temp": 11,
+            "code": 61,
+            "precipProb": 12
           },
           {
             "time": "2026-11-30T04:00",
-            "temp": 8,
-            "code": 2,
-            "precipProb": 10
+            "temp": 11,
+            "code": 61,
+            "precipProb": 12
           },
           {
             "time": "2026-11-30T05:00",
-            "temp": 8,
-            "code": 2,
-            "precipProb": 9
+            "temp": 10,
+            "code": 61,
+            "precipProb": 12
           },
           {
             "time": "2026-11-30T06:00",
-            "temp": 8,
-            "code": 2,
-            "precipProb": 8
+            "temp": 10,
+            "code": 61,
+            "precipProb": 12
           },
           {
             "time": "2026-11-30T07:00",
-            "temp": 8,
-            "code": 2,
-            "precipProb": 7
+            "temp": 10,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T08:00",
-            "temp": 8,
-            "code": 2,
-            "precipProb": 6
+            "temp": 9,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T09:00",
             "temp": 9,
-            "code": 2,
-            "precipProb": 5
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T10:00",
-            "temp": 10,
-            "code": 2,
-            "precipProb": 4
+            "temp": 9,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T11:00",
-            "temp": 11,
-            "code": 3,
-            "precipProb": 4
+            "temp": 9,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T12:00",
-            "temp": 13,
-            "code": 3,
-            "precipProb": 3
+            "temp": 10,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T13:00",
-            "temp": 13,
-            "code": 3,
-            "precipProb": 3
+            "temp": 9,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T14:00",
-            "temp": 13,
-            "code": 3,
-            "precipProb": 3
+            "temp": 9,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T15:00",
-            "temp": 13,
-            "code": 3,
-            "precipProb": 3
+            "temp": 9,
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-30T16:00",
-            "temp": 12,
-            "code": 3,
-            "precipProb": 4
+            "temp": 9,
+            "code": 61,
+            "precipProb": 12
           },
           {
             "time": "2026-11-30T17:00",
-            "temp": 11,
-            "code": 2,
-            "precipProb": 4
+            "temp": 9,
+            "code": 61,
+            "precipProb": 12
           },
           {
             "time": "2026-11-30T18:00",
-            "temp": 9,
-            "code": 2,
-            "precipProb": 5
+            "temp": 8,
+            "code": 61,
+            "precipProb": 12
           },
           {
             "time": "2026-11-30T19:00",
             "temp": 8,
-            "code": 2,
-            "precipProb": 6
+            "code": 61,
+            "precipProb": 12
           },
           {
             "time": "2026-11-30T20:00",
-            "temp": 7,
-            "code": 0,
-            "precipProb": 7
+            "temp": 8,
+            "code": 61,
+            "precipProb": 11
           },
           {
             "time": "2026-11-30T21:00",
-            "temp": 6,
-            "code": 0,
-            "precipProb": 8
+            "temp": 7,
+            "code": 61,
+            "precipProb": 11
           },
           {
             "time": "2026-11-30T22:00",
-            "temp": 6,
-            "code": 0,
-            "precipProb": 8
+            "temp": 7,
+            "code": 61,
+            "precipProb": 11
           },
           {
             "time": "2026-11-30T23:00",
+            "temp": 7,
+            "code": 61,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T00:00",
             "temp": 6,
-            "code": 0,
+            "code": 61,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T01:00",
+            "temp": 6,
+            "code": 61,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T02:00",
+            "temp": 6,
+            "code": 61,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T03:00",
+            "temp": 6,
+            "code": 61,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T04:00",
+            "temp": 6,
+            "code": 61,
             "precipProb": 9
+          },
+          {
+            "time": "2026-12-01T05:00",
+            "temp": 6,
+            "code": 3,
+            "precipProb": 9
+          },
+          {
+            "time": "2026-12-01T06:00",
+            "temp": 7,
+            "code": 3,
+            "precipProb": 9
+          },
+          {
+            "time": "2026-12-01T07:00",
+            "temp": 7,
+            "code": 3,
+            "precipProb": 9
+          },
+          {
+            "time": "2026-12-01T08:00",
+            "temp": 7,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T09:00",
+            "temp": 7,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T10:00",
+            "temp": 8,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T11:00",
+            "temp": 8,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T12:00",
+            "temp": 8,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T13:00",
+            "temp": 8,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T14:00",
+            "temp": 8,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T15:00",
+            "temp": 8,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T16:00",
+            "temp": 8,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T17:00",
+            "temp": 7,
+            "code": 3,
+            "precipProb": 8
+          },
+          {
+            "time": "2026-12-01T18:00",
+            "temp": 6,
+            "code": 3,
+            "precipProb": 9
+          },
+          {
+            "time": "2026-12-01T19:00",
+            "temp": 6,
+            "code": 3,
+            "precipProb": 9
+          },
+          {
+            "time": "2026-12-01T20:00",
+            "temp": 5,
+            "code": 3,
+            "precipProb": 9
+          },
+          {
+            "time": "2026-12-01T21:00",
+            "temp": 4,
+            "code": 3,
+            "precipProb": 9
+          },
+          {
+            "time": "2026-12-01T22:00",
+            "temp": 4,
+            "code": 3,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T23:00",
+            "temp": 3,
+            "code": 3,
+            "precipProb": 10
           }
         ]
       },
@@ -2532,35 +2667,24 @@
           "wind": "km/h"
         },
         "current": {
-          "time": "2026-11-24T14:45",
-          "temp": 6,
-          "feelsLike": 3,
-          "humidity": 51,
-          "code": 0,
+          "time": "2026-11-25T00:15",
+          "temp": 3,
+          "feelsLike": 0,
+          "humidity": 85,
+          "code": 3,
           "wind": 2,
-          "windDir": 180,
-          "isDay": true,
+          "windDir": 81,
+          "isDay": false,
           "precipitation": 0
         },
         "days": [
           {
-            "date": "2026-11-24",
-            "code": 3,
-            "max": 6,
-            "min": -1,
-            "precipProb": 8,
-            "precipSum": 0,
-            "windMax": 7,
-            "sunrise": "2026-11-24T07:07",
-            "sunset": "2026-11-24T16:17"
-          },
-          {
             "date": "2026-11-25",
             "code": 61,
-            "max": 6,
-            "min": 3,
-            "precipProb": 75,
-            "precipSum": 1.5,
+            "max": 5,
+            "min": 2,
+            "precipProb": 88,
+            "precipSum": 1.4,
             "windMax": 6,
             "sunrise": "2026-11-25T07:09",
             "sunset": "2026-11-25T16:16"
@@ -2568,383 +2692,250 @@
           {
             "date": "2026-11-26",
             "code": 73,
-            "max": 5,
+            "max": 4,
             "min": 0,
-            "precipProb": 100,
-            "precipSum": 12.13,
-            "windMax": 11,
+            "precipProb": 98,
+            "precipSum": 12.4,
+            "windMax": 14,
             "sunrise": "2026-11-26T07:10",
             "sunset": "2026-11-26T16:15"
           },
           {
             "date": "2026-11-27",
-            "code": 61,
-            "max": 3,
+            "code": 71,
+            "max": 2,
             "min": 1,
-            "precipProb": 35,
-            "precipSum": 3.7,
+            "precipProb": 45,
+            "precipSum": 4.2,
             "windMax": 10,
             "sunrise": "2026-11-27T07:11",
             "sunset": "2026-11-27T16:15"
           },
           {
             "date": "2026-11-28",
-            "code": 61,
-            "max": 3,
+            "code": 71,
+            "max": 2,
             "min": 1,
-            "precipProb": 63,
-            "precipSum": 8.9,
-            "windMax": 15,
+            "precipProb": 66,
+            "precipSum": 2.2,
+            "windMax": 11,
             "sunrise": "2026-11-28T07:13",
             "sunset": "2026-11-28T16:14"
           },
           {
             "date": "2026-11-29",
-            "code": 61,
-            "max": 5,
-            "min": -1,
-            "precipProb": 50,
-            "precipSum": 2,
-            "windMax": 14,
+            "code": 71,
+            "max": 3,
+            "min": 0,
+            "precipProb": 65,
+            "precipSum": 3.5,
+            "windMax": 16,
             "sunrise": "2026-11-29T07:14",
             "sunset": "2026-11-29T16:14"
           },
           {
             "date": "2026-11-30",
-            "code": 3,
-            "max": 2,
-            "min": -4,
-            "precipProb": 10,
-            "precipSum": 0,
-            "windMax": 6,
+            "code": 71,
+            "max": 1,
+            "min": -1,
+            "precipProb": 39,
+            "precipSum": 3.9,
+            "windMax": 19,
             "sunrise": "2026-11-30T07:15",
             "sunset": "2026-11-30T16:13"
+          },
+          {
+            "date": "2026-12-01",
+            "code": 3,
+            "max": -1,
+            "min": -5,
+            "precipProb": 14,
+            "precipSum": 0,
+            "windMax": 13,
+            "sunrise": "2026-12-01T07:16",
+            "sunset": "2026-12-01T16:13"
           }
         ],
         "hours": [
           {
-            "time": "2026-11-24T00:00",
-            "temp": 3,
-            "code": 2,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T01:00",
-            "temp": 3,
-            "code": 2,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T02:00",
-            "temp": 2,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T03:00",
-            "temp": 2,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T04:00",
-            "temp": 1,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T05:00",
-            "temp": 1,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T06:00",
-            "temp": 1,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T07:00",
-            "temp": 0,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T08:00",
-            "temp": -1,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T09:00",
-            "temp": 0,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T10:00",
-            "temp": 2,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T11:00",
-            "temp": 3,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T12:00",
-            "temp": 5,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T13:00",
-            "temp": 6,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T14:00",
-            "temp": 6,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T15:00",
-            "temp": 6,
-            "code": 0,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T16:00",
-            "temp": 6,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T17:00",
-            "temp": 5,
-            "code": 1,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T18:00",
-            "temp": 4,
-            "code": 3,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T19:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T20:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T21:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 0
-          },
-          {
-            "time": "2026-11-24T22:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 8
-          },
-          {
-            "time": "2026-11-24T23:00",
-            "temp": 4,
-            "code": 3,
-            "precipProb": 0
-          },
-          {
             "time": "2026-11-25T00:00",
-            "temp": 4,
+            "temp": 3,
             "code": 3,
-            "precipProb": 15
+            "precipProb": 3
           },
           {
             "time": "2026-11-25T01:00",
             "temp": 3,
             "code": 3,
-            "precipProb": 10
+            "precipProb": 8
           },
           {
             "time": "2026-11-25T02:00",
             "temp": 3,
-            "code": 61,
+            "code": 3,
             "precipProb": 8
           },
           {
             "time": "2026-11-25T03:00",
             "temp": 3,
             "code": 3,
-            "precipProb": 5
+            "precipProb": 8
           },
           {
             "time": "2026-11-25T04:00",
             "temp": 3,
             "code": 3,
-            "precipProb": 8
+            "precipProb": 10
           },
           {
             "time": "2026-11-25T05:00",
             "temp": 3,
-            "code": 61,
-            "precipProb": 20
+            "code": 3,
+            "precipProb": 8
           },
           {
             "time": "2026-11-25T06:00",
-            "temp": 3,
+            "temp": 2,
             "code": 3,
-            "precipProb": 20
+            "precipProb": 5
           },
           {
             "time": "2026-11-25T07:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 45
+            "temp": 2,
+            "code": 61,
+            "precipProb": 30
           },
           {
             "time": "2026-11-25T08:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 68
-          },
-          {
-            "time": "2026-11-25T09:00",
-            "temp": 3,
+            "temp": 2,
             "code": 61,
             "precipProb": 75
           },
           {
-            "time": "2026-11-25T10:00",
-            "temp": 3,
+            "time": "2026-11-25T09:00",
+            "temp": 2,
             "code": 61,
-            "precipProb": 73
+            "precipProb": 88
+          },
+          {
+            "time": "2026-11-25T10:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 60
           },
           {
             "time": "2026-11-25T11:00",
-            "temp": 4,
+            "temp": 3,
             "code": 61,
-            "precipProb": 73
+            "precipProb": 43
           },
           {
             "time": "2026-11-25T12:00",
-            "temp": 4,
+            "temp": 3,
             "code": 61,
-            "precipProb": 53
+            "precipProb": 40
           },
           {
             "time": "2026-11-25T13:00",
             "temp": 4,
-            "code": 3,
-            "precipProb": 20
+            "code": 61,
+            "precipProb": 13
           },
           {
             "time": "2026-11-25T14:00",
-            "temp": 5,
-            "code": 3,
-            "precipProb": 5
+            "temp": 4,
+            "code": 61,
+            "precipProb": 0
           },
           {
             "time": "2026-11-25T15:00",
-            "temp": 5,
-            "code": 3,
-            "precipProb": 5
+            "temp": 4,
+            "code": 61,
+            "precipProb": 0
           },
           {
             "time": "2026-11-25T16:00",
-            "temp": 5,
-            "code": 3,
+            "temp": 4,
+            "code": 61,
             "precipProb": 0
           },
           {
             "time": "2026-11-25T17:00",
-            "temp": 5,
+            "temp": 4,
             "code": 3,
-            "precipProb": 3
+            "precipProb": 0
           },
           {
             "time": "2026-11-25T18:00",
-            "temp": 5,
-            "code": 3,
-            "precipProb": 13
+            "temp": 4,
+            "code": 61,
+            "precipProb": 5
           },
           {
             "time": "2026-11-25T19:00",
-            "temp": 5,
+            "temp": 4,
             "code": 3,
-            "precipProb": 18
+            "precipProb": 10
           },
           {
             "time": "2026-11-25T20:00",
-            "temp": 5,
+            "temp": 4,
             "code": 3,
             "precipProb": 13
           },
           {
             "time": "2026-11-25T21:00",
-            "temp": 6,
+            "temp": 5,
             "code": 3,
-            "precipProb": 23
+            "precipProb": 18
           },
           {
             "time": "2026-11-25T22:00",
             "temp": 5,
             "code": 3,
-            "precipProb": 25
-          },
-          {
-            "time": "2026-11-25T23:00",
-            "temp": 5,
-            "code": 3,
             "precipProb": 35
           },
           {
-            "time": "2026-11-26T00:00",
-            "temp": 5,
+            "time": "2026-11-25T23:00",
+            "temp": 4,
             "code": 3,
-            "precipProb": 40
+            "precipProb": 28
+          },
+          {
+            "time": "2026-11-26T00:00",
+            "temp": 4,
+            "code": 3,
+            "precipProb": 28
           },
           {
             "time": "2026-11-26T01:00",
-            "temp": 4,
+            "temp": 3,
             "code": 3,
-            "precipProb": 48
+            "precipProb": 33
           },
           {
             "time": "2026-11-26T02:00",
             "temp": 4,
-            "code": 3,
+            "code": 61,
             "precipProb": 45
           },
           {
             "time": "2026-11-26T03:00",
-            "temp": 4,
+            "temp": 3,
             "code": 61,
-            "precipProb": 53
+            "precipProb": 48
           },
           {
             "time": "2026-11-26T04:00",
-            "temp": 4,
-            "code": 61,
-            "precipProb": 65
+            "temp": 3,
+            "code": 3,
+            "precipProb": 60
           },
           {
             "time": "2026-11-26T05:00",
             "temp": 3,
             "code": 61,
-            "precipProb": 83
+            "precipProb": 78
           },
           {
             "time": "2026-11-26T06:00",
@@ -2956,679 +2947,823 @@
             "time": "2026-11-26T07:00",
             "temp": 3,
             "code": 61,
-            "precipProb": 98
+            "precipProb": 95
           },
           {
             "time": "2026-11-26T08:00",
             "temp": 3,
             "code": 61,
-            "precipProb": 100
+            "precipProb": 98
           },
           {
             "time": "2026-11-26T09:00",
-            "temp": 0,
-            "code": 73,
-            "precipProb": 99
+            "temp": 3,
+            "code": 61,
+            "precipProb": 93
           },
           {
             "time": "2026-11-26T10:00",
             "temp": 0,
             "code": 73,
-            "precipProb": 93
+            "precipProb": 78
           },
           {
             "time": "2026-11-26T11:00",
-            "temp": 2,
-            "code": 71,
-            "precipProb": 79
+            "temp": 1,
+            "code": 55,
+            "precipProb": 60
           },
           {
             "time": "2026-11-26T12:00",
-            "temp": 3,
+            "temp": 2,
             "code": 3,
-            "precipProb": 59
+            "precipProb": 33
           },
           {
             "time": "2026-11-26T13:00",
             "temp": 3,
             "code": 3,
-            "precipProb": 43
+            "precipProb": 23
           },
           {
             "time": "2026-11-26T14:00",
             "temp": 3,
             "code": 3,
-            "precipProb": 33
+            "precipProb": 13
           },
           {
             "time": "2026-11-26T15:00",
             "temp": 3,
             "code": 3,
-            "precipProb": 27
+            "precipProb": 10
           },
           {
             "time": "2026-11-26T16:00",
             "temp": 3,
-            "code": 3,
-            "precipProb": 23
+            "code": 61,
+            "precipProb": 15
           },
           {
             "time": "2026-11-26T17:00",
             "temp": 3,
-            "code": 3,
-            "precipProb": 21
+            "code": 53,
+            "precipProb": 10
           },
           {
             "time": "2026-11-26T18:00",
             "temp": 3,
             "code": 3,
-            "precipProb": 22
+            "precipProb": 15
           },
           {
             "time": "2026-11-26T19:00",
             "temp": 2,
             "code": 3,
-            "precipProb": 23
+            "precipProb": 20
           },
           {
             "time": "2026-11-26T20:00",
             "temp": 2,
             "code": 3,
-            "precipProb": 25
+            "precipProb": 23
           },
           {
             "time": "2026-11-26T21:00",
             "temp": 2,
-            "code": 3,
-            "precipProb": 28
+            "code": 61,
+            "precipProb": 26
           },
           {
             "time": "2026-11-26T22:00",
             "temp": 2,
             "code": 3,
-            "precipProb": 30
+            "precipProb": 28
           },
           {
             "time": "2026-11-26T23:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 28
-          },
-          {
-            "time": "2026-11-27T00:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 25
-          },
-          {
-            "time": "2026-11-27T01:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 23
-          },
-          {
-            "time": "2026-11-27T02:00",
-            "temp": 2,
-            "code": 3,
-            "precipProb": 23
-          },
-          {
-            "time": "2026-11-27T03:00",
-            "temp": 2,
-            "code": 3,
-            "precipProb": 24
-          },
-          {
-            "time": "2026-11-27T04:00",
-            "temp": 2,
-            "code": 3,
-            "precipProb": 25
-          },
-          {
-            "time": "2026-11-27T05:00",
-            "temp": 2,
-            "code": 3,
-            "precipProb": 28
-          },
-          {
-            "time": "2026-11-27T06:00",
             "temp": 2,
             "code": 3,
             "precipProb": 29
           },
           {
-            "time": "2026-11-27T07:00",
+            "time": "2026-11-27T00:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 29
+          },
+          {
+            "time": "2026-11-27T01:00",
             "temp": 2,
             "code": 3,
             "precipProb": 30
           },
           {
-            "time": "2026-11-27T08:00",
-            "temp": 2,
-            "code": 3,
-            "precipProb": 31
-          },
-          {
-            "time": "2026-11-27T09:00",
-            "temp": 2,
-            "code": 3,
-            "precipProb": 33
-          },
-          {
-            "time": "2026-11-27T10:00",
-            "temp": 2,
-            "code": 3,
-            "precipProb": 34
-          },
-          {
-            "time": "2026-11-27T11:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 35
-          },
-          {
-            "time": "2026-11-27T12:00",
+            "time": "2026-11-27T02:00",
             "temp": 2,
             "code": 3,
             "precipProb": 35
           },
           {
-            "time": "2026-11-27T13:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 35
-          },
-          {
-            "time": "2026-11-27T14:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 33
-          },
-          {
-            "time": "2026-11-27T15:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 30
-          },
-          {
-            "time": "2026-11-27T16:00",
+            "time": "2026-11-27T03:00",
             "temp": 2,
             "code": 3,
-            "precipProb": 27
-          },
-          {
-            "time": "2026-11-27T17:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 24
-          },
-          {
-            "time": "2026-11-27T18:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 21
-          },
-          {
-            "time": "2026-11-27T19:00",
-            "temp": 1,
-            "code": 61,
-            "precipProb": 20
-          },
-          {
-            "time": "2026-11-27T20:00",
-            "temp": 1,
-            "code": 61,
-            "precipProb": 21
-          },
-          {
-            "time": "2026-11-27T21:00",
-            "temp": 1,
-            "code": 61,
-            "precipProb": 22
-          },
-          {
-            "time": "2026-11-27T22:00",
-            "temp": 1,
-            "code": 61,
-            "precipProb": 25
-          },
-          {
-            "time": "2026-11-27T23:00",
-            "temp": 1,
-            "code": 61,
-            "precipProb": 28
-          },
-          {
-            "time": "2026-11-28T00:00",
-            "temp": 1,
-            "code": 61,
-            "precipProb": 31
-          },
-          {
-            "time": "2026-11-28T01:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 33
-          },
-          {
-            "time": "2026-11-28T02:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 35
-          },
-          {
-            "time": "2026-11-28T03:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 37
-          },
-          {
-            "time": "2026-11-28T04:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 39
-          },
-          {
-            "time": "2026-11-28T05:00",
-            "temp": 2,
-            "code": 61,
             "precipProb": 41
           },
           {
-            "time": "2026-11-28T06:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 43
-          },
-          {
-            "time": "2026-11-28T07:00",
+            "time": "2026-11-27T04:00",
             "temp": 2,
             "code": 61,
             "precipProb": 45
           },
           {
-            "time": "2026-11-28T08:00",
+            "time": "2026-11-27T05:00",
             "temp": 2,
             "code": 61,
-            "precipProb": 48
+            "precipProb": 45
+          },
+          {
+            "time": "2026-11-27T06:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 42
+          },
+          {
+            "time": "2026-11-27T07:00",
+            "temp": 1,
+            "code": 61,
+            "precipProb": 40
+          },
+          {
+            "time": "2026-11-27T08:00",
+            "temp": 1,
+            "code": 71,
+            "precipProb": 39
+          },
+          {
+            "time": "2026-11-27T09:00",
+            "temp": 1,
+            "code": 71,
+            "precipProb": 39
+          },
+          {
+            "time": "2026-11-27T10:00",
+            "temp": 1,
+            "code": 71,
+            "precipProb": 38
+          },
+          {
+            "time": "2026-11-27T11:00",
+            "temp": 1,
+            "code": 61,
+            "precipProb": 38
+          },
+          {
+            "time": "2026-11-27T12:00",
+            "temp": 1,
+            "code": 61,
+            "precipProb": 37
+          },
+          {
+            "time": "2026-11-27T13:00",
+            "temp": 1,
+            "code": 61,
+            "precipProb": 35
+          },
+          {
+            "time": "2026-11-27T14:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 30
+          },
+          {
+            "time": "2026-11-27T15:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 23
+          },
+          {
+            "time": "2026-11-27T16:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 18
+          },
+          {
+            "time": "2026-11-27T17:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 24
+          },
+          {
+            "time": "2026-11-27T18:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 21
+          },
+          {
+            "time": "2026-11-27T19:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 20
+          },
+          {
+            "time": "2026-11-27T20:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 20
+          },
+          {
+            "time": "2026-11-27T21:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 20
+          },
+          {
+            "time": "2026-11-27T22:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 22
+          },
+          {
+            "time": "2026-11-27T23:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 23
+          },
+          {
+            "time": "2026-11-28T00:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 24
+          },
+          {
+            "time": "2026-11-28T01:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 25
+          },
+          {
+            "time": "2026-11-28T02:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 25
+          },
+          {
+            "time": "2026-11-28T03:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 24
+          },
+          {
+            "time": "2026-11-28T04:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 23
+          },
+          {
+            "time": "2026-11-28T05:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 22
+          },
+          {
+            "time": "2026-11-28T06:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 22
+          },
+          {
+            "time": "2026-11-28T07:00",
+            "temp": 1,
+            "code": 3,
+            "precipProb": 23
+          },
+          {
+            "time": "2026-11-28T08:00",
+            "temp": 1,
+            "code": 71,
+            "precipProb": 26
           },
           {
             "time": "2026-11-28T09:00",
-            "temp": 2,
-            "code": 61,
-            "precipProb": 52
+            "temp": 1,
+            "code": 71,
+            "precipProb": 30
           },
           {
             "time": "2026-11-28T10:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 56
+            "temp": 1,
+            "code": 71,
+            "precipProb": 35
           },
           {
             "time": "2026-11-28T11:00",
-            "temp": 3,
+            "temp": 2,
+            "code": 3,
+            "precipProb": 41
+          },
+          {
+            "time": "2026-11-28T12:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 46
+          },
+          {
+            "time": "2026-11-28T13:00",
+            "temp": 2,
+            "code": 3,
+            "precipProb": 50
+          },
+          {
+            "time": "2026-11-28T14:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 53
+          },
+          {
+            "time": "2026-11-28T15:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 57
+          },
+          {
+            "time": "2026-11-28T16:00",
+            "temp": 2,
             "code": 61,
             "precipProb": 59
           },
           {
-            "time": "2026-11-28T12:00",
-            "temp": 3,
+            "time": "2026-11-28T17:00",
+            "temp": 2,
             "code": 61,
             "precipProb": 62
           },
           {
-            "time": "2026-11-28T13:00",
-            "temp": 3,
+            "time": "2026-11-28T18:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 64
+          },
+          {
+            "time": "2026-11-28T19:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 65
+          },
+          {
+            "time": "2026-11-28T20:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 66
+          },
+          {
+            "time": "2026-11-28T21:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 66
+          },
+          {
+            "time": "2026-11-28T22:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 66
+          },
+          {
+            "time": "2026-11-28T23:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 66
+          },
+          {
+            "time": "2026-11-29T00:00",
+            "temp": 2,
+            "code": 61,
+            "precipProb": 65
+          },
+          {
+            "time": "2026-11-29T01:00",
+            "temp": 2,
             "code": 61,
             "precipProb": 63
           },
           {
-            "time": "2026-11-28T14:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 62
-          },
-          {
-            "time": "2026-11-28T15:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 60
-          },
-          {
-            "time": "2026-11-28T16:00",
-            "temp": 3,
-            "code": 3,
-            "precipProb": 58
-          },
-          {
-            "time": "2026-11-28T17:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 55
-          },
-          {
-            "time": "2026-11-28T18:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 52
-          },
-          {
-            "time": "2026-11-28T19:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 50
-          },
-          {
-            "time": "2026-11-28T20:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 49
-          },
-          {
-            "time": "2026-11-28T21:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 49
-          },
-          {
-            "time": "2026-11-28T22:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 50
-          },
-          {
-            "time": "2026-11-28T23:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 50
-          },
-          {
-            "time": "2026-11-29T00:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 50
-          },
-          {
-            "time": "2026-11-29T01:00",
-            "temp": 3,
-            "code": 61,
-            "precipProb": 50
-          },
-          {
             "time": "2026-11-29T02:00",
-            "temp": 3,
+            "temp": 2,
             "code": 61,
-            "precipProb": 49
+            "precipProb": 61
           },
           {
             "time": "2026-11-29T03:00",
-            "temp": 3,
+            "temp": 2,
             "code": 61,
-            "precipProb": 48
+            "precipProb": 57
           },
           {
             "time": "2026-11-29T04:00",
-            "temp": 3,
+            "temp": 2,
             "code": 61,
-            "precipProb": 47
+            "precipProb": 54
           },
           {
             "time": "2026-11-29T05:00",
-            "temp": 3,
+            "temp": 2,
             "code": 61,
-            "precipProb": 41
+            "precipProb": 50
           },
           {
             "time": "2026-11-29T06:00",
             "temp": 2,
             "code": 61,
-            "precipProb": 37
+            "precipProb": 46
           },
           {
             "time": "2026-11-29T07:00",
             "temp": 2,
             "code": 61,
-            "precipProb": 32
+            "precipProb": 43
           },
           {
             "time": "2026-11-29T08:00",
             "temp": 2,
             "code": 3,
-            "precipProb": 27
+            "precipProb": 40
           },
           {
             "time": "2026-11-29T09:00",
             "temp": 2,
             "code": 3,
-            "precipProb": 25
+            "precipProb": 37
           },
           {
             "time": "2026-11-29T10:00",
-            "temp": 3,
+            "temp": 2,
             "code": 3,
-            "precipProb": 24
+            "precipProb": 35
           },
           {
             "time": "2026-11-29T11:00",
             "temp": 3,
             "code": 3,
-            "precipProb": 22
+            "precipProb": 32
           },
           {
             "time": "2026-11-29T12:00",
-            "temp": 4,
+            "temp": 3,
             "code": 3,
-            "precipProb": 21
+            "precipProb": 30
           },
           {
             "time": "2026-11-29T13:00",
-            "temp": 4,
+            "temp": 3,
             "code": 3,
-            "precipProb": 20
+            "precipProb": 28
           },
           {
             "time": "2026-11-29T14:00",
-            "temp": 4,
-            "code": 1,
-            "precipProb": 19
+            "temp": 3,
+            "code": 2,
+            "precipProb": 27
           },
           {
             "time": "2026-11-29T15:00",
-            "temp": 4,
-            "code": 1,
-            "precipProb": 18
+            "temp": 3,
+            "code": 2,
+            "precipProb": 25
           },
           {
             "time": "2026-11-29T16:00",
-            "temp": 4,
-            "code": 1,
-            "precipProb": 17
+            "temp": 3,
+            "code": 2,
+            "precipProb": 25
           },
           {
             "time": "2026-11-29T17:00",
-            "temp": 3,
-            "code": 0,
-            "precipProb": 16
+            "temp": 2,
+            "code": 2,
+            "precipProb": 29
           },
           {
             "time": "2026-11-29T18:00",
             "temp": 1,
-            "code": 0,
-            "precipProb": 15
+            "code": 2,
+            "precipProb": 33
           },
           {
             "time": "2026-11-29T19:00",
             "temp": 1,
-            "code": 0,
-            "precipProb": 14
+            "code": 2,
+            "precipProb": 37
           },
           {
             "time": "2026-11-29T20:00",
             "temp": 0,
-            "code": 2,
-            "precipProb": 13
+            "code": 71,
+            "precipProb": 42
           },
           {
             "time": "2026-11-29T21:00",
-            "temp": 0,
-            "code": 2,
-            "precipProb": 12
+            "temp": 1,
+            "code": 71,
+            "precipProb": 41
           },
           {
             "time": "2026-11-29T22:00",
-            "temp": 0,
-            "code": 2,
-            "precipProb": 12
+            "temp": 1,
+            "code": 71,
+            "precipProb": 41
           },
           {
             "time": "2026-11-29T23:00",
-            "temp": -1,
-            "code": 3,
-            "precipProb": 11
+            "temp": 1,
+            "code": 71,
+            "precipProb": 40
           },
           {
             "time": "2026-11-30T00:00",
-            "temp": -1,
-            "code": 3,
-            "precipProb": 10
+            "temp": 1,
+            "code": 71,
+            "precipProb": 39
           },
           {
             "time": "2026-11-30T01:00",
-            "temp": -1,
-            "code": 3,
-            "precipProb": 10
+            "temp": 1,
+            "code": 71,
+            "precipProb": 38
           },
           {
             "time": "2026-11-30T02:00",
-            "temp": -2,
-            "code": 3,
-            "precipProb": 10
+            "temp": 1,
+            "code": 71,
+            "precipProb": 37
           },
           {
             "time": "2026-11-30T03:00",
-            "temp": -2,
-            "code": 3,
-            "precipProb": 10
+            "temp": 1,
+            "code": 71,
+            "precipProb": 36
           },
           {
             "time": "2026-11-30T04:00",
-            "temp": -2,
-            "code": 3,
-            "precipProb": 9
+            "temp": 1,
+            "code": 71,
+            "precipProb": 34
           },
           {
             "time": "2026-11-30T05:00",
-            "temp": -2,
-            "code": 2,
-            "precipProb": 10
+            "temp": 1,
+            "code": 71,
+            "precipProb": 33
           },
           {
             "time": "2026-11-30T06:00",
-            "temp": -3,
-            "code": 2,
-            "precipProb": 10
+            "temp": 1,
+            "code": 71,
+            "precipProb": 32
           },
           {
             "time": "2026-11-30T07:00",
-            "temp": -3,
-            "code": 2,
-            "precipProb": 10
+            "temp": 1,
+            "code": 71,
+            "precipProb": 31
           },
           {
             "time": "2026-11-30T08:00",
-            "temp": -2,
-            "code": 2,
-            "precipProb": 10
+            "temp": 0,
+            "code": 3,
+            "precipProb": 29
           },
           {
             "time": "2026-11-30T09:00",
-            "temp": -2,
-            "code": 2,
-            "precipProb": 10
+            "temp": 0,
+            "code": 3,
+            "precipProb": 28
           },
           {
             "time": "2026-11-30T10:00",
-            "temp": -1,
-            "code": 2,
-            "precipProb": 10
+            "temp": 0,
+            "code": 3,
+            "precipProb": 27
           },
           {
             "time": "2026-11-30T11:00",
-            "temp": 0,
-            "code": 0,
-            "precipProb": 10
+            "temp": 1,
+            "code": 3,
+            "precipProb": 25
           },
           {
             "time": "2026-11-30T12:00",
             "temp": 1,
-            "code": 0,
-            "precipProb": 10
+            "code": 3,
+            "precipProb": 24
           },
           {
             "time": "2026-11-30T13:00",
-            "temp": 2,
-            "code": 0,
-            "precipProb": 10
+            "temp": 1,
+            "code": 3,
+            "precipProb": 23
           },
           {
             "time": "2026-11-30T14:00",
-            "temp": 2,
-            "code": 0,
-            "precipProb": 10
+            "temp": 1,
+            "code": 3,
+            "precipProb": 22
           },
           {
             "time": "2026-11-30T15:00",
             "temp": 1,
-            "code": 0,
-            "precipProb": 9
+            "code": 3,
+            "precipProb": 21
           },
           {
             "time": "2026-11-30T16:00",
             "temp": 1,
-            "code": 0,
-            "precipProb": 9
+            "code": 3,
+            "precipProb": 20
           },
           {
             "time": "2026-11-30T17:00",
-            "temp": 0,
-            "code": 0,
-            "precipProb": 8
+            "temp": 1,
+            "code": 3,
+            "precipProb": 19
           },
           {
             "time": "2026-11-30T18:00",
-            "temp": 0,
-            "code": 0,
-            "precipProb": 7
+            "temp": 1,
+            "code": 3,
+            "precipProb": 18
           },
           {
             "time": "2026-11-30T19:00",
-            "temp": -1,
-            "code": 0,
-            "precipProb": 6
+            "temp": 0,
+            "code": 3,
+            "precipProb": 17
           },
           {
             "time": "2026-11-30T20:00",
-            "temp": -2,
+            "temp": 0,
             "code": 0,
-            "precipProb": 6
+            "precipProb": 16
           },
           {
             "time": "2026-11-30T21:00",
-            "temp": -3,
+            "temp": 0,
             "code": 0,
-            "precipProb": 5
+            "precipProb": 16
           },
           {
             "time": "2026-11-30T22:00",
-            "temp": -3,
+            "temp": 0,
             "code": 0,
-            "precipProb": 4
+            "precipProb": 15
           },
           {
             "time": "2026-11-30T23:00",
-            "temp": -4,
+            "temp": 0,
+            "code": 2,
+            "precipProb": 14
+          },
+          {
+            "time": "2026-12-01T00:00",
+            "temp": -1,
+            "code": 2,
+            "precipProb": 14
+          },
+          {
+            "time": "2026-12-01T01:00",
+            "temp": -1,
+            "code": 2,
+            "precipProb": 13
+          },
+          {
+            "time": "2026-12-01T02:00",
+            "temp": -1,
+            "code": 3,
+            "precipProb": 12
+          },
+          {
+            "time": "2026-12-01T03:00",
+            "temp": -1,
+            "code": 3,
+            "precipProb": 12
+          },
+          {
+            "time": "2026-12-01T04:00",
+            "temp": -1,
+            "code": 3,
+            "precipProb": 12
+          },
+          {
+            "time": "2026-12-01T05:00",
+            "temp": -1,
+            "code": 2,
+            "precipProb": 11
+          },
+          {
+            "time": "2026-12-01T06:00",
+            "temp": -2,
+            "code": 2,
+            "precipProb": 11
+          },
+          {
+            "time": "2026-12-01T07:00",
+            "temp": -2,
+            "code": 2,
+            "precipProb": 11
+          },
+          {
+            "time": "2026-12-01T08:00",
+            "temp": -2,
             "code": 1,
-            "precipProb": 4
+            "precipProb": 11
+          },
+          {
+            "time": "2026-12-01T09:00",
+            "temp": -2,
+            "code": 1,
+            "precipProb": 11
+          },
+          {
+            "time": "2026-12-01T10:00",
+            "temp": -2,
+            "code": 1,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T11:00",
+            "temp": -1,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T12:00",
+            "temp": -1,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T13:00",
+            "temp": -1,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T14:00",
+            "temp": -1,
+            "code": 1,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T15:00",
+            "temp": -1,
+            "code": 1,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T16:00",
+            "temp": -1,
+            "code": 1,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T17:00",
+            "temp": -2,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T18:00",
+            "temp": -2,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T19:00",
+            "temp": -3,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T20:00",
+            "temp": -3,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T21:00",
+            "temp": -4,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T22:00",
+            "temp": -4,
+            "code": 0,
+            "precipProb": 10
+          },
+          {
+            "time": "2026-12-01T23:00",
+            "temp": -4,
+            "code": 0,
+            "precipProb": 10
           }
         ]
       }
@@ -3652,7 +3787,7 @@
       "zagreb": "https://api.open-meteo.com/v1/forecast?latitude=45.815&longitude=15.9819&current=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cweather_code%2Cwind_speed_10m%2Cwind_direction_10m%2Cis_day%2Cprecipitation&hourly=temperature_2m%2Cweather_code%2Cprecipitation_probability&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Csunrise%2Csunset&timezone=Europe%2FZagreb&forecast_days=7"
     }
   },
-  "weatherGeneratedAt": "2026-11-24T13:45:51.310Z",
+  "weatherGeneratedAt": "2026-11-24T23:24:47.183Z",
   "hajdukResults": [
     {
       "home": "Lokomotiva",
