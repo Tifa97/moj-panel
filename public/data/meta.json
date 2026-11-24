@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T13:41:15.996Z",
+  "generatedAt": "2026-11-24T13:42:47.327Z",
   "live": false,
-  "version": "202611241341",
+  "version": "202611241342",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -48,27 +48,31 @@
     {
       "name": "hajduk.hr/raspored",
       "home": "https://hajduk.hr/utakmice",
-      "ok": true,
-      "count": 26
+      "ok": false,
+      "count": 0,
+      "error": "GET https://hajduk.hr/json/ova_sezona/raspored.json failed: HTTP 403 Forbidden"
     },
     {
       "name": "hajduk.hr/poredak",
       "home": "https://hajduk.hr/utakmice",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "GET https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json failed: HTTP 403 Forbidden"
     },
     {
       "name": "Open-Meteo (Dubrovnik)",
       "home": "https://open-meteo.com",
-      "ok": true,
-      "count": 7
+      "ok": false,
+      "count": 0,
+      "error": "GET https://api.open-meteo.com/v1/forecast?latitude=42.6507&longitude=18.0944&current=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cweather_cod"
     },
     {
       "name": "Open-Meteo (Zagreb)",
       "home": "https://open-meteo.com",
-      "ok": true,
-      "count": 7
+      "ok": false,
+      "count": 0,
+      "error": "GET https://api.open-meteo.com/v1/forecast?latitude=45.815&longitude=15.9819&current=temperature_2m%2Capparent_temperature%2Crelative_humidity_2m%2Cweather_code"
     }
   ],
-  "healthy": true
+  "healthy": false
 }
