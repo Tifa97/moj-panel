@@ -1,7 +1,170 @@
 {
-  "generatedAt": "2026-11-23T20:18:59.117Z",
+  "generatedAt": "2026-11-24T09:45:00.129Z",
+  "live": false,
   "city": "Dubrovnik",
   "items": [
+    {
+      "title": "Knežević: U Dubrovniku trebamo imati i od čega živjeti i gdje živjeti",
+      "link": "https://www.dubrovniknet.hr/knezevic-u-dubrovniku-trebamo-imati-i-od-cega-zivjeti-i-gdje-zivjeti/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T09:25:32.000Z",
+      "summary": "Gradska vijećnica stranke Centar Viktorija Knežević poručuje da Dubrovnik mora istodobno čuvati mogućnost zarade svojih stanovnika i osiguravati dostupno stanovanje. Protivi se ovako…",
+      "image": ""
+    },
+    {
+      "title": "[PODCAST S BARBAROM] Hoće li Dubrovčani ostati bez apartmana? Hana Matić oštro po Frankoviću: „Jesmo mi u Jugoslaviji?”",
+      "link": "https://dulist.hr/podcast-s-barbarom-hoce-li-dubrovcani-ostati-bez-apartmana-hana-matic-ostro-po-frankovicu-jesmo-mi-u-jugoslaviji/1058393/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T09:22:00.000Z",
+      "summary": "„Kad bi to bilo rješenje, onda je Mato Franković genijalac i može patentirati svoj izum cijeloj Europi!” Tako Hana Matić, potpredsjednica udruge Spasimo male obiteljske iznajmljivače…",
+      "image": "https://i.ytimg.com/vi/_xA06vI0A0A/maxresdefault.jpg"
+    },
+    {
+      "title": "Uzmi pauzu, idemo na marendu!",
+      "link": "https://www.dubrovniknet.hr/uzmi-pauzu-idemo-na-marendu-2/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T09:03:43.000Z",
+      "summary": "Pogledajte dnevnu ponudu marendi, izaberite i uz ukusnu marendu začinite dan! A sad provjerite gdje se što danas skuhalo. Dobar tek! Restoran Orsan, Ivana Zajca 2, Dubrovnik, kont. 020 436…",
+      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/Screenshot_20261124_095854_Instagram-605x1024.jpg"
+    },
+    {
+      "title": "Policija: u nesreći na radu poginuo djelatnik Luke Ploče, u tijeku je kriminalističko istraživanje",
+      "link": "https://www.dubrovniknet.hr/policija-u-nesreci-na-radu-poginuo-djelatnik-luke-ploce-u-tijeku-je-kriminalisticko-istrazivanje/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T08:41:31.000Z",
+      "summary": "U tijeku je kriminalističko istraživanje kojeg policija provodi u suradnji s Općinskim državnim odvjetništvom u Metkoviću i Državnim inspektoratom – stoji u policijskom izvješću. Jučer, 23…",
+      "image": ""
+    },
+    {
+      "title": "DETALJI TRAGEDIJE U LUCI PLOČE 31-godišnjak stradao dok je mijenjao kotač na radnom stroju",
+      "link": "https://dulist.hr/detalji-tragedije-u-luci-ploce-31-godisnjak-stradao-dok-je-mijenjao-kotac-na-radnom-stroju/1058644/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T08:34:25.000Z",
+      "summary": "Policijska uprava dubrovačko-neretvanska objavila je detalje jučerašnje tragedije u Luci Ploče, u kojoj je život izgubio 31-godišnji djelatnik Luke Ploče. Nesreća na radu dogodila se u…",
+      "image": ""
+    },
+    {
+      "title": "ŠTO SMIJETE TRAŽITI OD LIJEČNIKA? Prava pacijenata koja u praksi najčešće ostaju neiskorištena",
+      "link": "https://dulist.hr/sto-smijete-traziti-od-lijecnika-prava-pacijenata-koja-u-praksi-najcesce-ostaju-neiskoristena/1058504/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T08:15:00.000Z",
+      "summary": "Odnos liječnika i pacijenta u hrvatskom zdravstvenom sustavu desetljećima je počivao na prešutnom pravilu prema kojem liječnik odlučuje, a pacijent bez puno pitanja sluša i potpisuje papire…",
+      "image": ""
+    },
+    {
+      "title": "Turistički smještaj dosegnuo plafon prihvatnih kapaciteta? A da je krenuti sa zabranama od hotela, kao neki drugi europski gradovi?",
+      "link": "https://www.dubrovniknet.hr/turisticki-smjestaj-dosegnuo-plafon-prihvatnih-kapaciteta-a-da-je-krenuti-sa-zabranama-od-hotela-kao-neki-drugi-europski-gradovi/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T07:49:02.000Z",
+      "summary": "Nije Dubrovnik jedini koji pokušava ograničiti turistički smještaj zbog premašenih kvota. Amsterdam je jedan od europskih gradova koji su postavili najstrože kriterije, ali za razliku od…",
+      "image": ""
+    },
+    {
+      "title": "„Stazom Deva” ponovno okuplja trkače na Srđu, sva prikupljena sredstva idu u humanitarne svrhe",
+      "link": "https://www.dubrovniknet.hr/stazom-deva-ponovno-okuplja-trkace-na-srdu-sva-prikupljena-sredstva-idu-u-humanitarne-svrhe/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T07:11:01.000Z",
+      "summary": "U organizaciji Triatlon kluba Dubrovnik Triathlon D3, u subotu, 5. prosinca 2026. godine, održat će se 11. izdanje humanitarne utrke „Stazom Deva – Korak iznad“, koja se i ove godine…",
+      "image": ""
+    },
+    {
+      "title": "‘KNJIGA, ŠKARE, GRANČICA’ Prijavite se na radionicu božićnih vijenaca",
+      "link": "https://dulist.hr/knjiga-skare-grancica-prijavite-se-na-radionicu-bozicnih-vijenaca/1058434/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T07:04:00.000Z",
+      "summary": "U sklopu ovogodišnjeg programa Advent u Gradu 2026., Dubrovačke knjižnice organiziraju kreativnu radionicu za odrasle pod nazivom ‘Knjiga, škare, grančica’, koja će se održati u subotu 28…",
+      "image": ""
+    },
+    {
+      "title": "TJEDNO IZVJEŠĆE ZA PROMET: Čak 408 vozača kažnjeno zbog prebrze vožnje, 80 zbog nekorištenja pojasa",
+      "link": "https://www.dubrovniknet.hr/tjedno-izvjesce-za-promet-cak-408-vozaca-kaznjeno-zbog-prebrze-voznje-80-zbog-nekoristenja-pojasa/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T06:55:44.000Z",
+      "summary": "Čak 80 osoba prekršajno je sankcionirano jer tijekom vožnje nisu koristile sigurnosni pojas U proteklom tjednu na području Policijske uprave dubrovačko-neretvanske zabilježeno je 11…",
+      "image": ""
+    },
+    {
+      "title": "24. studenog 1991. održao se u Cavtatu, pod okupacijom, Zbor građana na kojem su Konavljani spoznali “da nijesmo pokoreni”",
+      "link": "https://www.dubrovniknet.hr/24-studenog-1991-odrzao-se-u-cavtatu-pod-okupacijom-zbor-gradana-na-kojem-su-konavljani-spoznali-da-nijesmo-pokoreni/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-24T06:20:00.000Z",
+      "summary": "Povodom 35. obljetnice događaja koji se zbio u Cavtatu 24. studenoga 1991. godine, a vezan je uz „okupatorov zbor građana” tijekom Domovinskog rata, tekst je poslao Mato Mišo Moretti koji…",
+      "image": ""
+    },
+    {
+      "title": "OD DUBROVNIKA DO LOS ANGELESA Dragan Capor novim remixom kultnog hita odao počast prijatelju iz mladosti",
+      "link": "https://dulist.hr/od-dubrovnika-do-los-angelesa-dragan-capor-novim-remixom-kultnog-hita-odao-pocast-prijatelju-iz-mladosti/1058549/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-24T05:43:00.000Z",
+      "summary": "Uspješni dubrovački glazbeni producent Dragan Capor, koji već godinama živi i radi u Los Angelesu, predstavio je svoj novi remix kultne pjesme ‘Psycho Killer’ grupe Talking Heads. Iako iza…",
+      "image": "https://i.ytimg.com/vi/yfN1Xz1XOeg/maxresdefault.jpg"
+    },
+    {
+      "title": "Franković uputio čestitku Badmintonskom klubu Dubrovnik za osvajanje šest medalja",
+      "link": "https://www.dubrovniknet.hr/frankovic-uputio-cestitku-badmintonskom-klubu-dubrovnik-za-osvajanje-sest-medalja/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-23T21:25:04.000Z",
+      "summary": "Povodom osvajanja ukupno šest medalja na Prvenstvu Hrvatske za mlađe kadete i mlađe juniore, gradonačelnik Mato Franković uputio je čestitku Badmintonskom klubu Dubrovnik. Dragi…",
+      "image": ""
+    },
+    {
+      "title": "DUBROVNIK ADVENT RUN 2026. Utrka, božićne kapice i druženje uz grah i kuhano vino",
+      "link": "https://dulist.hr/dubrovnik-advent-run-2026-utrka-bozicne-kapice-i-druzenje-uz-grah-i-kuhano-vino/1054963/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-23T21:23:00.000Z",
+      "summary": "Blagdanski ugođaj, sportski duh i dobro društvo spojit će se 12. prosinca na lapadskom stadionu gdje će se održati Dubrovnik Advent Run 2026. Utrka na tri kilometra namijenjena je svim…",
+      "image": ""
+    },
+    {
+      "title": "NA DANAŠNJI DAN 1913. Umro Ignacije Amerling, dubrovački mecena i dobrotvor",
+      "link": "https://dulist.hr/na-danasnji-dan-1913-umro-ignacije-amerling-dubrovacki-mecena-i-dobrotvor/1058502/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-23T21:00:08.000Z",
+      "summary": "U 83. godini života, 23. studenoga 1913. godine, preminuo je Ignacije Amerling, jedan od najznačajnijih dubrovačkih mecena i dobrotvora, koji počiva u obiteljskoj grobnici na Mihajlu. Kao…",
+      "image": ""
+    },
+    {
+      "title": "Konavoski zapovjednik reagirao na najavljeni dolazak crnogorskog admirala Samardžića ispred spomenika “Konavoska mati”: Znam što je bilo i nisam od onih koji će zaspati na straži!",
+      "link": "https://www.dubrovniknet.hr/konavoski-zapovjednik-reagirao-na-najavljeni-dolazak-crnogorskog-admirala-samardzica-ispred-spomenika-konavoska-mati-znam-sto-je-bilo-i-nisam-od-onih-koji-ce-zaspati-na-strazi/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-23T20:42:10.000Z",
+      "summary": "Hrvatski branitelj, zapovjednik satnije Čilipi u Domovinskom ratu i član Glavnog odbora Hrvatskog časničkog zbora Dubrovačko-neretvanske županije, Marko Rešetar je reagirao na najavljeni…",
+      "image": ""
+    },
+    {
+      "title": "Metkovska policija predložila zatvor za prometnog recidivista, sud ga pustio na slobodu",
+      "link": "https://www.dubrovniknet.hr/metkovska-policija-predlozila-zatvor-za-prometnog-recidivista-sud-ga-pustio-na-slobodu/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-23T20:40:53.000Z",
+      "summary": "Radi se o vozaču koji je u posljednjih 5 godina 11 puta zatečen u prometnim prekršajima Policijski službenici Mobilne jedinice granične policije Jug su tijekom nadzora prometa u…",
+      "image": ""
+    },
+    {
+      "title": "(FOTO) Školarci kroz šetnju i kreativnu radionicu obilježili Godinu Marina Getaldića",
+      "link": "https://dulist.hr/foto-skolarci-kroz-setnju-i-kreativnu-radionicu-obiljezili-godinu-marina-getaldica/1058598/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-23T20:33:00.000Z",
+      "summary": "U Godini Marina Getaldića, posvećenoj 400. obljetnici smrti ovog velikog dubrovačkog matematičara i fizičara, njegova je priča ponovno oživjela na ulicama Grada – i to kroz oči najmlađih. U…",
+      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/getaldic-tura-i-radionica-20112026-vlevi-4-2.jpg"
+    },
     {
       "title": "Hoće li Dubrovnik zbog novog nameta izgubiti kruzere? Đurović Đanović prozvala gradsku vlast",
       "link": "https://dulist.hr/hoce-li-dubrovnik-zbog-novog-nameta-izgubiti-kruzere-durovic-danovic-prozvala-gradsku-vlast/1058596/",
@@ -55,173 +218,11 @@
       "publishedAt": "2026-11-23T18:40:38.000Z",
       "summary": "Dubrovački gudački kvartet priređuje tradicionalni koncert „Glazbeni salon”, koji će se održati u srijedu, 25. studenoga, s početkom u 20 sati, u Slanici – Tvrđavi Revelin. Na programu su…",
       "image": ""
-    },
-    {
-      "title": "Pismo konavoskog načelnika Lasića prenijeli na crnogorskom portalu: Vaš tekst me duboko dirnuo…",
-      "link": "https://www.dubrovniknet.hr/pismo-konavoskog-nacelnika-lasica-prenijeli-na-crnogorskom-portalu-vas-tekst-me-duboko-dirnuo/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T18:02:50.000Z",
-      "summary": "Nakon što je prof. dr Branislav Radulović za Antenu M napisao stav pod nazivom Mati, o, kako je kazao, ludosti rata, majčinstvu i savjesti Crne Gore i Hrvatske, oglasio se načelnik Općine…",
-      "image": ""
-    },
-    {
-      "title": "Poginuo radnik u Luci Ploče, dobrovoljni vatrogasac DVD-a Kula Norinska",
-      "link": "https://dulist.hr/poginuo-radnik-u-luci-ploce-dobrovoljni-vatrogasac-dvd-a-kula-norinska/1058579/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T17:46:29.000Z",
-      "summary": "Iz DVD-a Kula Norinska objavili su da je preminuo njihov prijatelj i dobrovoljni vatrogasac DVD-a. – Tragično je izgubio život na svom radnom mjestu u Luci Ploče. Izgubili smo čovjeka koji…",
-      "image": ""
-    },
-    {
-      "title": "‘Cjelov od rozolina’ nova Lerova premijera",
-      "link": "https://dulist.hr/cjelov-od-rozolina-nova-lerova-premijera/1058575/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T17:09:17.000Z",
-      "summary": "Studentski teatar Lero zaključit će godinu novim premijernim naslovom, predstavom „Cjelov od rozolina“ u režiji i dramatizaciji Davora Mojaša. U nastavku svojih kazališnih propitivanja…",
-      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/st-lero-cjelov-od-rozolina-21-11-2016-by-zt-9-1-1200x777.jpg"
-    },
-    {
-      "title": "FOTO: Dubrovačke knjižnice obilježile Godinu Marina Getaldića edukativnom šetnjom i radionicom za djecu",
-      "link": "https://www.dubrovniknet.hr/foto-dubrovacke-knjiznice-obiljezile-godinu-marina-getaldica-edukativnom-setnjom-i-radionicom-za-djecu/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T16:54:33.000Z",
-      "summary": "U Godini Marina Getaldića, posvećenoj 400. obljetnici smrti ovog velikog dubrovačkog matematičara i fizičara, njegova je priča ponovno oživjela na ulicama Grada – i to kroz oči najmlađih. U…",
-      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/getaldic-tura-i-radionica_20112026_vlevi-4871-1024x683.jpg"
-    },
-    {
-      "title": "Do 30. prosinca mogu se predložiti kandidati za javna priznanja Grada Dubrovnika",
-      "link": "https://www.dubrovniknet.hr/do-30-prosinca-mogu-se-predloziti-kandidati-za-javna-priznanja-grada-dubrovnika/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T16:47:25.000Z",
-      "summary": "Odbor za javna priznanja Gradskog vijeća Grada Dubrovnika poziva zainteresirane da do 30. prosinca 2026. godine dostave obrazložene prijedloge kandidata za javna priznanja koja se…",
-      "image": ""
-    },
-    {
-      "title": "Policija za 41-godišnjeg vozača tražila 30 dana zatvora, sud ga pustio na slobodu",
-      "link": "https://dulist.hr/policija-za-41-godisnjeg-vozaca-trazila-30-dana-zatvora-sud-ga-pustio-na-slobodu/1058556/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T16:45:14.000Z",
-      "summary": "Unatoč tome što je u posljednjih pet godina čak 11 puta zatečen u prometnim prekršajima, 41-godišnji vozač iz Opuzena pušten je na slobodu nakon što je policija za njega zatražila 30 dana…",
-      "image": ""
-    },
-    {
-      "title": "Dio Ulice Bartola Kašića u utorak bez vode",
-      "link": "https://www.dubrovniknet.hr/dio-ulice-bartola-kasica-u-utorak-bez-vode/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T16:45:04.000Z",
-      "summary": "“Zbog radova na vodoopskrbnoj mreži 24. studenog bez vode će biti neparni kućni brojevi od 1 do 11 u Ulici Bartola Kašića u vremenu 8.30 do 15.00 sati”. Objava Dio Ulice Bartola Kašića u…",
-      "image": ""
-    },
-    {
-      "title": "‘Kuća je velika, ne može se ona nosit’ oduševila na Gavellinim večerima",
-      "link": "https://dulist.hr/kuca-je-velika-ne-moze-se-ona-nosit-odusevila-na-gavellinim-vecerima/1058499/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T16:11:13.000Z",
-      "summary": "Nagrađivana predstava Kazališta Marina Držića „Kuća je velika, ne može se ona nosit“, u režiji Romana Nikolića, ostvarila je zapažen uspjeh na 39. Gavellinim večerima u Zagrebu. Predstava…",
-      "image": ""
-    },
-    {
-      "title": "U luci Ploče smrtno stradao radnik",
-      "link": "https://www.dubrovniknet.hr/u-luci-ploce-smrtno-stradao-radnik/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T15:50:03.000Z",
-      "summary": "Rogotin portal saznaje kako je danas poslijepodne oko 15:00 sati poginuo radnik u luci Ploče, tijekom obavljanja posla. Radio je u sektoru održavanja, a okolnosti nesreće za sada nisu…",
-      "image": ""
-    },
-    {
-      "title": "PROMETNI KOLAPS Grad je najavio radove koji će trajati do 23. prosinca, provjerite što se i gdje radi",
-      "link": "https://www.dubrovniknet.hr/prometni-kolaps-grad-je-najavio-radove-koji-ce-trajati-do-23-prosinca-provjerite-sto-se-i-gdje-radi/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T15:49:59.000Z",
-      "summary": "Danas je u Lapadu cijeli dan prometni kaos koji je izazvao nestrpljenje i ljutnju kod vozača koji su satima stajali u koloni. Grad Dubrovnik je najavio radove koji bi trebali potrajati do…",
-      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/obavijest-1024x768.png"
-    },
-    {
-      "title": "KOLAPS U GRADU Kolona u Solitudu, totalna gužva",
-      "link": "https://dulist.hr/kolaps-u-gradu-kolona-u-solitudu-totalna-guzva/1058568/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T15:18:27.000Z",
-      "summary": "Velike prometne gužve danas su zabilježene u Dubrovniku, gdje su zbog zatvorenih ulica i otežanog prometovanja nastale kilometarske kolone. Prema informacijama građana, promet je posebno…",
-      "image": ""
-    },
-    {
-      "title": "Stega sutra u Konavlima odaje počast žrtvama agresije JNA: ‘Za obraz i ugled Crne Gore’",
-      "link": "https://dulist.hr/stega-sutra-u-konavlima-odaje-pocast-zrtvama-agresije-jna-za-obraz-i-ugled-crne-gore/1058561/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T14:59:33.000Z",
-      "summary": "Izaslanstvo Stege – Europskog kluba 28 sutra će, u utorak 24. studenoga, u 12 sati položiti vijenac pred spomenikom „Konavoska mati” u Konavlima i odati počast nevinim žrtvama agresije JNA…",
-      "image": ""
-    },
-    {
-      "title": "Na granici u Novim Selima pronađeni dijelovi sedam automatskih pušaka, vozač u istražnom zatvoru",
-      "link": "https://dulist.hr/na-granici-u-novim-selima-pronadeni-dijelovi-sedam-automatskih-pusaka-vozac-u-istraznom-zatvoru/1058554/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T14:17:15.000Z",
-      "summary": "Dijelovi sedam automatskih pušaka, od kojih se može sastaviti sedam funkcionalnih komada automatskog oružja, pronađeni su u posebno preinačenom dijelu automobila na graničnom prijelazu Nova…",
-      "image": ""
-    },
-    {
-      "title": "Za prosječnu plaću danas se može kupiti tek pola kvadrata stana: Ovaj je grad po cijenama prestigao i Dubrovnik",
-      "link": "https://www.dubrovniknet.hr/za-prosjecnu-placu-danas-se-moze-kupiti-tek-pola-kvadrata-stana-ovaj-je-grad-po-cijenama-prestigao-i-dubrovnik/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T14:14:52.000Z",
-      "summary": "Cijene stanova u Hrvatskoj zadnjih pet godina porasle su za 73 posto, dok je kupoprodaja pala za 31 posto, pokazala je analiza Hrvatske udruge posrednika nekretninama (HUPN) predstavljena u…",
-      "image": ""
-    },
-    {
-      "title": "Lažno se predstavljao, a za njim raspisan europski uhidbeni nalog zbog silovanja",
-      "link": "https://www.dubrovniknet.hr/lazno-se-predstavljao-a-za-njim-raspisan-europski-uhidbeni-nalog-zbog-silovanja/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T13:51:11.000Z",
-      "summary": "Policija je utvrdila da se muškarac lažno predstavljao kao državljanin Afganistana, dok je zapravo riječ o državljaninu Malija za kojim traga Francuska Policijski službenici Postaje…",
-      "image": ""
-    },
-    {
-      "title": "Franković ne odustaje od vatrometa: ‘Bolnici dajemo više od milijun eura godišnje’",
-      "link": "https://dulist.hr/frankovic-ne-odustaje-od-vatrometa-bolnici-dajemo-vise-od-milijun-eura-godisnje/1058558/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T13:37:57.000Z",
-      "summary": "Dubrovnik će i dalje imati novogodišnji vatromet, poručio je gradonačelnik Mato Franković odgovarajući na pitanje o inicijativi da se novac namijenjen vatrometu preusmjeri za pomoć djeci i…",
-      "image": ""
-    },
-    {
-      "title": "U preinačenom dijelu vozila pronađeni dijelovi sedam automatskih pušaka, vozač uhićen",
-      "link": "https://www.dubrovniknet.hr/u-preinacenom-dijelu-vozila-pronadeni-dijelovi-sedam-automatskih-pusaka-vozac-uhicen/",
-      "source": "DubrovnikNet",
-      "sourceHome": "https://www.dubrovniknet.hr",
-      "publishedAt": "2026-11-23T12:56:49.000Z",
-      "summary": "Policijski i carinski službenici spriječili su pokušaj krijumčarenja dijelova automatskog oružja preko državne granice, a 55-godišnji državljanin Bosne i Hercegovine je uhićen i nalazi se u…",
-      "image": ""
-    },
-    {
-      "title": "U Metkoviću otkriven muškarac kojeg Francuska traži zbog sumnje na silovanje djeteta",
-      "link": "https://dulist.hr/u-metkovicu-otkriven-muskarac-kojeg-francuska-trazi-zbog-sumnje-na-silovanje-djeteta/1058552/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-23T12:52:39.000Z",
-      "summary": "Muškarac za kojim je Francuska raspisala europski uhidbeni nalog radi vođenja kaznenog postupka zbog silovanja djeteta otkriven je početkom studenoga na području Metkovića. Riječ je o…",
-      "image": ""
     }
   ],
   "counts": {
     "total": 24,
-    "today": 24
+    "today": 12
   },
   "sources": [
     {

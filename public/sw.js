@@ -1,12 +1,16 @@
 /* Moj panel — service worker.
  *
- * Shell: stale-while-revalidate — instant from cache, refreshed in the
- *        background, so an edited file lands on the next load instead of
- *        waiting for a version bump.
+ * Shell: network-first with a short timeout. Online you always get the
+ *        current code; on a slow or dead network the cache answers within
+ *        SHELL_TIMEOUT_MS. Stale-while-revalidate was a load behind, which
+ *        is confusing both when developing and after a deploy.
  * Data:  network-first with a cache fallback, so a refreshed build shows up
  *        immediately but the app still opens offline.
+ * /api/: network only, but mirrored into the data cache under the matching
+ *        /data/ key so the offline fallback holds live data, not the build.
  */
-const VERSION = 'v1';
+const SHELL_TIMEOUT_MS = 1500;
+const VERSION = 'v2';
 const SHELL_CACHE = `cip-shell-${VERSION}`;
 const DATA_CACHE = `cip-data-${VERSION}`;
 
@@ -29,12 +33,23 @@ const SHELL = [
   'icons/icon-512.png',
 ];
 
+/** Committed snapshots: the offline baseline before any live data arrives. */
+const DATA_SEED = [
+  'data/dubrovnik.json',
+  'data/hajduk.json',
+  'data/weather.json',
+  'data/meta.json',
+];
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches
-      .open(SHELL_CACHE)
-      .then((cache) => cache.addAll(SHELL))
-      .then(() => self.skipWaiting())
+    Promise.all([
+      caches.open(SHELL_CACHE).then((cache) => cache.addAll(SHELL)),
+      caches
+        .open(DATA_CACHE)
+        // Best effort: a missing snapshot must not block installation.
+        .then((cache) => Promise.allSettled(DATA_SEED.map((f) => cache.add(f)))),
+    ]).then(() => self.skipWaiting())
   );
 });
 
@@ -67,6 +82,15 @@ self.addEventListener('fetch', (event) => {
 
   if (url.origin !== self.location.origin) return;
 
+  // /api/ runs the collectors live, so it is never replayed from cache.
+  // A successful answer is stored under the matching /data/ key, though:
+  // when the server is gone the app falls back to that path, and this way
+  // it gets the last live data instead of the last committed build.
+  if (url.pathname.startsWith('/api/')) {
+    event.respondWith(passThroughAndMirror(request, url));
+    return;
+  }
+
   if (url.pathname.includes('/data/')) {
     event.respondWith(networkFirst(request, DATA_CACHE));
     return;
@@ -75,13 +99,32 @@ self.addEventListener('fetch', (event) => {
   // Navigations fall back to the cached shell when offline.
   if (request.mode === 'navigate') {
     event.respondWith(
-      fetch(request).catch(() => caches.match('index.html', { ignoreSearch: true }))
+      fetch(request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(SHELL_CACHE).then((c) => c.put('index.html', copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match('index.html', { ignoreSearch: true }))
     );
     return;
   }
 
-  event.respondWith(staleWhileRevalidate(request, SHELL_CACHE));
+  event.respondWith(shellRequest(request));
 });
+
+async function passThroughAndMirror(request, url) {
+  const response = await fetch(request);
+  if (response.ok) {
+    const name = url.pathname.replace(/^\/api\//, '').replace(/\?.*$/, '');
+    const mirror = new URL(`data/${name}`, self.registration.scope).toString();
+    const cache = await caches.open(DATA_CACHE);
+    await cache.put(mirror, response.clone());
+  }
+  return response;
+}
 
 async function networkFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
@@ -96,9 +139,13 @@ async function networkFirst(request, cacheName) {
   }
 }
 
-async function staleWhileRevalidate(request, cacheName) {
-  const cache = await caches.open(cacheName);
-  const cached = await cache.match(request, { ignoreSearch: true });
+/**
+ * Race the network against a timer. Whatever the network returns is cached
+ * either way, so a slow-but-successful fetch still freshens the cache for
+ * next time.
+ */
+async function shellRequest(request) {
+  const cache = await caches.open(SHELL_CACHE);
 
   const network = fetch(request)
     .then((response) => {
@@ -107,5 +154,10 @@ async function staleWhileRevalidate(request, cacheName) {
     })
     .catch(() => null);
 
+  const timeout = new Promise((resolve) => setTimeout(resolve, SHELL_TIMEOUT_MS, null));
+  const winner = await Promise.race([network, timeout]);
+  if (winner) return winner;
+
+  const cached = await cache.match(request, { ignoreSearch: true });
   return cached || (await network) || fetch(request);
 }

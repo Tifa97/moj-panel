@@ -6,16 +6,26 @@ import { renderHajduk } from './views/hajduk.js';
 import { renderWeather } from './views/weather.js';
 
 const TABS = [
-  { id: 'dubrovnik', label: 'Dubrovnik', file: 'data/dubrovnik.json', theme: '#B8902B', symbol: 'city' },
-  { id: 'hajduk', label: 'Hajduk', file: 'data/hajduk.json', theme: '#014EA2', symbol: 'ball' },
-  { id: 'vrijeme', label: 'Vrijeme', file: 'data/weather.json', theme: '#2D8FD5', symbol: 'sun' },
+  { id: 'dubrovnik', label: 'Dubrovnik', api: 'dubrovnik', file: 'data/dubrovnik.json', theme: '#B8902B', symbol: 'city' },
+  { id: 'hajduk', label: 'Hajduk', api: 'hajduk', file: 'data/hajduk.json', theme: '#014EA2', symbol: 'ball' },
+  { id: 'vrijeme', label: 'Vrijeme', api: 'weather', file: 'data/weather.json', theme: '#2D8FD5', symbol: 'sun' },
 ];
+
+/** Coming back to the app after this long triggers a silent refresh. */
+const STALE_AFTER = 5 * 60 * 1000;
+/** The API runs the collectors live, so give it room before giving up. */
+const API_TIMEOUT = 25000;
 
 const state = {
   tab: null,
   data: {},
   meta: null,
+  /** null = not probed yet, true = server has /api, false = static hosting. */
+  liveApi: null,
+  /** Did the panel on screen come straight off the network this load? */
+  servedLive: false,
   weatherLive: false,
+  lastLoadedAt: 0,
   activeCity: localStorage.getItem('cip:city') || 'dubrovnik',
   loading: new Set(),
 };
@@ -35,6 +45,12 @@ function init() {
     refresh({ force: true });
   });
   window.addEventListener('offline', updateConnection);
+
+  // Reopening the installed app should not show yesterday's news.
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState !== 'visible') return;
+    if (Date.now() - state.lastLoadedAt > STALE_AFTER) refresh();
+  });
 
   $('#today').textContent = longDate();
   updateConnection();
@@ -72,6 +88,7 @@ function showTab(id) {
 
   if (!state.data[tab.id]) load(tab.id);
   if (tab.id === 'vrijeme') refreshWeatherLive();
+  stampUpdated();
 }
 
 function buildTabBar() {
@@ -98,7 +115,7 @@ function buildTabBar() {
 
 async function loadMeta() {
   try {
-    state.meta = await fetchJson('data/meta.json');
+    state.meta = await fetchPanel({ api: 'meta', file: 'data/meta.json' }, false);
     stampUpdated();
   } catch {
     /* meta is advisory only */
@@ -112,7 +129,8 @@ async function load(id, { force = false } = {}) {
   if (!state.data[id]) showSkeleton(id);
 
   try {
-    state.data[id] = await fetchJson(tab.file, force);
+    state.data[id] = await fetchPanel(tab, force);
+    state.lastLoadedAt = Date.now();
     render(id);
     stampUpdated();
   } catch (err) {
@@ -122,27 +140,69 @@ async function load(id, { force = false } = {}) {
   }
 }
 
-const fetchJson = async (url, force = false) => {
-  const res = await fetch(force ? `${url}?t=${Date.now()}` : url, {
-    cache: force ? 'reload' : 'default',
-  });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-  return res.json();
-};
+/**
+ * Live first: `npm run serve` exposes /api/*.json, which runs the collectors
+ * per request. On a static host (or when that server is gone) fall back to
+ * the JSON committed by `npm run refresh`.
+ */
+async function fetchPanel(tab, force) {
+  if (state.liveApi !== false) {
+    try {
+      const data = await fetchJson(
+        `api/${tab.api}.json${force ? '?force=1' : ''}`,
+        { timeout: API_TIMEOUT, noStore: true }
+      );
+      state.liveApi = true;
+      state.servedLive = true;
+      return data;
+    } catch (err) {
+      // A 404 means this host has no API at all; stop asking. Anything else
+      // (server stopped, offline) may recover, so keep trying next time.
+      if (err.status === 404) state.liveApi = false;
+    }
+  }
+  state.servedLive = false;
+  return fetchJson(tab.file, { force });
+}
+
+async function fetchJson(url, { force = false, timeout = 15000, noStore = false } = {}) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeout);
+  try {
+    const res = await fetch(force ? `${url}${url.includes('?') ? '&' : '?'}t=${Date.now()}` : url, {
+      cache: noStore ? 'no-store' : force ? 'reload' : 'default',
+      signal: ctrl.signal,
+    });
+    if (!res.ok) {
+      const err = new Error(`${res.status} ${res.statusText}`);
+      err.status = res.status;
+      throw err;
+    }
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 async function refresh({ force = false } = {}) {
   const btn = $('#refresh');
   btn.classList.add('is-spinning');
-  state.data = {};
-  await Promise.all(TABS.map((t) => load(t.id, { force })));
-  await loadMeta();
-  if (state.tab === 'vrijeme') await refreshWeatherLive(true);
-  btn.classList.remove('is-spinning');
+  try {
+    // Refresh the open panel first so the user sees movement immediately.
+    const ordered = [state.tab, ...TABS.map((t) => t.id).filter((id) => id !== state.tab)];
+    for (const id of ordered) delete state.data[id];
+    await load(ordered[0], { force });
+    await Promise.all(ordered.slice(1).map((id) => load(id, { force: false })));
+    await loadMeta();
+    if (state.tab === 'vrijeme') await refreshWeatherLive(true);
+  } finally {
+    btn.classList.remove('is-spinning');
+  }
 }
 
 /**
  * Open-Meteo is CORS-enabled, so the forecast does not have to wait for the
- * next build: ask it directly and fall back to the cached snapshot.
+ * server at all: ask it directly and fall back to whatever we were served.
  */
 async function refreshWeatherLive(force = false) {
   if (!navigator.onLine) return;
@@ -160,12 +220,14 @@ async function refreshWeatherLive(force = false) {
       ...(state.data.vrijeme || {}),
       places,
       generatedAt: new Date().toISOString(),
-      sources: [{ name: 'Open-Meteo (uživo)', home: 'https://open-meteo.com', ok: true, count: places.length }],
+      sources: [
+        { name: 'Open-Meteo (uživo)', home: 'https://open-meteo.com', ok: true, count: places.length },
+      ],
     };
     state.weatherLive = true;
     if (state.tab === 'vrijeme') render('vrijeme');
   } catch {
-    state.weatherLive = false; // keep the snapshot on screen
+    state.weatherLive = false; // keep what we have on screen
   }
 }
 
@@ -214,7 +276,7 @@ function showError(id, err) {
       el('h2.empty__title', { text: 'Podaci nisu dostupni' }),
       el('p.empty__hint', {
         text: navigator.onLine
-          ? `Ne mogu učitati ${id}.json (${err.message}). Pokreni "npm run refresh".`
+          ? `Ne mogu učitati ${id} (${err.message}). Pokreni "npm run refresh".`
           : 'Nema veze s internetom, a ovaj panel još nije spremljen offline.',
       })
     )
@@ -222,8 +284,9 @@ function showError(id, err) {
 }
 
 function stampUpdated() {
-  const when = state.meta?.generatedAt || state.data[state.tab]?.generatedAt;
+  const when = state.data[state.tab]?.generatedAt || state.meta?.generatedAt;
   $('#updated').textContent = when ? `osvježeno ${relative(when)}` : '';
+  $('#live').hidden = !state.servedLive;
 }
 
 function updateConnection() {

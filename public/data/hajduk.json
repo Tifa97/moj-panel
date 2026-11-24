@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-11-23T20:18:59.117Z",
+  "generatedAt": "2026-11-24T09:45:00.129Z",
+  "live": false,
   "club": "HNK Hajduk Split",
   "news": [
+    {
+      "title": "Za Hajduk je najvažnije da pobjeđuje, ali Balić upozorava: ‘Teško je očekivati da će to prolaziti u Europi‘",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/za-hajduk-je-najvaznije-da-pobjeduje-ali-balic-upozorava-tesko-je-ocekivati-da-ce-to-prolaziti-u-europi-1592065",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-24T09:42:24.000Z",
+      "summary": "Odradio je Hajduk Lokomotivu, povratnički susret nakon reprezentacija. Vratili su se igrači u Split prije utakmice, skupili se, odradili koji trening, a onda pravac na…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/32916861.png"
+    },
+    {
+      "title": "Novi europski izazov je pred Hajdukom, poznato je tko sudi utakmicu na Poljudu",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/novi-europski-izazov-je-pred-hajdukom-poznato-je-tko-sudi-utakmicu-na-poljudu-1592064",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-24T09:38:00.000Z",
+      "summary": "Hajduk nakon tri odigrana kola Konferencijeske lige ima 6 bodova, slijedi okršaj protiv belgijskog Sint-Truidensea. Igra se na Poljudu u četvrtak u 21 sat. Poznato je…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/32916863.jpg"
+    },
+    {
+      "title": "Hajduk se oglasio uoči europske utakmice, kršenje pravila može imati ozbiljne posljedice",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/hajduk-se-oglasio-uoci-europske-utakmice-krsenje-pravila-moze-imati-ozbiljne-posljedice-1592014",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-24T06:20:00.000Z",
+      "summary": "Hajduk u četvrtak, 26. studenoga, s početkom u 21 sat na Poljudu igra protiv Sint-Truidensea. U nastavku donosimo važne informacije za prijavljene skupine djece i…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/10968972.jpg"
+    },
+    {
+      "title": "Skandal u slavnom klubu, huligan teško ozlijedio bivšeg igrača Hajduka: ‘Klub me nije štitio...‘",
+      "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/skandal-u-slavnom-klubu-huligan-tesko-ozlijedio-bivseg-igraca-hajduka-klub-me-nije-stitio-1592007",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-23T22:20:00.000Z",
+      "summary": "Željezničar proživljava jednu od najtežih kriza u svojoj povijesti. Osim rezultatskih problema koji su ih doveli do 8. mjesta Premijer lige nakon 14 utakmica, odnosno…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/27593719.jpg"
+    },
     {
       "title": "Iz DPH Ploče odali počast čovjeku koji je ‘živija Hajduk‘: ‘Mijo nikad nije tražija ništa zauzvrat. Fala ti, naš Mijo‘",
       "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/iz-dph-ploce-odali-pocast-covjeku-koji-je-zivija-hajduk-mijo-nikad-nije-trazija-nista-zauzvrat-fala-ti-nas-mijo-1591985",
@@ -28,6 +65,15 @@
       "publishedAt": "2026-11-23T15:11:17.000Z",
       "summary": "Nisam sigurna za ostatak Hrvatske, ali postoji nekoliko pa i više splitskih, božeprosti, svetinja: Hajduk, Gospe moja i bila boja, Marjan, pašticada, Slobodna... I kava…",
       "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/32913698.png"
+    },
+    {
+      "title": "Hajduk - Sint-Truidense: Važne informacije za dolazak djece i pratitelja na Poljud",
+      "link": "https://hajduk.hr/vijest/hajduk--sint-truidense-vazne-informacije-za-dolazak-djece-i-pratitelja-na-poljud-/18718",
+      "source": "hajduk.hr",
+      "official": true,
+      "publishedAt": "2026-11-23T14:10:00.000Z",
+      "summary": "",
+      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-23-16-13-7965-.jpg"
     },
     {
       "title": "U prodaji ulaznice za utakmicu Hajduk - Rudeš",
@@ -136,51 +182,6 @@
       "publishedAt": "2026-11-20T15:17:00.000Z",
       "summary": "Hajduk i Karlovačko obilježili su deset godina partnerstva",
       "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-20-17-18-4105-.jpeg"
-    },
-    {
-      "title": "Prvi nogometni kamp za djevojčice – \"JEDNAKE Makarska 2026.\"",
-      "link": "https://hajduk.hr/vijest/prvi-nogometni-kamp-za-djevojcice--jednake-makarska-2026-/18705",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-20T14:25:00.000Z",
-      "summary": "Kamp će se održati od 11. do 13. prosinca 2026. u Apfel Areni",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-20-16-35-5370-.jpg"
-    },
-    {
-      "title": "Trener Gonzalo Garcia uoči utakmice Lokomotiva - Hajduk",
-      "link": "https://hajduk.hr/vijest/trener-gonzalo-garcia-uoci-utakmice-lokomotiva--hajduk/18704",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-20T14:04:00.000Z",
-      "summary": "Konferencija za medije uoči 14. kola SuperSport HNL",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-20-16-02-146-.JPG"
-    },
-    {
-      "title": "Hajduk II gostuje u Imotskome, pioniri i kadeti II dočekuju Slaven Belupo",
-      "link": "https://hajduk.hr/vijest/hajduk-ii-gostuje-u-imotskome-pioniri-i-kadeti-ii-docekuju-slaven-belupo/18703",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-20T11:57:00.000Z",
-      "summary": "Igra se u subotu",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-20-14-00-3886-.jpeg"
-    },
-    {
-      "title": "Hajdukovo izaslanstvo posjetilo Generalni konzulat Republike Hrvatske u Hamburgu",
-      "link": "https://hajduk.hr/vijest/hajdukovo-izaslanstvo-posjetilo-generalni-konzulat-republike-hrvatske-u-hamburgu-/18701",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-19T06:59:00.000Z",
-      "summary": "",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-19-09-01-585-.JPG"
-    },
-    {
-      "title": "SuperSport Prva HNLŽ: ŽNK Hajduk - ŽNK Osijek 3:1",
-      "link": "https://hajduk.hr/vijest/supersport-prva-hnlz-znk-hajduk--znk-osijek-3-1-/18700",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-18T12:28:00.000Z",
-      "summary": "Dva pogotka postigla je Marković",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-18-14-30-1244-.jpg"
     }
   ],
   "nextMatch": {
@@ -880,8 +881,8 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 3,
-      "note": "3 od 50 članaka spominje Hajduk"
+      "count": 4,
+      "note": "4 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
