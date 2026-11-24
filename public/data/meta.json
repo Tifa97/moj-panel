@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-24T09:45:00.129Z",
+  "generatedAt": "2026-11-24T13:39:37.060Z",
   "live": false,
-  "version": "202611240945",
+  "version": "202611241339",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -42,20 +42,22 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 4,
-      "note": "4 od 50 članaka spominje Hajduk"
+      "count": 2,
+      "note": "2 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
       "home": "https://hajduk.hr/utakmice",
-      "ok": true,
-      "count": 26
+      "ok": false,
+      "count": 0,
+      "error": "GET https://hajduk.hr/json/ova_sezona/raspored.json failed: HTTP 403 Forbidden"
     },
     {
       "name": "hajduk.hr/poredak",
       "home": "https://hajduk.hr/utakmice",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "GET https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json failed: HTTP 403 Forbidden"
     },
     {
       "name": "Open-Meteo (Dubrovnik)",
@@ -70,5 +72,5 @@
       "count": 7
     }
   ],
-  "healthy": true
+  "healthy": false
 }
