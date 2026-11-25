@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-25T08:19:34.524Z",
+  "generatedAt": "2026-11-25T16:56:05.228Z",
   "live": false,
-  "version": "202611250819",
+  "version": "202611251656",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -37,7 +37,7 @@
       "home": "https://dubrovnikdanas.com/kalendar-dogadanja-dubrovnik/",
       "ok": true,
       "count": 40,
-      "note": "70 u kalendaru, 40 od danas nadalje"
+      "note": "72 u kalendaru, 40 od danas nadalje"
     },
     {
       "name": "hajduk.hr",
@@ -49,8 +49,8 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 1,
-      "note": "1 od 50 članaka spominje Hajduk"
+      "count": 2,
+      "note": "2 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
@@ -76,16 +76,14 @@
     {
       "name": "Open-Meteo (Dubrovnik)",
       "home": "https://open-meteo.com",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://api.open-meteo.com/v1/forecast failed: fetch failed"
+      "ok": true,
+      "count": 7
     },
     {
       "name": "Open-Meteo (Zagreb)",
       "home": "https://open-meteo.com",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://api.open-meteo.com/v1/forecast failed: fetch failed"
+      "ok": true,
+      "count": 7
     }
   ],
   "healthy": false

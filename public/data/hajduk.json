@@ -1,8 +1,26 @@
 {
-  "generatedAt": "2026-11-25T08:19:34.524Z",
+  "generatedAt": "2026-11-25T16:56:05.228Z",
   "live": false,
   "club": "HNK Hajduk Split",
   "news": [
+    {
+      "title": "Garcia i Dendoncker najavili novu europsku utakmicu Hajduka, trener otkrio detalje oko Livaje i stanje krila",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/garcia-i-dendoncker-najavljuju-novu-europsku-utakmicu-hajduka-cekaju-se-detalji-oko-livaje-1592356",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-25T16:32:00.000Z",
+      "summary": "Hajduk u četvrtak od 21 sata na Poljudu igra protiv belgijskog Sint-Truidensea u četvrtom kolu Konferencijske lige. Bijeli su u prva tri susreta osvojili šest bodova i…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32667081.jpg"
+    },
+    {
+      "title": "Livaja otpao za važan europski dvoboj Hajduka! Kapetan Bijelih nije trenirao, poznat je i razlog",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/livaja-otpao-za-vazan-europski-dvoboj-hajduka-kapetan-bijelih-nije-trenirao-poznat-je-i-razlog-1592353",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-25T15:21:00.000Z",
+      "summary": "Hajduk sutra od 21 sat na Poljudu igra susret 4. kola Konferencijske lige protiv belgijskog Sint-Truidensea, a Bijeli danas imaju posljednji trening pred susret u kojem…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32642841.jpg"
+    },
     {
       "title": "Zbog kazne samo djeca mogu na Poljud. Ne tražite dalje, evo gdje možete pogledati prijenos Hajdukove utakmice",
       "link": "https://slobodnadalmacija.hr/sport/hajduk/zbog-kazne-samo-djeca-mogu-na-poljud-ne-trazite-dalje-evo-gdje-mozete-pogledati-prijenos-hajdukove-utakmice-1592231",
@@ -164,24 +182,6 @@
       "publishedAt": "2026-11-21T19:45:00.000Z",
       "summary": "Veznjak Bijelih nakon pobjede protiv Lokomotive",
       "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-21-21-46-6540-.JPG"
-    },
-    {
-      "title": "Anđelo Šutalo: Odigrali smo puno teških utakmica u kratkom periodu, spremni smo na sve",
-      "link": "https://hajduk.hr/vijest/andelo-sutalo-odigrali-smo-puno-teskih-utakmica-u-kratkom-periodu-spremni-smo-na-sve/18714",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-21T19:32:00.000Z",
-      "summary": "Krilni napadač nakon pobjede na Maksimiru",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-21-21-33-9489-.JPG"
-    },
-    {
-      "title": "Trener Gonzalo Garcia nakon pobjede protiv Lokomotive",
-      "link": "https://hajduk.hr/vijest/trener-gonzalo-garcia-nakon-pobjede-protiv-lokomotive/18713",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-21T19:14:00.000Z",
-      "summary": "Konferencija za medije nakon pobjede na Maksimiru",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-21-21-14-6323-.JPG"
     }
   ],
   "nextMatch": {
@@ -1125,8 +1125,8 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 1,
-      "note": "1 od 50 članaka spominje Hajduk"
+      "count": 2,
+      "note": "2 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
