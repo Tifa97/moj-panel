@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-25T08:18:22.228Z",
+  "generatedAt": "2026-11-25T08:19:34.524Z",
   "live": false,
-  "version": "202611250818",
+  "version": "202611250819",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -55,33 +55,38 @@
     {
       "name": "hajduk.hr/raspored",
       "home": "https://hajduk.hr/utakmice",
-      "ok": true,
-      "count": 26
+      "ok": false,
+      "count": 0,
+      "error": "GET https://hajduk.hr/json/ova_sezona/raspored.json failed: HTTP 403 Forbidden"
     },
     {
       "name": "hajduk.hr/poredak",
       "home": "https://hajduk.hr/utakmice",
-      "ok": true,
-      "count": 10
+      "ok": false,
+      "count": 0,
+      "error": "GET https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json failed: HTTP 403 Forbidden"
     },
     {
       "name": "hajduk.hr/strijelci",
       "home": "https://hajduk.hr/utakmice",
-      "ok": true,
-      "count": 22
+      "ok": false,
+      "count": 0,
+      "error": "GET https://hajduk.hr/json/ova_sezona/sve_utakmice.json failed: HTTP 403 Forbidden"
     },
     {
       "name": "Open-Meteo (Dubrovnik)",
       "home": "https://open-meteo.com",
-      "ok": true,
-      "count": 7
+      "ok": false,
+      "count": 0,
+      "error": "GET https://api.open-meteo.com/v1/forecast failed: fetch failed"
     },
     {
       "name": "Open-Meteo (Zagreb)",
       "home": "https://open-meteo.com",
-      "ok": true,
-      "count": 7
+      "ok": false,
+      "count": 0,
+      "error": "GET https://api.open-meteo.com/v1/forecast failed: fetch failed"
     }
   ],
-  "healthy": true
+  "healthy": false
 }
