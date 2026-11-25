@@ -24,6 +24,7 @@ export function renderHajduk(data) {
     results.length && resultsSection(results, data.friendlies || []),
     fixtures.length > 1 && fixturesSection(fixtures.slice(1)),
     standings.length && standingsSection(standings),
+    (data.scorers || []).length && scorersSection(data.scorers),
     news.length && newsSection(news),
     sourceStrip(data.sources, data.generatedAt)
   );
@@ -230,6 +231,63 @@ function standingsSection(rows) {
     )
   );
 }
+
+/* ------------------------------------------------------------- scorers */
+
+function scorersSection(scorers) {
+  const total = scorers.reduce((sum, s) => sum + s.goals, 0);
+
+  const head = el(
+    'tr',
+    null,
+    el('th', { text: '#' }),
+    el('th.col-club', { text: 'Igrač' }),
+    el('th.col-wide', { text: 'PRV', title: 'SuperSport HNL' }),
+    el('th.col-wide', { text: 'KUP', title: 'Hrvatski kup' }),
+    el('th.col-wide', { text: 'EUR', title: 'Europa' }),
+    el('th', { text: 'UK', title: 'Ukupno' })
+  );
+
+  return el(
+    'section.group',
+    null,
+    sectionTitle('Strijelci', `${total} ${plural(total, 'gol', 'gola', 'golova')}`),
+    el(
+      'div.table-wrap',
+      null,
+      el(
+        'table.table.table--scorers',
+        null,
+        el('thead', null, head),
+        el(
+          'tbody',
+          null,
+          ...scorers.map((s) =>
+            el(
+              'tr',
+              { class: s.rank <= 3 ? 'is-top' : '' },
+              // A shared rank is printed once, the way the club prints it.
+              el('td.col-pos', { text: s.tied ? '' : `${s.rank}.` }),
+              el(
+                'td.col-club',
+                null,
+                s.profile
+                  ? el('a.scorer', { href: s.profile, target: '_blank', rel: 'noopener' }, s.player)
+                  : s.player
+              ),
+              el('td.col-wide', { text: dash(s.league) }),
+              el('td.col-wide', { text: dash(s.cup) }),
+              el('td.col-wide', { text: dash(s.europe) }),
+              el('td.col-pts', { text: String(s.goals) })
+            )
+          )
+        )
+      )
+    )
+  );
+}
+
+const dash = (n) => (n > 0 ? String(n) : '–');
 
 /* ---------------------------------------------------------------- news */
 

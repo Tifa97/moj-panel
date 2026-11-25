@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T05:36:41.189Z",
+  "generatedAt": "2026-11-25T08:18:22.228Z",
   "live": false,
-  "version": "202611250536",
+  "version": "202611250818",
   "tabs": [
     {
       "id": "dubrovnik",
       "label": "Dubrovnik",
-      "count": 24
+      "count": 64
     },
     {
       "id": "hajduk",
@@ -33,6 +33,13 @@
       "count": 10
     },
     {
+      "name": "Kalendar događanja",
+      "home": "https://dubrovnikdanas.com/kalendar-dogadanja-dubrovnik/",
+      "ok": true,
+      "count": 40,
+      "note": "70 u kalendaru, 40 od danas nadalje"
+    },
+    {
       "name": "hajduk.hr",
       "home": "https://hajduk.hr",
       "ok": true,
@@ -42,22 +49,26 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 2,
-      "note": "2 od 50 članaka spominje Hajduk"
+      "count": 1,
+      "note": "1 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/raspored.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 26
     },
     {
       "name": "hajduk.hr/poredak",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 10
+    },
+    {
+      "name": "hajduk.hr/strijelci",
+      "home": "https://hajduk.hr/utakmice",
+      "ok": true,
+      "count": 22
     },
     {
       "name": "Open-Meteo (Dubrovnik)",
@@ -72,5 +83,5 @@
       "count": 7
     }
   ],
-  "healthy": false
+  "healthy": true
 }

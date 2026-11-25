@@ -31,9 +31,9 @@ async function main() {
     );
   }
 
-  const { dubrovnik, fixtures, results, places } = result.counts;
+  const { dubrovnik, events, fixtures, results, places } = result.counts;
   console.log(
-    `\nZapisano u public/data: ${dubrovnik} vijesti (Dubrovnik), ` +
+    `\nZapisano u public/data: ${dubrovnik} vijesti + ${events} događanja (Dubrovnik), ` +
       `${fixtures} utakmica + ${results} rezultata (Hajduk), ${places} grada (Vrijeme).`
   );
   if (result.failures.length) {

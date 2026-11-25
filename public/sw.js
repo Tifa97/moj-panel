@@ -10,7 +10,7 @@
  *        /data/ key so the offline fallback holds live data, not the build.
  */
 const SHELL_TIMEOUT_MS = 1500;
-const VERSION = 'v3';
+const VERSION = 'v4';
 
 /**
  * Everything is addressed relative to where sw.js lives, so the app works
@@ -31,11 +31,13 @@ const SHELL = [
   'js/dom.js',
   'js/format.js',
   'js/openmeteo.js',
+  'js/places.js',
   'js/weather-codes.js',
   'js/views/shared.js',
   'js/views/dubrovnik.js',
   'js/views/hajduk.js',
   'js/views/weather.js',
+  'js/views/events.js',
   'icons/icon.svg',
   'icons/icon-192.png',
   'icons/icon-512.png',

@@ -1,10 +1,12 @@
 import { el, icon, groupBy } from '../dom.js';
 import { longDate, dayHeading, dayKey, time, relative, plural, hostname } from '../format.js';
 import { sourceStrip, emptyState } from './shared.js';
+import { eventsSection } from './events.js';
 
 export function renderDubrovnik(data) {
   const items = data?.items || [];
-  if (!items.length) {
+  const events = data?.events || [];
+  if (!items.length && !events.length) {
     return emptyState('Nema dohvaćenih vijesti', 'Pokreni `npm run refresh` da povučeš svježe vijesti.');
   }
 
@@ -14,8 +16,9 @@ export function renderDubrovnik(data) {
   return el(
     'div.stack',
     null,
-    hero(items.length, todayCount),
-    leadCard(lead),
+    hero(items.length, todayCount, data.counts?.eventsToday ?? 0),
+    lead && leadCard(lead),
+    eventsSection(events),
     ...groupBy(rest, (it) => dayKey(it.publishedAt)).map(([key, group]) =>
       el(
         'section.group',
@@ -30,7 +33,7 @@ export function renderDubrovnik(data) {
   );
 }
 
-function hero(total, today) {
+function hero(total, today, eventsToday) {
   return el(
     'header.hero',
     null,
@@ -39,9 +42,11 @@ function hero(total, today) {
     el(
       'p.hero__sub',
       null,
-      `${today} ${plural(today, 'nova vijest', 'nove vijesti', 'novih vijesti')} danas`,
+      `${today} ${plural(today, 'nova vijest', 'nove vijesti', 'novih vijesti')}`,
       el('span.dot'),
-      `${total} ukupno u panelu`
+      `${eventsToday} ${plural(eventsToday, 'događanje', 'događanja', 'događanja')} u gradu`,
+      el('span.dot'),
+      `${total} vijesti u panelu`
     )
   );
 }

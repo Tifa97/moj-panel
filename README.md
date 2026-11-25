@@ -4,9 +4,9 @@ Osobni info panel kao progressive web app. Tri panela, tri akcenta:
 
 | Panel | Sadržaj | Boje |
 |---|---|---|
-| **Dubrovnik** | vijesti iz Dubrovnika, grupirane po danu | bijela + zlatna `#B8902B` |
-| **Hajduk** | sljedeća utakmica, rezultati, raspored, HNL tablica, vijesti | bijela + hajdučka plava `#014EA2` |
-| **Vrijeme** | prognoza za Dubrovnik i Zagreb — sada, po satima, 7 dana | bijela + svijetlo plava `#2D8FD5` |
+| **Dubrovnik** | nadolazeća događanja u gradu + vijesti, grupirano po danu | bijela + zlatna `#B8902B` |
+| **Hajduk** | sljedeća utakmica, rezultati, raspored, HNL tablica, strijelci, vijesti | bijela + hajdučka plava `#014EA2` |
+| **Vrijeme** | prognoza za Dubrovnik, Zagreb i mjesta koja sam dodaš | bijela + svijetlo plava `#2D8FD5` |
 
 Svi podaci su stvarni. Nema dependencyja — ni za build, ni u browseru.
 
@@ -53,15 +53,39 @@ Pokretanje ručno: `gh workflow run pages.yml`.
 
 | Panel | Izvor | Kako |
 |---|---|---|
-| Dubrovnik | [dulist.hr](https://dulist.hr), [dubrovniknet.hr](https://www.dubrovniknet.hr) | RSS |
+| Dubrovnik — vijesti | [dulist.hr](https://dulist.hr), [dubrovniknet.hr](https://www.dubrovniknet.hr) | RSS |
+| Dubrovnik — događanja | [dubrovnikdanas.com](https://dubrovnikdanas.com/kalendar-dogadanja-dubrovnik/) | schema.org `ItemList` iz JSON-LD-a |
 | Hajduk — vijesti | [hajduk.hr](https://hajduk.hr) službeni RSS | RSS |
 | Hajduk — vijesti | [slobodnadalmacija.hr](https://www.slobodnadalmacija.hr) | glavni RSS, filtriran na Hajduk |
 | Hajduk — raspored | `hajduk.hr/json/ova_sezona/raspored.json` | službeni JSON |
 | Hajduk — tablica | `hajduk.hr/json/ova_sezona/prvenstvo_poredak.json` | službeni JSON |
 | Hajduk — rezultati | naslovi izvještaja s utakmica na hajduk.hr | parsiranje rezultata iz naslova |
+| Hajduk — strijelci | `hajduk.hr/json/ova_sezona/sve_utakmice.json` | službeni JSON |
 | Vrijeme | [Open-Meteo](https://open-meteo.com) | REST, bez API ključa |
+| Traženje mjesta | [Open-Meteo geocoding](https://open-meteo.com) | REST, bez API ključa |
 
 Panel ispod svake kartice pokazuje koji su izvori korišteni i je li neki pao.
+
+### Događanja
+
+Kalendar na dubrovnikdanas.com objavljuje schema.org `ItemList` s `Event`
+objektima, pa se ne scrapa HTML — strukturirani podaci već nose vrijeme,
+mjesto, kategoriju i cijenu. Sami događaji dolaze od turističke zajednice
+(experiencedubrovnik.com), kamo vode i linkovi.
+
+Jedna kvaka: dugotrajnim izložbama JSON-LD upisuje `endDate` jednak danu
+otvorenja, iako na stranici stoji "do 19.1.". Takve bi ispale iz filtera, pa
+se vodi ovo pravilo: kalendar nosi samo aktualno i buduće, dakle stavka koja
+je počela ranije a još je na popisu — još traje. U prikazu je označena kao
+"u tijeku".
+
+### Vlastita mjesta za prognozu
+
+Dubrovnik i Zagreb su stalni i ne mogu se ukloniti. Ostalo se traži preko
+Open-Meteo geocodera (bez ključa, CORS otvoren) i sprema u `localStorage`
+pod `cip:places`, najviše 6 mjesta. Dodana mjesta postoje samo u browseru —
+build snapshot i dalje nosi samo dva stalna grada, pa se njihova prognoza
+dohvaća uživo i offline dolazi iz service worker cachea.
 
 ### Zašto rezultati idu preko naslova
 
@@ -136,7 +160,8 @@ public/                 ← ovo se deploya (statika, npr. GitHub Pages)
     format.js           hrvatski datumi, relativno vrijeme, množina
     openmeteo.js        dijeli ga i Node i browser
     weather-codes.js    WMO kodovi → hrvatski opis + ikona
-    views/              dubrovnik | hajduk | weather | shared
+    places.js           vlastita mjesta + geocoding
+    views/              dubrovnik | events | hajduk | weather | shared
   data/                 generirano, ne diraj ručno
 scripts/
   refresh.mjs           zapiše snapshot u public/data/
@@ -169,3 +194,5 @@ data/store.json         akumulirani podaci (u gitu)
   vijesti otamo dolaze tek kad upadnu u zadnjih 50 članaka.
 - **Rezultati nemaju točno vrijeme utakmice** — datum je vrijeme objave
   izvještaja, što je gotovo uvijek isti dan.
+- **Geocoder slabije nalazi mala mjesta** jer rangira po broju stanovnika;
+  npr. "Vis" vrati veće gradove iz svijeta. Pomaže puno ime mjesta.

@@ -1,6 +1,7 @@
 import { el, $, replaceChildren, icon } from './dom.js';
 import { relative, longDate } from './format.js';
-import { CITIES, forecastUrl, normalise } from './openmeteo.js';
+import { forecastUrl, normalise } from './openmeteo.js';
+import { allPlaces, addPlace, removePlace, searchPlaces } from './places.js';
 import { renderDubrovnik } from './views/dubrovnik.js';
 import { renderHajduk } from './views/hajduk.js';
 import { renderWeather } from './views/weather.js';
@@ -25,6 +26,12 @@ const state = {
   /** Did the panel on screen come straight off the network this load? */
   servedLive: false,
   weatherLive: false,
+  /**
+   * Live forecasts live in their own slot. The weather payload only ever
+   * carries the two built-in cities, so letting it land in state.data would
+   * wipe the places the user added whenever a panel load finished last.
+   */
+  weatherPlaces: null,
   lastLoadedAt: 0,
   activeCity: localStorage.getItem('cip:city') || 'dubrovnik',
   loading: new Set(),
@@ -202,33 +209,72 @@ async function refresh({ force = false } = {}) {
 
 /**
  * Open-Meteo is CORS-enabled, so the forecast does not have to wait for the
- * server at all: ask it directly and fall back to whatever we were served.
+ * server at all: ask it directly for every configured place. The two built-in
+ * cities also exist in the build snapshot; places the user added live only
+ * here, so a failed fetch falls back to whatever is already on screen.
  */
 async function refreshWeatherLive(force = false) {
-  if (!navigator.onLine) return;
-  if (state.weatherLive && !force) return;
+  const wanted = allPlaces();
+  const known = state.weatherPlaces || [];
+  const sameSet = known.map((p) => p.id).join(',') === wanted.map((p) => p.id).join(',');
 
-  try {
-    const places = await Promise.all(
-      CITIES.map(async (city) => {
-        const res = await fetch(forecastUrl(city));
-        if (!res.ok) throw new Error(String(res.status));
-        return normalise(city, await res.json());
-      })
-    );
-    state.data.vrijeme = {
-      ...(state.data.vrijeme || {}),
-      places,
-      generatedAt: new Date().toISOString(),
-      sources: [
-        { name: 'Open-Meteo (uživo)', home: 'https://open-meteo.com', ok: true, count: places.length },
-      ],
-    };
-    state.weatherLive = true;
-    if (state.tab === 'vrijeme') render('vrijeme');
-  } catch {
-    state.weatherLive = false; // keep what we have on screen
+  if (!navigator.onLine) {
+    if (!sameSet) {
+      state.weatherPlaces = wanted.map((p) => knownOr(p, { ...p, error: true }));
+      if (state.tab === 'vrijeme') render('vrijeme');
+    }
+    return;
   }
+  if (state.weatherLive && sameSet && !force) return;
+
+  const settled = await Promise.allSettled(
+    wanted.map(async (place) => {
+      const res = await fetch(forecastUrl(place));
+      if (!res.ok) throw new Error(String(res.status));
+      return { ...place, ...normalise(place, await res.json()) };
+    })
+  );
+
+  const places = settled.map((result, i) =>
+    result.status === 'fulfilled'
+      ? result.value
+      : knownOr(wanted[i], { ...wanted[i], error: true })
+  );
+  const failed = places.filter((p) => p.error).length;
+
+  state.weatherPlaces = places;
+  state.weatherLive = failed < places.length;
+  state.weatherGeneratedAt = new Date().toISOString();
+  state.weatherFailed = failed;
+  if (state.tab === 'vrijeme') render('vrijeme');
+}
+
+/** Keep the last good forecast for a place rather than blanking the card. */
+function knownOr(place, fallback) {
+  const previous = (state.weatherPlaces || []).find((p) => p.id === place.id);
+  return previous?.days?.length ? previous : fallback;
+}
+
+/** Live forecasts win; the build snapshot is the cold-start fallback. */
+function weatherViewData() {
+  const payload = state.data.vrijeme || {};
+  if (!state.weatherPlaces) return payload;
+
+  const failed = state.weatherFailed || 0;
+  return {
+    ...payload,
+    places: state.weatherPlaces,
+    generatedAt: state.weatherGeneratedAt || payload.generatedAt,
+    sources: [
+      {
+        name: 'Open-Meteo (uživo)',
+        home: 'https://open-meteo.com',
+        ok: failed === 0,
+        count: state.weatherPlaces.length - failed,
+        error: failed ? `${failed} mjesto/a nije odgovorilo` : undefined,
+      },
+    ],
+  };
 }
 
 /* ------------------------------------------------------------ rendering */
@@ -242,16 +288,33 @@ function render(id) {
   else
     replaceChildren(
       panels[id],
-      renderWeather(data, {
+      renderWeather(weatherViewData(), {
         live: state.weatherLive,
         activeCity: state.activeCity,
-        onCityChange: (city) => {
-          state.activeCity = city;
-          localStorage.setItem('cip:city', city);
+        onCityChange: selectCity,
+        onSearch: searchPlaces,
+        onAdd: (place) => {
+          addPlace(place);
+          selectCity(place.id, { rerender: false });
+          refreshWeatherLive(true);
+        },
+        onRemove: (place) => {
+          removePlace(place.id);
+          state.weatherPlaces = (state.weatherPlaces || []).filter((p) => p.id !== place.id);
+          if (state.activeCity === place.id) {
+            state.activeCity = allPlaces()[0]?.id || '';
+            localStorage.setItem('cip:city', state.activeCity);
+          }
           render('vrijeme');
         },
       })
     );
+}
+
+function selectCity(id, { rerender = true } = {}) {
+  state.activeCity = id;
+  localStorage.setItem('cip:city', id);
+  if (rerender) render('vrijeme');
 }
 
 function showSkeleton(id) {

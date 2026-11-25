@@ -14,6 +14,7 @@ import { dirname, join } from 'node:path';
 import { collectDubrovnik } from '../sources/dubrovnik.mjs';
 import { collectHajduk } from '../sources/hajduk.mjs';
 import { collectWeather } from '../sources/weather.mjs';
+import { collectEvents } from '../sources/events.mjs';
 import { loadStore, saveStore, mergeRecords } from './store.mjs';
 import { dedupeArticles } from './dedupe.mjs';
 
@@ -37,10 +38,11 @@ export function buildPayloads(options = {}) {
 }
 
 async function build({ live = false, storePath = STORE_PATH } = {}) {
-  const [dubrovnik, hajduk, weather] = await Promise.all([
+  const [dubrovnik, hajduk, weather, events] = await Promise.all([
     settle(collectDubrovnik),
     settle(collectHajduk),
     settle(collectWeather),
+    settle(collectEvents),
   ]);
 
   const store = await loadStore(storePath);
@@ -53,7 +55,16 @@ async function build({ live = false, storePath = STORE_PATH } = {}) {
     max: KEEP.dubrovnikNews,
   });
   const duItems = dedupeArticles(store.dubrovnikNews).slice(0, PUBLISH.dubrovnikNews);
-  const duSources = dubrovnik.data?.sources || [failed('Dubrovnik feeds', dubrovnik.error)];
+
+  // The calendar is a complete snapshot, not a feed window: keep the last
+  // good copy rather than merging, same as fixtures and the table.
+  if (events.data?.events?.length) store.events = events.data.events;
+  const duEvents = store.events || [];
+
+  const duSources = [
+    ...(dubrovnik.data?.sources || [failed('Dubrovnik feeds', dubrovnik.error)]),
+    ...(events.data?.sources || [failed('Kalendar događanja', events.error)]),
+  ];
   allSources.push(...duSources);
 
   /* --------------------------------------------------------------- Hajduk */
@@ -70,6 +81,7 @@ async function build({ live = false, storePath = STORE_PATH } = {}) {
   // Fixtures and the table are complete snapshots; keep the last good one.
   if (hajduk.data?.fixtures?.length) store.hajdukFixtures = hajduk.data.fixtures;
   if (hajduk.data?.standings?.length) store.hajdukStandings = hajduk.data.standings;
+  if (hajduk.data?.scorers?.length) store.hajdukScorers = hajduk.data.scorers;
 
   const fixtures = store.hajdukFixtures || [];
   const upcoming = fixtures.filter(
@@ -97,7 +109,13 @@ async function build({ live = false, storePath = STORE_PATH } = {}) {
       live,
       city: 'Dubrovnik',
       items: duItems,
-      counts: { total: duItems.length, today: duItems.filter(isToday).length },
+      events: duEvents,
+      counts: {
+        total: duItems.length,
+        today: duItems.filter(isToday).length,
+        events: duEvents.length,
+        eventsToday: duEvents.filter(startsToday).length,
+      },
       sources: duSources,
     },
     hajduk: {
@@ -110,6 +128,7 @@ async function build({ live = false, storePath = STORE_PATH } = {}) {
       results: store.hajdukResults.filter((r) => !r.friendly).slice(0, PUBLISH.hajdukResults),
       friendlies: store.hajdukResults.filter((r) => r.friendly).slice(0, 3),
       standings: store.hajdukStandings || [],
+      scorers: store.hajdukScorers || [],
       sources: hjSources,
     },
     weather: {
@@ -124,7 +143,7 @@ async function build({ live = false, storePath = STORE_PATH } = {}) {
       live,
       version: generatedAt.slice(0, 16).replace(/[-:T]/g, ''),
       tabs: [
-        { id: 'dubrovnik', label: 'Dubrovnik', count: duItems.length },
+        { id: 'dubrovnik', label: 'Dubrovnik', count: duItems.length + duEvents.length },
         { id: 'hajduk', label: 'Hajduk', count: upcoming.length + store.hajdukResults.length },
         { id: 'vrijeme', label: 'Vrijeme', count: wx.places.length },
       ],
@@ -139,6 +158,7 @@ async function build({ live = false, storePath = STORE_PATH } = {}) {
     failures,
     counts: {
       dubrovnik: duItems.length,
+      events: duEvents.length,
       fixtures: upcoming.length,
       results: store.hajdukResults.length,
       places: wx.places.length,
@@ -162,8 +182,14 @@ const failed = (name, error) => ({
   error: String(error?.message || error || 'nepoznata greška').slice(0, 160),
 });
 
+const localDay = (d) => d.toLocaleDateString('sv-SE', { timeZone: 'Europe/Zagreb' });
+
 function isToday(item) {
   if (!item.publishedAt) return false;
-  const local = (d) => d.toLocaleDateString('sv-SE', { timeZone: 'Europe/Zagreb' });
-  return local(new Date(item.publishedAt)) === local(new Date());
+  return localDay(new Date(item.publishedAt)) === localDay(new Date());
+}
+
+function startsToday(event) {
+  if (!event.start) return false;
+  return event.ongoing || localDay(new Date(event.start)) === localDay(new Date());
 }

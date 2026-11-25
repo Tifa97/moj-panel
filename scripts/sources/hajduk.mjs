@@ -7,7 +7,9 @@ import { parseMonthHeader, parseDayTime, zagrebToUtcIso } from '../lib/hr-dates.
 const OFFICIAL_RSS = 'https://hajduk.hr/sadrzaj/rss/vijesti.xml';
 const SCHEDULE = 'https://hajduk.hr/json/ova_sezona/raspored.json';
 const STANDINGS = 'https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json';
+const SEASON = 'https://hajduk.hr/json/ova_sezona/sve_utakmice.json';
 const SD_RSS = 'https://www.slobodnadalmacija.hr/feed';
+const PLAYER_BASE = 'https://hajduk.hr/prva-momcad/';
 
 const COMPETITIONS = {
   PRV: 'SuperSport HNL',
@@ -24,13 +26,14 @@ const NOT_FIRST_TEAM = [
 ];
 
 export async function collectHajduk() {
-  const [rss, schedule, standings, sd] = await Promise.allSettled([
+  const [rss, schedule, standings, season, sd] = await Promise.allSettled([
     getText(OFFICIAL_RSS),
-    // NOTE: these two answer 403 from datacenter IPs (GitHub runners).
-    // Tried browser-like referer/origin/sec-fetch headers: no effect, the
-    // block is by address. The store keeps the last good copy.
+    // NOTE: these /json/ endpoints answer 403 from datacenter IPs (GitHub
+    // runners). Tried browser-like referer/origin/sec-fetch headers: no
+    // effect, the block is by address. The store keeps the last good copy.
     getJson(SCHEDULE),
     getJson(STANDINGS),
+    getJson(SEASON),
     getText(SD_RSS),
   ]);
 
@@ -43,9 +46,11 @@ export async function collectHajduk() {
   const fixtures = schedule.status === 'fulfilled' ? buildFixtures(schedule.value) : [];
   const table = standings.status === 'fulfilled' ? buildStandings(standings.value) : [];
   const results = buildResults(officialItems);
+  const scorers = season.status === 'fulfilled' ? buildScorers(season.value) : [];
 
   sources.push(status('hajduk.hr/raspored', 'https://hajduk.hr/utakmice', schedule, fixtures.length));
   sources.push(status('hajduk.hr/poredak', 'https://hajduk.hr/utakmice', standings, table.length));
+  sources.push(status('hajduk.hr/strijelci', 'https://hajduk.hr/utakmice', season, scorers.length));
 
   return {
     club: 'HNK Hajduk Split',
@@ -55,7 +60,43 @@ export async function collectHajduk() {
     nextMatch: fixtures[0] || null,
     results,
     standings: table,
+    scorers,
   };
+}
+
+/* -------------------------------------------------------------- scorers */
+
+/**
+ * The season stats blob carries several unlabelled blocks; the scorers live
+ * under `strijelci_asistencije`. Ranks come blank for ties ("", "", "5."),
+ * so they are recomputed here with proper tie handling.
+ */
+function buildScorers(json) {
+  const blocks = json?.sve_utakmice || [];
+  const block = blocks.find((b) => b.strijelci_asistencije)?.strijelci_asistencije;
+  const rows = block?.find((b) => b.strijelci)?.strijelci || [];
+
+  let lastGoals = null;
+  let lastRank = 0;
+
+  return rows
+    .map((r) => ({
+      player: clean(r.igrac),
+      goals: num(r.broj_golova),
+      league: num(r.broj_golova_prv),
+      cup: num(r.broj_golova_kup),
+      europe: num(r.broj_golova_eur),
+      supercup: num(r.broj_golova_spk),
+      profile: r.link_na_profil ? PLAYER_BASE + clean(r.link_na_profil) : '',
+    }))
+    .filter((r) => r.player && r.goals > 0)
+    .map((r, i) => {
+      if (r.goals !== lastGoals) {
+        lastRank = i + 1;
+        lastGoals = r.goals;
+      }
+      return { ...r, rank: lastRank, tied: r.goals === lastGoals && lastRank !== i + 1 };
+    });
 }
 
 /* ------------------------------------------------------------------ news */

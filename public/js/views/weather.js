@@ -4,17 +4,22 @@ import {
   longDate, time, weekdayShort, dayMonthNumeric, dayHeading,
   daysFromToday, temp, windDirection, relative,
 } from '../format.js';
+import { describePlace, isFull, PERMANENT } from '../places.js';
 import { sourceStrip, emptyState } from './shared.js';
 
 const HOURS_AHEAD = 14;
+const SEARCH_DEBOUNCE = 350;
 
-export function renderWeather(data, { live = false, onCityChange, activeCity } = {}) {
+export function renderWeather(data, handlers = {}) {
+  const { live = false, activeCity, onCityChange, onSearch, onAdd, onRemove } = handlers;
   const places = data?.places || [];
+
   if (!places.length) {
     return emptyState('Nema prognoze', 'Pokreni `npm run refresh` ili provjeri vezu.');
   }
 
-  const current = activeCity && places.some((p) => p.id === activeCity) ? activeCity : places[0].id;
+  const current = places.some((p) => p.id === activeCity) ? activeCity : places[0].id;
+  const search = searchPanel({ onSearch, onAdd });
 
   return el(
     'div.stack',
@@ -31,36 +36,146 @@ export function renderWeather(data, { live = false, onCityChange, activeCity } =
           ? el('span.pill.pill--live', null, el('span.pill__dot'), 'uživo')
           : el('span.pill', { text: 'spremljeno' }),
         el('span.dot'),
-        places.map((p) => p.name).join(' i ')
+        `${places.length} ${places.length === 1 ? 'mjesto' : 'mjesta'}`
       )
     ),
     el(
-      'div.citybar',
-      { role: 'tablist', 'aria-label': 'Grad' },
-      ...places.map((p) =>
-        el('button.citybar__btn', {
+      'div.wx-actions',
+      null,
+      el(
+        'div.citybar',
+        { role: 'tablist', 'aria-label': 'Mjesto' },
+        ...places.map((p) =>
+          el('button.citybar__btn', {
+            type: 'button',
+            role: 'tab',
+            'aria-selected': String(p.id === current),
+            class: p.id === current ? 'is-active' : '',
+            text: p.name,
+            onclick: () => onCityChange?.(p.id),
+          })
+        )
+      ),
+      el(
+        'button.addbtn',
+        {
           type: 'button',
-          role: 'tab',
-          'aria-selected': String(p.id === current),
-          class: p.id === current ? 'is-active' : '',
-          text: p.name,
-          onclick: () => onCityChange?.(p.id),
-        })
+          disabled: isFull(),
+          title: isFull() ? 'Dosegnut je maksimalan broj mjesta' : 'Dodaj mjesto',
+          onclick: () => search.toggle(),
+        },
+        icon('plus'),
+        el('span', { text: 'Dodaj mjesto' })
       )
     ),
-    el('div.wx-grid', { dataset: { activeCity: current } }, ...places.map(cityCard)),
+    search.node,
+    el(
+      'div.wx-grid',
+      { dataset: { activeCity: current } },
+      ...places.map((p) => cityCard(p, onRemove, p.id === current))
+    ),
     sourceStrip(data.sources, data.generatedAt)
   );
 }
 
-function cityCard(place) {
+/* --------------------------------------------------------- add a place */
+
+function searchPanel({ onSearch, onAdd }) {
+  const input = el('input.placesearch__input', {
+    type: 'search',
+    placeholder: 'Npr. Split, Beč, Lisabon…',
+    'aria-label': 'Traži mjesto',
+    autocomplete: 'off',
+  });
+  const results = el('div.placesearch__results');
+  const node = el('div.placesearch', { hidden: true }, el(
+    'div.placesearch__row',
+    null,
+    icon('search', 'icon placesearch__icon'),
+    input
+  ), results);
+
+  let timer = null;
+  let inflight = null;
+
+  const status = (text, kind = '') =>
+    results.replaceChildren(el('p.placesearch__status', { class: kind, text }));
+
+  const run = async () => {
+    const query = input.value.trim();
+    if (query.length < 2) {
+      results.replaceChildren();
+      return;
+    }
+    // One request at a time; typing cancels the previous one.
+    inflight?.abort();
+    inflight = new AbortController();
+    status('Tražim…', 'is-muted');
+
+    try {
+      const found = await onSearch(query, { signal: inflight.signal });
+      if (!found.length) {
+        status('Ništa nije pronađeno. Pokušaj s punim imenom mjesta.');
+        return;
+      }
+      results.replaceChildren(
+        ...found.map((place) =>
+          el(
+            'button.placeresult',
+            {
+              type: 'button',
+              onclick: () => {
+                onAdd?.(place);
+                input.value = '';
+                results.replaceChildren();
+                node.hidden = true;
+              },
+            },
+            el('span.placeresult__name', { text: place.name }),
+            el('span.placeresult__where', { text: describePlace(place) }),
+            icon('plus', 'icon placeresult__icon')
+          )
+        )
+      );
+    } catch (err) {
+      if (err.name === 'AbortError') return;
+      status(`Pretraga nije uspjela: ${err.message}`, 'is-error');
+    }
+  };
+
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(run, SEARCH_DEBOUNCE);
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      clearTimeout(timer);
+      run();
+    }
+    if (e.key === 'Escape') node.hidden = true;
+  });
+
+  return {
+    node,
+    toggle() {
+      node.hidden = !node.hidden;
+      if (!node.hidden) input.focus();
+    },
+  };
+}
+
+/* ---------------------------------------------------------- city cards */
+
+function cityCard(place, onRemove, isActive) {
+  if (place.error) return unavailableCard(place, onRemove, isActive);
+
   const now = place.current || {};
   const cond = describe(now.code, now.isDay);
   const today = place.days?.[0];
 
   return el(
     'article.wx',
-    { dataset: { city: place.id } },
+    { dataset: { city: place.id, active: String(isActive) } },
     el(
       'div.wx__now',
       null,
@@ -68,16 +183,22 @@ function cityCard(place) {
       el(
         'div.wx__reading',
         null,
-        el('h2.wx__city', { text: place.name }),
+        el(
+          'h2.wx__city',
+          null,
+          place.name,
+          place.region ? el('span.wx__region', { text: describePlace(place) }) : null
+        ),
         el('p.wx__temp', { text: temp(now.temp) }),
         el('p.wx__cond', { text: cond.label }),
         now.feelsLike != null && el('p.wx__feels', { text: `osjet ${temp(now.feelsLike)}` })
-      )
+      ),
+      removeButton(place, onRemove)
     ),
     el(
       'div.wx__metrics',
       null,
-      metric('wind', 'Vjetar', now.wind != null ? `${now.wind} ${place.units.wind}` : '–', windDirection(now.windDir)),
+      metric('wind', 'Vjetar', now.wind != null ? `${now.wind} ${place.units?.wind || 'km/h'}` : '–', windDirection(now.windDir)),
       metric('drop', 'Vlaga', now.humidity != null ? `${now.humidity}%` : '–'),
       metric('umbrella', 'Oborine danas', today?.precipProb != null ? `${today.precipProb}%` : '–', today?.precipSum ? `${today.precipSum} mm` : ''),
       metric('sunrise', 'Izlaz / zalaz', today ? `${time(today.sunrise)} / ${time(today.sunset)}` : '–')
@@ -87,7 +208,45 @@ function cityCard(place) {
   );
 }
 
-/** Two lines exactly, so the four tiles line up across both city cards. */
+function unavailableCard(place, onRemove, isActive) {
+  return el(
+    'article.wx.wx--error',
+    { dataset: { city: place.id, active: String(isActive) } },
+    el(
+      'div.wx__now',
+      null,
+      el('div.wx__symbol', null, icon('warning', 'icon wx__icon')),
+      el(
+        'div.wx__reading',
+        null,
+        el('h2.wx__city', null, place.name, place.region ? el('span.wx__region', { text: describePlace(place) }) : null),
+        el('p.wx__cond', { text: 'Prognoza trenutno nije dostupna' }),
+        el('p.wx__feels', { text: 'Pokušaj osvježiti kad budeš online.' })
+      ),
+      removeButton(place, onRemove)
+    )
+  );
+}
+
+// Places served from the build snapshot carry no `permanent` flag, so decide
+// by id: Dubrovnik and Zagreb are never removable, wherever the data came from.
+const PERMANENT_IDS = new Set(PERMANENT.map((p) => p.id));
+
+function removeButton(place, onRemove) {
+  if (place.permanent || PERMANENT_IDS.has(place.id) || !onRemove) return null;
+  return el(
+    'button.wx__remove',
+    {
+      type: 'button',
+      title: `Ukloni ${place.name}`,
+      'aria-label': `Ukloni ${place.name}`,
+      onclick: () => onRemove(place),
+    },
+    icon('close')
+  );
+}
+
+/** Two lines exactly, so the four tiles line up across the city cards. */
 const metric = (symbol, label, value, note) =>
   el(
     'div.metric',
@@ -144,10 +303,8 @@ function forecastList(place) {
   const days = place.days || [];
   if (!days.length) return null;
 
-  const lows = days.map((d) => d.min).filter((v) => v != null);
-  const highs = days.map((d) => d.max).filter((v) => v != null);
-  const floor = Math.min(...lows);
-  const ceil = Math.max(...highs);
+  const floor = Math.min(...days.map((d) => d.min).filter((v) => v != null));
+  const ceil = Math.max(...days.map((d) => d.max).filter((v) => v != null));
   const span = Math.max(1, ceil - floor);
 
   return el(
@@ -173,11 +330,7 @@ function forecastList(place) {
           el('span.day__icon', { title: cond.label }, icon(`wx-${cond.symbol}`, 'icon')),
           el('span.day__rain', { class: d.precipProb >= 30 ? 'is-wet' : '', text: d.precipProb ? `${d.precipProb}%` : '' }),
           el('span.day__min', { text: temp(d.min) }),
-          el(
-            'span.day__bar',
-            null,
-            el('span.day__range', { style: `left:${offset}%;width:${Math.max(width, 6)}%` })
-          ),
+          el('span.day__bar', null, el('span.day__range', { style: `left:${offset}%;width:${Math.max(width, 6)}%` })),
           el('span.day__max', { text: temp(d.max) })
         );
       })

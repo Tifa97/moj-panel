@@ -1,8 +1,17 @@
 {
-  "generatedAt": "2026-11-25T05:36:41.189Z",
+  "generatedAt": "2026-11-25T08:18:22.228Z",
   "live": false,
   "club": "HNK Hajduk Split",
   "news": [
+    {
+      "title": "Zbog kazne samo djeca mogu na Poljud. Ne tražite dalje, evo gdje možete pogledati prijenos Hajdukove utakmice",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/zbog-kazne-samo-djeca-mogu-na-poljud-ne-trazite-dalje-evo-gdje-mozete-pogledati-prijenos-hajdukove-utakmice-1592231",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-25T07:06:00.000Z",
+      "summary": "Hajduk u sklopu 4. kola Konferencijske lige na Poljudu dočekuje belgijski Sint-Truidense, a susret je na rasporedu u četvrtak od 21 sat. Utakmicu sudi Talijan Matteo…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32769659.jpg"
+    },
     {
       "title": "Hajduku na prazni Poljud stiže ekipa s novim trenerom i hrpom Japanaca, a vlasnik im se obogatio na pornografiji",
       "link": "https://slobodnadalmacija.hr/sport/hajduk/hajduku-na-prazni-poljud-stize-ekipa-s-novim-trenerom-i-hrpom-japanaca-a-vlasnik-im-se-obogatio-na-pornografiji-1592194",
@@ -11,15 +20,6 @@
       "publishedAt": "2026-11-24T20:03:00.000Z",
       "summary": "Prije nego je Hajduk započeo svoj nastup i ligaškoj fazi Konferencije lige, projekcije su govorile da bi za plasman dalje trebalo sedam ili osam bodova. Bijeli su…",
       "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/32901829.jpg"
-    },
-    {
-      "title": "Pala odluka, Hrvatska ključnu utakmicu igra na Poljudu, poznati su i detalji vezani uz satnicu susreta",
-      "link": "https://slobodnadalmacija.hr/sport/domaci-nogomet/pala-odluka-hrvatska-kljucnu-utakmicu-igra-na-poljudu-1592163",
-      "source": "Slobodna Dalmacija",
-      "official": false,
-      "publishedAt": "2026-11-24T16:03:00.000Z",
-      "summary": "Ždrijeb doigravanja za ostanak u Ligi A spojio je hrvatsku nogometnu reprezentaciju s Republikom Irskom, a nakon prve utakmice u gostima, izabranici Slavena Bilića bit…",
-      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/32631775.jpg"
     },
     {
       "title": "Brodomerkur nakon skoro 20 godina ponovno među sponzorima Hajduka",
@@ -870,6 +870,250 @@
       "isHajduk": false
     }
   ],
+  "scorers": [
+    {
+      "player": "Michele Šego",
+      "goals": 11,
+      "league": 5,
+      "cup": 0,
+      "europe": 6,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/michele-sego/11",
+      "rank": 1,
+      "tied": false
+    },
+    {
+      "player": "Dalisson de Almeida",
+      "goals": 5,
+      "league": 1,
+      "cup": 0,
+      "europe": 4,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/dalisson-de-almeida/9",
+      "rank": 2,
+      "tied": false
+    },
+    {
+      "player": "Rokas Pukštas",
+      "goals": 4,
+      "league": 2,
+      "cup": 0,
+      "europe": 2,
+      "supercup": 0,
+      "profile": "",
+      "rank": 3,
+      "tied": false
+    },
+    {
+      "player": "Abdoulie Sanyang",
+      "goals": 4,
+      "league": 3,
+      "cup": 0,
+      "europe": 1,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/abdoulie-sanyang/7",
+      "rank": 3,
+      "tied": true
+    },
+    {
+      "player": "Marin Šotiček",
+      "goals": 3,
+      "league": 2,
+      "cup": 0,
+      "europe": 1,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/marin-soticek/23",
+      "rank": 5,
+      "tied": false
+    },
+    {
+      "player": "Marko Livaja",
+      "goals": 3,
+      "league": 3,
+      "cup": 0,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/marko-livaja/10",
+      "rank": 5,
+      "tied": true
+    },
+    {
+      "player": "Carlos Martín",
+      "goals": 3,
+      "league": 3,
+      "cup": 0,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/carlos-martin/77",
+      "rank": 5,
+      "tied": true
+    },
+    {
+      "player": "Khalil Fayad",
+      "goals": 2,
+      "league": 2,
+      "cup": 0,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/khalil-fayad/8",
+      "rank": 8,
+      "tied": false
+    },
+    {
+      "player": "Adam Huram",
+      "goals": 2,
+      "league": 1,
+      "cup": 0,
+      "europe": 1,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/adam-huram/26",
+      "rank": 8,
+      "tied": true
+    },
+    {
+      "player": "Dario Melnjak",
+      "goals": 2,
+      "league": 0,
+      "cup": 0,
+      "europe": 2,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/dario-melnjak/17",
+      "rank": 8,
+      "tied": true
+    },
+    {
+      "player": "Ron Raçi",
+      "goals": 2,
+      "league": 1,
+      "cup": 0,
+      "europe": 1,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/ron-raci/14",
+      "rank": 8,
+      "tied": true
+    },
+    {
+      "player": "Anđelo Šutalo",
+      "goals": 1,
+      "league": 1,
+      "cup": 0,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/andelo-sutalo/16",
+      "rank": 12,
+      "tied": false
+    },
+    {
+      "player": "Mathieu Acapandié",
+      "goals": 1,
+      "league": 1,
+      "cup": 0,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/mathieu-acapandie/22",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Roko Brajković",
+      "goals": 1,
+      "league": 0,
+      "cup": 0,
+      "europe": 1,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/roko-brajkovic/28",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Etnik Brruti",
+      "goals": 1,
+      "league": 1,
+      "cup": 0,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/etnik-brruti/19",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Dennis Hadžikadunić",
+      "goals": 1,
+      "league": 0,
+      "cup": 1,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/dennis-hadzikadunic/6",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Šimun Hrgović",
+      "goals": 1,
+      "league": 1,
+      "cup": 0,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/simun-hrgovic/32",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Dario Marešić",
+      "goals": 1,
+      "league": 1,
+      "cup": 0,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/dario-maresic/15",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Adrion Pajaziti",
+      "goals": 1,
+      "league": 0,
+      "cup": 0,
+      "europe": 1,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/adrion-pajaziti/4",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Peter Nnaemeka Ugwuodo",
+      "goals": 1,
+      "league": 0,
+      "cup": 1,
+      "europe": 0,
+      "supercup": 0,
+      "profile": "",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Alec Van Hoorenbeeck",
+      "goals": 1,
+      "league": 0,
+      "cup": 0,
+      "europe": 1,
+      "supercup": 0,
+      "profile": "https://hajduk.hr/prva-momcad/alec-van-hoorenbeeck/5",
+      "rank": 12,
+      "tied": true
+    },
+    {
+      "player": "Autogol",
+      "goals": 2,
+      "league": 1,
+      "cup": 0,
+      "europe": 1,
+      "supercup": 0,
+      "profile": "",
+      "rank": 22,
+      "tied": false
+    }
+  ],
   "sources": [
     {
       "name": "hajduk.hr",
@@ -881,22 +1125,26 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 2,
-      "note": "2 od 50 članaka spominje Hajduk"
+      "count": 1,
+      "note": "1 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/raspored.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 26
     },
     {
       "name": "hajduk.hr/poredak",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 10
+    },
+    {
+      "name": "hajduk.hr/strijelci",
+      "home": "https://hajduk.hr/utakmice",
+      "ok": true,
+      "count": 22
     }
   ]
 }
