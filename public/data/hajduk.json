@@ -1,8 +1,17 @@
 {
-  "generatedAt": "2026-11-26T08:15:35.505Z",
+  "generatedAt": "2026-11-26T08:23:51.081Z",
   "live": false,
   "club": "HNK Hajduk Split",
   "news": [
+    {
+      "title": "Bitka na društvenim mrežama, pogledajte objave Hajduka i Sint-Truidensea uoči večerašnjeg ogleda",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/bitka-na-drustvenim-mrezama-pogledajte-objave-hajduka-i-sint-truidensea-uoci-vecerasnjeg-ogleda-1592442",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-26T08:16:00.000Z",
+      "summary": "Hajduk večeras u 4. kolu Konferencijske lige na Poljudu dočekuje belgijski Sint-Truidense, igra se u 21 sat. Nakon tri odigrana kola momčad trenera Gonzala Garcije drži…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/26/32923385.jpg"
+    },
     {
       "title": "Garcia šokira sastavom! Tri ključna aduta opet u prvih 11, ispada igrač od kojeg sve polazi, a mijenja ga – ‘Promašaj‘?",
       "link": "https://slobodnadalmacija.hr/sport/hajduk/garcia-sokira-sastavom-tri-kljucna-aduta-opet-u-prvih-11-ispada-igrac-od-kojeg-sve-polazi-a-mijenja-ga-promasaj-1592437",
@@ -173,15 +182,6 @@
       "publishedAt": "2026-11-23T19:38:00.000Z",
       "summary": "Povodom obljetnice smrti Mije Medaka Anđina iz Komina, čovjeka koji je svojim imenom i djelovanjem ostavio neizbrisiv trag u navijačkoj povijesti Hajduka, predstavnici…",
       "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/32913887.jpg"
-    },
-    {
-      "title": "Ante Kostelić otkrio što ostavlja Janici i Ivici u nasljedstvo, a progovorio je i o obiteljskoj vezi s Hajdukom",
-      "link": "https://slobodnadalmacija.hr/mozaik/zivot/ante-kostelic-otkrio-sto-ostavlja-janici-i-ivici-u-nasljedstvo-a-progovorio-je-i-o-obiteljskoj-vezi-s-hajdukom-1591959",
-      "source": "Slobodna Dalmacija",
-      "official": false,
-      "publishedAt": "2026-11-23T16:49:18.000Z",
-      "summary": "Ante Kostelić, poznatiji pod nadimkom Gips, desetljećima je bio jedno od najvažnijih imena hrvatskog skijanja, a njegov trenerski rad obilježio je karijere njegove…",
-      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/31796444.jpg"
     }
   ],
   "nextMatch": {
@@ -1125,29 +1125,26 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 5,
-      "note": "5 od 50 članaka spominje Hajduk"
+      "count": 6,
+      "note": "6 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/raspored.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 26
     },
     {
       "name": "hajduk.hr/poredak",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/prvenstvo_poredak.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 10
     },
     {
       "name": "hajduk.hr/strijelci",
       "home": "https://hajduk.hr/utakmice",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://hajduk.hr/json/ova_sezona/sve_utakmice.json failed: HTTP 403 Forbidden"
+      "ok": true,
+      "count": 22
     }
   ]
 }

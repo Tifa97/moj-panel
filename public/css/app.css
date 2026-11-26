@@ -318,30 +318,91 @@ ul, ol { list-style: none; padding: 0; }
 }
 .pill--live { background: #EDFBF3; border-color: #BDE9D0; color: #146B3E; }
 
-/* -------------------------------------------------------------- groups */
+/* ---------------------------------------------------------- accordions */
 
-.group { display: flex; flex-direction: column; gap: 12px; }
+.sections { border-top: 1px solid var(--line); }
 
-.group__title {
+.acc { border-bottom: 1px solid var(--line); }
+
+.acc__head {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 10px;
+  padding: 15px 2px;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.acc__head::-webkit-details-marker { display: none; }
+.acc[open] > .acc__head { border-bottom: 2px solid var(--accent); }
+
+.acc__title {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .07em;
   color: var(--ink);
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--accent);
+  transition: color .15s;
 }
-.group__count {
+.acc__head:hover .acc__title { color: var(--accent-strong); }
+
+.acc__count {
   margin-left: auto;
   font-size: 11.5px;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.acc__chev {
+  width: 17px;
+  height: 17px;
+  flex: none;
+  color: var(--ink-3);
+  transition: transform .2s ease;
+}
+.acc[open] > .acc__head .acc__chev { transform: rotate(180deg); color: var(--accent); }
+
+.acc__body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px 0 20px;
+}
+
+/* Days inside Događanja: same idea, quieter. */
+.acc--nested { border-bottom: 1px solid var(--line-soft); }
+.acc--nested:last-child { border-bottom: 0; }
+.acc--nested > .acc__head { padding: 10px 2px; }
+.acc--nested[open] > .acc__head { border-bottom: 1px solid var(--accent-line); }
+.acc--nested .acc__title {
+  font-size: 11.5px;
+  letter-spacing: .06em;
+  color: var(--ink-2);
+}
+.acc--nested[open] > .acc__head .acc__title { color: var(--accent-strong); }
+.acc--nested .acc__chev { width: 15px; height: 15px; }
+.acc--nested .acc__body { padding: 6px 0 12px; }
+
+.newsday { display: flex; flex-direction: column; gap: 4px; }
+.newsday:not(:first-child) { margin-top: 10px; }
+.newsday__title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--accent-strong);
+}
+.newsday__count {
+  margin-left: auto;
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: .02em;
   text-transform: none;
   color: var(--ink-3);
 }
+
 
 .note {
   display: flex;
@@ -355,17 +416,6 @@ ul, ol { list-style: none; padding: 0; }
 
 /* -------------------------------------------------------------- events */
 
-.events { display: flex; flex-direction: column; gap: 14px; }
-
-.eventday { display: flex; flex-direction: column; gap: 4px; }
-.eventday__title {
-  font-size: 11.5px;
-  font-weight: 700;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  color: var(--accent-strong);
-  padding-bottom: 4px;
-}
 
 .eventlist { border-top: 1px solid var(--line-soft); }
 .event { border-bottom: 1px solid var(--line-soft); }
@@ -424,23 +474,6 @@ a.event__link:hover { background: var(--accent-soft); }
 }
 .event__price.is-free { font-weight: 500; font-size: 11px; color: var(--ink-3); }
 
-.more {
-  align-self: flex-start;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border: 1px solid var(--line);
-  background: var(--surface);
-  border-radius: 999px;
-  font-size: 12.5px;
-  font-weight: 650;
-  color: var(--accent-strong);
-  cursor: pointer;
-  transition: background .15s, border-color .15s;
-}
-.more:hover { background: var(--accent-soft); border-color: var(--accent-line); }
-.more__icon { width: 15px; height: 15px; }
 
 /* ----------------------------------------------------------- lead card */
 

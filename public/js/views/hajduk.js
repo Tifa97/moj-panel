@@ -1,6 +1,7 @@
 import { el, icon, groupBy } from '../dom.js';
 import { relative, time, until, weekdayShort, dayMonthNumeric, plural } from '../format.js';
-import { sourceStrip, emptyState, sectionTitle } from './shared.js';
+import { sourceStrip, emptyState } from './shared.js';
+import { accordion } from './accordion.js';
 
 const OUTCOME_LABEL = { W: 'Pobjeda', D: 'Neriješeno', L: 'Poraz' };
 
@@ -22,11 +23,15 @@ export function renderHajduk(data, handlers = {}) {
     hero(ourRow),
     notifyRow(handlers.notify, handlers.onNotifyToggle),
     data.nextMatch && nextMatchCard(data.nextMatch),
-    results.length && resultsSection(results, data.friendlies || []),
-    fixtures.length > 1 && fixturesSection(fixtures.slice(1)),
-    standings.length && standingsSection(standings),
-    (data.scorers || []).length && scorersSection(data.scorers),
-    news.length && newsSection(news),
+    el(
+      'div.sections',
+      null,
+      results.length ? resultsSection(results, data.friendlies || []) : null,
+      fixtures.length > 1 ? fixturesSection(fixtures.slice(1)) : null,
+      standings.length ? standingsSection(standings) : null,
+      (data.scorers || []).length ? scorersSection(data.scorers) : null,
+      news.length ? newsSection(news) : null
+    ),
     sourceStrip(data.sources, data.generatedAt)
   );
 }
@@ -125,13 +130,8 @@ const fact = (symbol, text) =>
 /* ------------------------------------------------------------- results */
 
 function resultsSection(results, friendlies) {
-  return el(
-    'section.group',
-    null,
-    sectionTitle(
-      'Rezultati',
-      `${results.length} ${plural(results.length, 'utakmica', 'utakmice', 'utakmica')}`
-    ),
+  return accordion(
+    { id: 'hj:results', title: 'Rezultati', count: results.length },
     el('ul.results', null, ...results.map(resultRow)),
     friendlies.length
       ? el(
@@ -179,10 +179,8 @@ function resultRow(r) {
 
 function fixturesSection(fixtures) {
   const months = groupBy(fixtures, (f) => f.monthLabel || '');
-  return el(
-    'section.group',
-    null,
-    sectionTitle('Raspored', `${fixtures.length} ${plural(fixtures.length, 'utakmica', 'utakmice', 'utakmica')}`),
+  return accordion(
+    { id: 'hj:fixtures', title: 'Raspored', count: fixtures.length },
     ...months.map(([label, list]) =>
       el(
         'div.month',
@@ -233,10 +231,8 @@ function standingsSection(rows) {
     el('th', { text: 'B', title: 'Bodovi' })
   );
 
-  return el(
-    'section.group',
-    null,
-    sectionTitle('SuperSport HNL', 'poredak'),
+  return accordion(
+    { id: 'hj:standings', title: 'SuperSport HNL', count: rows.length },
     el(
       'div.table-wrap',
       null,
@@ -283,10 +279,8 @@ function scorersSection(scorers) {
     el('th', { text: 'UK', title: 'Ukupno' })
   );
 
-  return el(
-    'section.group',
-    null,
-    sectionTitle('Strijelci', `${total} ${plural(total, 'gol', 'gola', 'golova')}`),
+  return accordion(
+    { id: 'hj:scorers', title: 'Strijelci', count: `${total} ${plural(total, 'gol', 'gola', 'golova')}` },
     el(
       'div.table-wrap',
       null,
@@ -327,10 +321,8 @@ const dash = (n) => (n > 0 ? String(n) : '–');
 /* ---------------------------------------------------------------- news */
 
 function newsSection(news) {
-  return el(
-    'section.group',
-    null,
-    sectionTitle('Vijesti', `${news.length}`),
+  return accordion(
+    { id: 'hj:news', title: 'Vijesti', count: news.length },
     el('ol.news', null, ...news.map(newsRow))
   );
 }

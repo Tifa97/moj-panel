@@ -1,58 +1,28 @@
 import { el, icon, groupBy } from '../dom.js';
 import { dayHeading, dayKey, time, plural } from '../format.js';
-import { sectionTitle } from './shared.js';
-
-/** How many events to show before the "show all" toggle. */
-const PREVIEW = 6;
+import { accordion, daySectionId } from './accordion.js';
 
 export function eventsSection(events = []) {
   if (!events.length) return null;
 
-  const body = el('div.events');
-  const toggle = el('button.more', { type: 'button' });
-
-  let expanded = false;
-  const paint = () => {
-    const shown = expanded ? events : events.slice(0, PREVIEW);
-    body.replaceChildren(...byDay(shown));
-    toggle.replaceChildren(
-      document.createTextNode(
-        expanded
-          ? 'Prikaži manje'
-          : `Prikaži sve (${events.length})`
-      ),
-      icon(expanded ? 'chevron-up' : 'chevron-down', 'icon more__icon')
-    );
-  };
-
-  toggle.addEventListener('click', () => {
-    expanded = !expanded;
-    paint();
-  });
-  paint();
-
-  return el(
-    'section.group',
-    null,
-    sectionTitle(
-      'Događanja',
-      `${events.length} ${plural(events.length, 'događanje', 'događanja', 'događanja')}`
-    ),
-    body,
-    events.length > PREVIEW ? toggle : null
-  );
-}
-
-function byDay(events) {
   // Long-running exhibitions opened weeks ago; they belong under today.
   const key = (e) => (e.ongoing ? dayKey(new Date()) : dayKey(e.start));
+  const days = groupBy(events, key);
 
-  return groupBy(events, key).map(([day, list]) =>
-    el(
-      'div.eventday',
-      null,
-      el('h3.eventday__title', { text: dayHeading(day) }),
-      el('ul.eventlist', null, ...list.map(row))
+  return accordion(
+    { id: 'du:events', title: 'Događanja', count: events.length },
+    ...days.map(([day, list], index) =>
+      accordion(
+        {
+          id: daySectionId('du:events:day', day),
+          title: dayHeading(day),
+          count: list.length,
+          // Today is open; the rest of the fortnight waits to be asked for.
+          defaultOpen: index === 0,
+          nested: true,
+        },
+        el('ul.eventlist', null, ...list.map(row))
+      )
     )
   );
 }

@@ -38,7 +38,3 @@ export function emptyState(title, hint) {
     hint && el('p.empty__hint', { text: hint })
   );
 }
-
-export function sectionTitle(text, trailing) {
-  return el('h2.group__title', null, text, trailing && el('span.group__count', null, trailing));
-}

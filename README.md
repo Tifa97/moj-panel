@@ -138,6 +138,21 @@ Vrijeme je iznimka: snapshot ide u `public/data/weather.json` za offline, ali
 app u browseru ide direktno na Open-Meteo (CORS je dopušten) i pokazuje
 `uživo`. Ako to ne prođe, pada natrag na snapshot i piše `spremljeno`.
 
+## Sekcije u harmonici
+
+Dubrovnik ima **Događanja** i **Vijesti**, a unutar Događanja je svaki dan
+svoja podsekcija. Hajduk ima **Rezultate**, **Raspored**, **SuperSport HNL**,
+**Strijelce** i **Vijesti**. Hero, obavijesti i kartica sljedeće utakmice
+ostaju izvan harmonike jer su kratki i uvijek relevantni.
+
+Građeno na `<details>`/`<summary>` pa tipkovnica, čitači ekrana i pretraga
+unutar stranice rade bez dodatnog koda.
+
+Zadano je sve otvoreno — osim dana unutar Događanja, gdje je otvoren samo
+današnji jer je tamo i nastala duljina (40 događanja kroz dva tjedna). Što
+otvoriš ili zatvoriš pamti se u `localStorage` pod `cip:sections`. Dnevni
+ključevi nose datum i brišu se kad prođu, pa taj zapis ne raste.
+
 ## Obavijesti o utakmicama
 
 U Hajduk panelu se uključuju jednim gumbom. Javljaju dvije stvari:
@@ -196,7 +211,7 @@ public/                 ← ovo se deploya (statika, npr. GitHub Pages)
     weather-codes.js    WMO kodovi → hrvatski opis + ikona
     notify.js           obavijesti o utakmicama i rezultatima
     places.js           vlastita mjesta + geocoding
-    views/              dubrovnik | events | hajduk | weather | shared
+    views/              dubrovnik | events | hajduk | weather | accordion | shared
   data/                 generirano, ne diraj ručno
 scripts/
   refresh.mjs           zapiše snapshot u public/data/

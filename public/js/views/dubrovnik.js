@@ -2,6 +2,7 @@ import { el, icon, groupBy } from '../dom.js';
 import { longDate, dayHeading, dayKey, time, relative, plural, hostname } from '../format.js';
 import { sourceStrip, emptyState } from './shared.js';
 import { eventsSection } from './events.js';
+import { accordion } from './accordion.js';
 
 export function renderDubrovnik(data) {
   const items = data?.items || [];
@@ -18,16 +19,11 @@ export function renderDubrovnik(data) {
     null,
     hero(items.length, todayCount, data.counts?.eventsToday ?? 0),
     lead && leadCard(lead),
-    eventsSection(events),
-    ...groupBy(rest, (it) => dayKey(it.publishedAt)).map(([key, group]) =>
-      el(
-        'section.group',
-        null,
-        el('h2.group__title', null, dayHeading(key), el('span.group__count', {
-          text: `${group.length} ${plural(group.length, 'vijest', 'vijesti', 'vijesti')}`,
-        })),
-        el('ol.news', null, ...group.map(newsRow))
-      )
+    el(
+      'div.sections',
+      null,
+      eventsSection(events),
+      rest.length ? newsSection(rest) : null
     ),
     sourceStrip(data.sources, data.generatedAt)
   );
@@ -64,6 +60,27 @@ function leadCard(item) {
       el('h2.lead__title', { text: item.title }),
       item.summary && el('p.lead__summary', { text: item.summary }),
       el('span.lead__cta', null, 'Pročitaj na ' + hostname(item.link), icon('arrow'))
+    )
+  );
+}
+
+function newsSection(items) {
+  return accordion(
+    { id: 'du:news', title: 'Vijesti', count: items.length },
+    ...groupBy(items, (it) => dayKey(it.publishedAt)).map(([day, group]) =>
+      el(
+        'div.newsday',
+        null,
+        el(
+          'h3.newsday__title',
+          null,
+          dayHeading(day),
+          el('span.newsday__count', {
+            text: `${group.length} ${plural(group.length, 'vijest', 'vijesti', 'vijesti')}`,
+          })
+        ),
+        el('ol.news', null, ...group.map(newsRow))
+      )
     )
   );
 }
