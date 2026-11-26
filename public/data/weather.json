@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T09:14:40.036Z",
+  "generatedAt": "2026-11-26T19:13:42.834Z",
   "live": false,
   "places": [
     {
@@ -12,24 +12,24 @@
         "wind": "km/h"
       },
       "current": {
-        "time": "2026-11-26T10:00",
-        "temp": 17,
-        "feelsLike": 14,
-        "humidity": 93,
-        "code": 95,
-        "wind": 38,
-        "windDir": 184,
-        "isDay": true,
-        "precipitation": 1.2
+        "time": "2026-11-26T20:00",
+        "temp": 15,
+        "feelsLike": 15,
+        "humidity": 90,
+        "code": 2,
+        "wind": 7,
+        "windDir": 63,
+        "isDay": false,
+        "precipitation": 0
       },
       "days": [
         {
           "date": "2026-11-26",
           "code": 95,
-          "max": 18,
+          "max": 17,
           "min": 14,
           "precipProb": 100,
-          "precipSum": 89.6,
+          "precipSum": 99,
           "windMax": 54,
           "sunrise": "2026-11-26T06:52",
           "sunset": "2026-11-26T16:17"
@@ -39,64 +39,64 @@
           "code": 95,
           "max": 16,
           "min": 14,
-          "precipProb": 93,
-          "precipSum": 21.6,
-          "windMax": 16,
+          "precipProb": 98,
+          "precipSum": 17.9,
+          "windMax": 15,
           "sunrise": "2026-11-27T06:53",
           "sunset": "2026-11-27T16:16"
         },
         {
           "date": "2026-11-28",
           "code": 3,
-          "max": 17,
+          "max": 16,
           "min": 11,
-          "precipProb": 20,
-          "precipSum": 0,
-          "windMax": 30,
+          "precipProb": 15,
+          "precipSum": 0.1,
+          "windMax": 29,
           "sunrise": "2026-11-28T06:54",
           "sunset": "2026-11-28T16:16"
         },
         {
           "date": "2026-11-29",
-          "code": 61,
+          "code": 3,
           "max": 15,
           "min": 11,
-          "precipProb": 13,
-          "precipSum": 0.1,
-          "windMax": 30,
+          "precipProb": 8,
+          "precipSum": 0,
+          "windMax": 33,
           "sunrise": "2026-11-29T06:55",
           "sunset": "2026-11-29T16:15"
         },
         {
           "date": "2026-11-30",
-          "code": 3,
+          "code": 2,
           "max": 14,
           "min": 9,
-          "precipProb": 15,
+          "precipProb": 12,
           "precipSum": 0,
-          "windMax": 13,
+          "windMax": 14,
           "sunrise": "2026-11-30T06:56",
           "sunset": "2026-11-30T16:15"
         },
         {
           "date": "2026-12-01",
-          "code": 3,
-          "max": 11,
-          "min": 3,
-          "precipProb": 20,
+          "code": 2,
+          "max": 12,
+          "min": 4,
+          "precipProb": 16,
           "precipSum": 0,
-          "windMax": 11,
+          "windMax": 14,
           "sunrise": "2026-12-01T06:57",
           "sunset": "2026-12-01T16:15"
         },
         {
           "date": "2026-12-02",
-          "code": 2,
-          "max": 10,
-          "min": 2,
-          "precipProb": 6,
+          "code": 3,
+          "max": 12,
+          "min": 3,
+          "precipProb": 0,
           "precipSum": 0,
-          "windMax": 9,
+          "windMax": 10,
           "sunrise": "2026-12-02T06:58",
           "sunset": "2026-12-02T16:14"
         }
@@ -170,7 +170,7 @@
         },
         {
           "time": "2026-11-26T11:00",
-          "temp": 18,
+          "temp": 17,
           "code": 95,
           "precipProb": 100
         },
@@ -178,67 +178,67 @@
           "time": "2026-11-26T12:00",
           "temp": 17,
           "code": 95,
-          "precipProb": 100
+          "precipProb": 98
         },
         {
           "time": "2026-11-26T13:00",
           "temp": 17,
           "code": 95,
-          "precipProb": 98
+          "precipProb": 95
         },
         {
           "time": "2026-11-26T14:00",
           "temp": 17,
           "code": 95,
-          "precipProb": 95
+          "precipProb": 100
         },
         {
           "time": "2026-11-26T15:00",
-          "temp": 17,
-          "code": 80,
-          "precipProb": 98
+          "temp": 16,
+          "code": 95,
+          "precipProb": 100
         },
         {
           "time": "2026-11-26T16:00",
           "temp": 16,
-          "code": 80,
-          "precipProb": 95
+          "code": 95,
+          "precipProb": 100
         },
         {
           "time": "2026-11-26T17:00",
           "temp": 16,
-          "code": 81,
-          "precipProb": 90
+          "code": 95,
+          "precipProb": 95
         },
         {
           "time": "2026-11-26T18:00",
-          "temp": 15,
-          "code": 80,
-          "precipProb": 75
+          "temp": 16,
+          "code": 81,
+          "precipProb": 88
         },
         {
           "time": "2026-11-26T19:00",
           "temp": 16,
-          "code": 80,
+          "code": 2,
           "precipProb": 65
         },
         {
           "time": "2026-11-26T20:00",
-          "temp": 16,
-          "code": 80,
-          "precipProb": 65
+          "temp": 15,
+          "code": 2,
+          "precipProb": 63
         },
         {
           "time": "2026-11-26T21:00",
-          "temp": 16,
-          "code": 80,
-          "precipProb": 73
+          "temp": 15,
+          "code": 2,
+          "precipProb": 68
         },
         {
           "time": "2026-11-26T22:00",
           "temp": 16,
-          "code": 80,
-          "precipProb": 83
+          "code": 3,
+          "precipProb": 73
         },
         {
           "time": "2026-11-26T23:00",
@@ -250,145 +250,145 @@
           "time": "2026-11-27T00:00",
           "temp": 15,
           "code": 95,
-          "precipProb": 70
+          "precipProb": 75
         },
         {
           "time": "2026-11-27T01:00",
           "temp": 15,
-          "code": 95,
-          "precipProb": 80
+          "code": 80,
+          "precipProb": 78
         },
         {
           "time": "2026-11-27T02:00",
           "temp": 15,
-          "code": 95,
-          "precipProb": 80
+          "code": 3,
+          "precipProb": 75
         },
         {
           "time": "2026-11-27T03:00",
           "temp": 15,
-          "code": 95,
-          "precipProb": 88
+          "code": 80,
+          "precipProb": 78
         },
         {
           "time": "2026-11-27T04:00",
           "temp": 15,
-          "code": 95,
+          "code": 80,
           "precipProb": 83
         },
         {
           "time": "2026-11-27T05:00",
           "temp": 15,
           "code": 95,
-          "precipProb": 83
+          "precipProb": 90
         },
         {
           "time": "2026-11-27T06:00",
-          "temp": 15,
+          "temp": 14,
           "code": 95,
-          "precipProb": 83
+          "precipProb": 93
         },
         {
           "time": "2026-11-27T07:00",
           "temp": 15,
           "code": 95,
-          "precipProb": 93
+          "precipProb": 98
         },
         {
           "time": "2026-11-27T08:00",
           "temp": 15,
           "code": 95,
-          "precipProb": 83
+          "precipProb": 93
         },
         {
           "time": "2026-11-27T09:00",
           "temp": 15,
           "code": 95,
-          "precipProb": 83
+          "precipProb": 95
         },
         {
           "time": "2026-11-27T10:00",
           "temp": 15,
-          "code": 80,
-          "precipProb": 88
+          "code": 95,
+          "precipProb": 93
         },
         {
           "time": "2026-11-27T11:00",
-          "temp": 16,
-          "code": 80,
-          "precipProb": 75
+          "temp": 15,
+          "code": 95,
+          "precipProb": 93
         },
         {
           "time": "2026-11-27T12:00",
-          "temp": 16,
-          "code": 80,
-          "precipProb": 83
+          "temp": 15,
+          "code": 95,
+          "precipProb": 93
         },
         {
           "time": "2026-11-27T13:00",
           "temp": 16,
           "code": 80,
-          "precipProb": 60
+          "precipProb": 90
         },
         {
           "time": "2026-11-27T14:00",
           "temp": 16,
           "code": 80,
-          "precipProb": 50
+          "precipProb": 85
         },
         {
           "time": "2026-11-27T15:00",
           "temp": 16,
-          "code": 80,
-          "precipProb": 38
+          "code": 3,
+          "precipProb": 48
         },
         {
           "time": "2026-11-27T16:00",
-          "temp": 16,
+          "temp": 15,
           "code": 3,
-          "precipProb": 10
+          "precipProb": 28
         },
         {
           "time": "2026-11-27T17:00",
-          "temp": 16,
-          "code": 3,
+          "temp": 15,
+          "code": 2,
           "precipProb": 5
         },
         {
           "time": "2026-11-27T18:00",
           "temp": 15,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 5
         },
         {
           "time": "2026-11-27T19:00",
-          "temp": 15,
+          "temp": 14,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 8
         },
         {
           "time": "2026-11-27T20:00",
           "temp": 14,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 5
         },
         {
           "time": "2026-11-27T21:00",
           "temp": 14,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 5
         },
         {
           "time": "2026-11-27T22:00",
           "temp": 14,
-          "code": 3,
-          "precipProb": 5
+          "code": 2,
+          "precipProb": 8
         },
         {
           "time": "2026-11-27T23:00",
           "temp": 14,
           "code": 3,
-          "precipProb": 8
+          "precipProb": 10
         },
         {
           "time": "2026-11-28T00:00",
@@ -400,145 +400,145 @@
           "time": "2026-11-28T01:00",
           "temp": 13,
           "code": 3,
-          "precipProb": 13
+          "precipProb": 8
         },
         {
           "time": "2026-11-28T02:00",
-          "temp": 14,
+          "temp": 13,
           "code": 3,
-          "precipProb": 11
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T03:00",
-          "temp": 14,
+          "temp": 13,
           "code": 3,
-          "precipProb": 7
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T04:00",
           "temp": 14,
           "code": 3,
-          "precipProb": 5
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T05:00",
-          "temp": 14,
+          "temp": 13,
           "code": 3,
-          "precipProb": 7
+          "precipProb": 10
         },
         {
           "time": "2026-11-28T06:00",
           "temp": 14,
-          "code": 2,
-          "precipProb": 10
+          "code": 3,
+          "precipProb": 13
         },
         {
           "time": "2026-11-28T07:00",
           "temp": 14,
-          "code": 2,
-          "precipProb": 13
+          "code": 3,
+          "precipProb": 10
         },
         {
           "time": "2026-11-28T08:00",
           "temp": 14,
-          "code": 2,
-          "precipProb": 13
+          "code": 3,
+          "precipProb": 8
         },
         {
           "time": "2026-11-28T09:00",
-          "temp": 15,
-          "code": 2,
-          "precipProb": 13
+          "temp": 14,
+          "code": 3,
+          "precipProb": 8
         },
         {
           "time": "2026-11-28T10:00",
+          "temp": 15,
+          "code": 2,
+          "precipProb": 5
+        },
+        {
+          "time": "2026-11-28T11:00",
+          "temp": 15,
+          "code": 2,
+          "precipProb": 10
+        },
+        {
+          "time": "2026-11-28T12:00",
           "temp": 16,
           "code": 2,
           "precipProb": 13
         },
         {
-          "time": "2026-11-28T11:00",
-          "temp": 16,
-          "code": 2,
-          "precipProb": 15
-        },
-        {
-          "time": "2026-11-28T12:00",
-          "temp": 17,
-          "code": 2,
-          "precipProb": 18
-        },
-        {
           "time": "2026-11-28T13:00",
-          "temp": 17,
-          "code": 3,
-          "precipProb": 20
+          "temp": 15,
+          "code": 2,
+          "precipProb": 10
         },
         {
           "time": "2026-11-28T14:00",
-          "temp": 16,
-          "code": 3,
-          "precipProb": 20
+          "temp": 15,
+          "code": 2,
+          "precipProb": 10
         },
         {
           "time": "2026-11-28T15:00",
-          "temp": 15,
+          "temp": 14,
           "code": 3,
-          "precipProb": 20
+          "precipProb": 9
         },
         {
           "time": "2026-11-28T16:00",
-          "temp": 14,
-          "code": 3,
-          "precipProb": 18
-        },
-        {
-          "time": "2026-11-28T17:00",
-          "temp": 13,
-          "code": 3,
-          "precipProb": 14
-        },
-        {
-          "time": "2026-11-28T18:00",
           "temp": 13,
           "code": 3,
           "precipProb": 8
         },
         {
+          "time": "2026-11-28T17:00",
+          "temp": 13,
+          "code": 3,
+          "precipProb": 6
+        },
+        {
+          "time": "2026-11-28T18:00",
+          "temp": 12,
+          "code": 3,
+          "precipProb": 4
+        },
+        {
           "time": "2026-11-28T19:00",
           "temp": 12,
-          "code": 2,
-          "precipProb": 5
+          "code": 3,
+          "precipProb": 3
         },
         {
           "time": "2026-11-28T20:00",
           "temp": 12,
           "code": 3,
-          "precipProb": 7
+          "precipProb": 4
         },
         {
           "time": "2026-11-28T21:00",
-          "temp": 12,
-          "code": 3,
-          "precipProb": 11
+          "temp": 11,
+          "code": 2,
+          "precipProb": 6
         },
         {
           "time": "2026-11-28T22:00",
-          "temp": 12,
-          "code": 3,
-          "precipProb": 13
+          "temp": 11,
+          "code": 2,
+          "precipProb": 8
         },
         {
           "time": "2026-11-28T23:00",
           "temp": 11,
           "code": 3,
-          "precipProb": 6
+          "precipProb": 8
         },
         {
           "time": "2026-11-29T00:00",
           "temp": 11,
-          "code": 61,
-          "precipProb": 7
+          "code": 3,
+          "precipProb": 8
         },
         {
           "time": "2026-11-29T01:00",
@@ -550,79 +550,79 @@
           "time": "2026-11-29T02:00",
           "temp": 12,
           "code": 3,
-          "precipProb": 9
+          "precipProb": 7
         },
         {
           "time": "2026-11-29T03:00",
           "temp": 12,
           "code": 3,
-          "precipProb": 10
+          "precipProb": 6
         },
         {
           "time": "2026-11-29T04:00",
           "temp": 12,
           "code": 3,
-          "precipProb": 11
+          "precipProb": 5
         },
         {
           "time": "2026-11-29T05:00",
           "temp": 12,
-          "code": 3,
-          "precipProb": 12
+          "code": 2,
+          "precipProb": 4
         },
         {
           "time": "2026-11-29T06:00",
           "temp": 12,
-          "code": 3,
-          "precipProb": 13
+          "code": 2,
+          "precipProb": 4
         },
         {
           "time": "2026-11-29T07:00",
           "temp": 12,
-          "code": 3,
-          "precipProb": 13
+          "code": 2,
+          "precipProb": 3
         },
         {
           "time": "2026-11-29T08:00",
           "temp": 12,
-          "code": 2,
-          "precipProb": 12
+          "code": 1,
+          "precipProb": 2
         },
         {
           "time": "2026-11-29T09:00",
-          "temp": 13,
-          "code": 2,
-          "precipProb": 11
+          "temp": 12,
+          "code": 3,
+          "precipProb": 1
         },
         {
           "time": "2026-11-29T10:00",
           "temp": 13,
-          "code": 2,
-          "precipProb": 9
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T11:00",
           "temp": 14,
-          "code": 2,
-          "precipProb": 6
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T12:00",
           "temp": 14,
-          "code": 2,
-          "precipProb": 4
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T13:00",
           "temp": 15,
           "code": 2,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T14:00",
           "temp": 15,
           "code": 2,
-          "precipProb": 2
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T15:00",
@@ -639,476 +639,476 @@
         {
           "time": "2026-11-29T17:00",
           "temp": 13,
-          "code": 0,
-          "precipProb": 1
+          "code": 2,
+          "precipProb": 2
         },
         {
           "time": "2026-11-29T18:00",
           "temp": 13,
-          "code": 0,
-          "precipProb": 0
+          "code": 1,
+          "precipProb": 3
         },
         {
           "time": "2026-11-29T19:00",
           "temp": 13,
-          "code": 0,
-          "precipProb": 0
+          "code": 1,
+          "precipProb": 3
         },
         {
           "time": "2026-11-29T20:00",
           "temp": 12,
-          "code": 0,
-          "precipProb": 0
+          "code": 1,
+          "precipProb": 3
         },
         {
           "time": "2026-11-29T21:00",
           "temp": 12,
-          "code": 0,
-          "precipProb": 0
+          "code": 1,
+          "precipProb": 3
         },
         {
           "time": "2026-11-29T22:00",
           "temp": 12,
-          "code": 0,
-          "precipProb": 0
+          "code": 1,
+          "precipProb": 3
         },
         {
           "time": "2026-11-29T23:00",
-          "temp": 11,
+          "temp": 12,
           "code": 0,
-          "precipProb": 0
+          "precipProb": 3
         },
         {
           "time": "2026-11-30T00:00",
           "temp": 11,
           "code": 0,
-          "precipProb": 0
+          "precipProb": 3
         },
         {
           "time": "2026-11-30T01:00",
           "temp": 11,
           "code": 0,
-          "precipProb": 0
+          "precipProb": 3
         },
         {
           "time": "2026-11-30T02:00",
           "temp": 11,
           "code": 0,
-          "precipProb": 0
+          "precipProb": 3
         },
         {
           "time": "2026-11-30T03:00",
           "temp": 11,
           "code": 0,
-          "precipProb": 1
+          "precipProb": 2
         },
         {
           "time": "2026-11-30T04:00",
-          "temp": 10,
+          "temp": 11,
           "code": 0,
-          "precipProb": 1
+          "precipProb": 2
         },
         {
           "time": "2026-11-30T05:00",
-          "temp": 10,
+          "temp": 11,
           "code": 0,
-          "precipProb": 2
+          "precipProb": 1
         },
         {
           "time": "2026-11-30T06:00",
           "temp": 10,
           "code": 0,
-          "precipProb": 2
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T07:00",
           "temp": 10,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T08:00",
           "temp": 11,
-          "code": 0,
-          "precipProb": 4
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T09:00",
-          "temp": 11,
-          "code": 0,
-          "precipProb": 5
+          "temp": 12,
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T10:00",
           "temp": 12,
-          "code": 0,
-          "precipProb": 7
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T11:00",
           "temp": 13,
           "code": 0,
-          "precipProb": 8
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T12:00",
           "temp": 14,
           "code": 0,
-          "precipProb": 9
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T13:00",
           "temp": 14,
           "code": 0,
-          "precipProb": 10
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T14:00",
           "temp": 14,
-          "code": 3,
-          "precipProb": 10
+          "code": 0,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T15:00",
           "temp": 14,
-          "code": 3,
-          "precipProb": 10
+          "code": 0,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T16:00",
-          "temp": 13,
-          "code": 3,
-          "precipProb": 10
+          "temp": 14,
+          "code": 0,
+          "precipProb": 1
         },
         {
           "time": "2026-11-30T17:00",
           "temp": 13,
-          "code": 3,
-          "precipProb": 10
+          "code": 1,
+          "precipProb": 1
         },
         {
           "time": "2026-11-30T18:00",
           "temp": 12,
-          "code": 3,
-          "precipProb": 10
+          "code": 1,
+          "precipProb": 2
         },
         {
           "time": "2026-11-30T19:00",
-          "temp": 12,
-          "code": 3,
-          "precipProb": 10
+          "temp": 11,
+          "code": 1,
+          "precipProb": 3
         },
         {
           "time": "2026-11-30T20:00",
           "temp": 11,
-          "code": 3,
-          "precipProb": 11
+          "code": 2,
+          "precipProb": 5
         },
         {
           "time": "2026-11-30T21:00",
-          "temp": 11,
-          "code": 3,
-          "precipProb": 12
+          "temp": 10,
+          "code": 2,
+          "precipProb": 7
         },
         {
           "time": "2026-11-30T22:00",
-          "temp": 11,
-          "code": 3,
-          "precipProb": 14
+          "temp": 10,
+          "code": 2,
+          "precipProb": 9
         },
         {
           "time": "2026-11-30T23:00",
           "temp": 10,
-          "code": 3,
-          "precipProb": 15
+          "code": 2,
+          "precipProb": 12
         },
         {
           "time": "2026-12-01T00:00",
           "temp": 9,
-          "code": 3,
-          "precipProb": 15
+          "code": 2,
+          "precipProb": 14
         },
         {
           "time": "2026-12-01T01:00",
-          "temp": 8,
-          "code": 3,
-          "precipProb": 14
+          "temp": 9,
+          "code": 2,
+          "precipProb": 15
         },
         {
           "time": "2026-12-01T02:00",
-          "temp": 8,
-          "code": 3,
-          "precipProb": 14
+          "temp": 9,
+          "code": 2,
+          "precipProb": 16
         },
         {
           "time": "2026-12-01T03:00",
-          "temp": 7,
-          "code": 3,
-          "precipProb": 14
+          "temp": 9,
+          "code": 2,
+          "precipProb": 16
         },
         {
           "time": "2026-12-01T04:00",
-          "temp": 7,
-          "code": 3,
+          "temp": 8,
+          "code": 2,
           "precipProb": 15
         },
         {
           "time": "2026-12-01T05:00",
-          "temp": 7,
+          "temp": 8,
           "code": 1,
-          "precipProb": 16
+          "precipProb": 15
         },
         {
           "time": "2026-12-01T06:00",
-          "temp": 6,
+          "temp": 8,
           "code": 1,
-          "precipProb": 17
+          "precipProb": 14
         },
         {
           "time": "2026-12-01T07:00",
-          "temp": 6,
+          "temp": 8,
           "code": 1,
-          "precipProb": 18
+          "precipProb": 13
         },
         {
           "time": "2026-12-01T08:00",
-          "temp": 7,
+          "temp": 8,
           "code": 0,
-          "precipProb": 19
+          "precipProb": 12
         },
         {
           "time": "2026-12-01T09:00",
-          "temp": 8,
+          "temp": 9,
           "code": 0,
-          "precipProb": 19
+          "precipProb": 10
         },
         {
           "time": "2026-12-01T10:00",
-          "temp": 9,
+          "temp": 10,
           "code": 0,
-          "precipProb": 20
+          "precipProb": 8
         },
         {
           "time": "2026-12-01T11:00",
-          "temp": 10,
+          "temp": 11,
           "code": 0,
-          "precipProb": 20
+          "precipProb": 6
         },
         {
           "time": "2026-12-01T12:00",
-          "temp": 11,
+          "temp": 12,
           "code": 0,
-          "precipProb": 20
+          "precipProb": 4
         },
         {
           "time": "2026-12-01T13:00",
-          "temp": 11,
+          "temp": 12,
           "code": 0,
-          "precipProb": 20
+          "precipProb": 3
         },
         {
           "time": "2026-12-01T14:00",
-          "temp": 11,
-          "code": 0,
-          "precipProb": 19
+          "temp": 12,
+          "code": 1,
+          "precipProb": 3
         },
         {
           "time": "2026-12-01T15:00",
           "temp": 11,
-          "code": 0,
-          "precipProb": 19
+          "code": 1,
+          "precipProb": 2
         },
         {
           "time": "2026-12-01T16:00",
           "temp": 10,
-          "code": 0,
-          "precipProb": 17
+          "code": 1,
+          "precipProb": 2
         },
         {
           "time": "2026-12-01T17:00",
           "temp": 8,
           "code": 0,
-          "precipProb": 16
+          "precipProb": 2
         },
         {
           "time": "2026-12-01T18:00",
-          "temp": 7,
+          "temp": 6,
           "code": 0,
-          "precipProb": 15
+          "precipProb": 1
         },
         {
           "time": "2026-12-01T19:00",
-          "temp": 6,
+          "temp": 5,
           "code": 0,
-          "precipProb": 13
+          "precipProb": 1
         },
         {
           "time": "2026-12-01T20:00",
-          "temp": 5,
+          "temp": 4,
           "code": 0,
-          "precipProb": 11
+          "precipProb": 1
         },
         {
           "time": "2026-12-01T21:00",
           "temp": 4,
           "code": 0,
-          "precipProb": 10
+          "precipProb": 1
         },
         {
           "time": "2026-12-01T22:00",
           "temp": 4,
           "code": 0,
-          "precipProb": 8
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T23:00",
           "temp": 4,
           "code": 0,
-          "precipProb": 7
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T00:00",
-          "temp": 3,
+          "temp": 4,
           "code": 0,
-          "precipProb": 6
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T01:00",
-          "temp": 3,
+          "temp": 4,
           "code": 0,
-          "precipProb": 5
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T02:00",
-          "temp": 3,
+          "temp": 4,
           "code": 0,
-          "precipProb": 4
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T03:00",
-          "temp": 3,
+          "temp": 4,
           "code": 0,
-          "precipProb": 4
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T04:00",
-          "temp": 3,
+          "temp": 4,
           "code": 0,
-          "precipProb": 4
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T05:00",
-          "temp": 2,
+          "temp": 3,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T06:00",
-          "temp": 2,
+          "temp": 3,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T07:00",
-          "temp": 2,
+          "temp": 3,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T08:00",
-          "temp": 4,
+          "temp": 5,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T09:00",
-          "temp": 5,
+          "temp": 7,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T10:00",
-          "temp": 7,
+          "temp": 9,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T11:00",
-          "temp": 8,
+          "temp": 10,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T12:00",
-          "temp": 10,
+          "temp": 12,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T13:00",
-          "temp": 10,
+          "temp": 12,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T14:00",
-          "temp": 10,
+          "temp": 12,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T15:00",
-          "temp": 10,
+          "temp": 11,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T16:00",
-          "temp": 9,
+          "temp": 10,
           "code": 0,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T17:00",
-          "temp": 7,
-          "code": 0,
-          "precipProb": 3
+          "temp": 8,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T18:00",
-          "temp": 5,
-          "code": 0,
-          "precipProb": 3
+          "temp": 6,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T19:00",
-          "temp": 4,
-          "code": 0,
-          "precipProb": 3
+          "temp": 5,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T20:00",
-          "temp": 3,
-          "code": 1,
-          "precipProb": 3
+          "temp": 4,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T21:00",
-          "temp": 3,
-          "code": 1,
-          "precipProb": 3
+          "temp": 5,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T22:00",
-          "temp": 3,
-          "code": 1,
-          "precipProb": 3
+          "temp": 5,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T23:00",
-          "temp": 3,
+          "temp": 4,
           "code": 2,
-          "precipProb": 3
+          "precipProb": 0
         }
       ]
     },
@@ -1122,15 +1122,15 @@
         "wind": "km/h"
       },
       "current": {
-        "time": "2026-11-26T10:00",
+        "time": "2026-11-26T20:00",
         "temp": 1,
         "feelsLike": -1,
-        "humidity": 97,
-        "code": 55,
-        "wind": 5,
-        "windDir": 82,
-        "isDay": true,
-        "precipitation": 0
+        "humidity": 99,
+        "code": 61,
+        "wind": 2,
+        "windDir": 63,
+        "isDay": false,
+        "precipitation": 0.3
       },
       "days": [
         {
@@ -1139,7 +1139,7 @@
           "max": 4,
           "min": 1,
           "precipProb": 100,
-          "precipSum": 12.9,
+          "precipSum": 16.1,
           "windMax": 13,
           "sunrise": "2026-11-26T07:10",
           "sunset": "2026-11-26T16:15"
@@ -1149,31 +1149,31 @@
           "code": 61,
           "max": 4,
           "min": 1,
-          "precipProb": 68,
-          "precipSum": 5.45,
+          "precipProb": 85,
+          "precipSum": 4.7,
           "windMax": 9,
           "sunrise": "2026-11-27T07:11",
           "sunset": "2026-11-27T16:15"
         },
         {
           "date": "2026-11-28",
-          "code": 71,
+          "code": 61,
           "max": 3,
           "min": 1,
-          "precipProb": 37,
-          "precipSum": 0.6,
-          "windMax": 11,
+          "precipProb": 18,
+          "precipSum": 0.13,
+          "windMax": 12,
           "sunrise": "2026-11-28T07:13",
           "sunset": "2026-11-28T16:14"
         },
         {
           "date": "2026-11-29",
           "code": 3,
-          "max": 5,
-          "min": 0,
-          "precipProb": 19,
+          "max": 4,
+          "min": 1,
+          "precipProb": 22,
           "precipSum": 0,
-          "windMax": 10,
+          "windMax": 12,
           "sunrise": "2026-11-29T07:14",
           "sunset": "2026-11-29T16:14"
         },
@@ -1182,7 +1182,7 @@
           "code": 3,
           "max": 2,
           "min": -3,
-          "precipProb": 3,
+          "precipProb": 0,
           "precipSum": 0,
           "windMax": 14,
           "sunrise": "2026-11-30T07:15",
@@ -1190,23 +1190,23 @@
         },
         {
           "date": "2026-12-01",
-          "code": 1,
-          "max": 0,
-          "min": -6,
-          "precipProb": 3,
+          "code": 3,
+          "max": -2,
+          "min": -5,
+          "precipProb": 0,
           "precipSum": 0,
-          "windMax": 13,
+          "windMax": 9,
           "sunrise": "2026-12-01T07:16",
           "sunset": "2026-12-01T16:13"
         },
         {
           "date": "2026-12-02",
           "code": 2,
-          "max": 0,
-          "min": -7,
-          "precipProb": 3,
+          "max": -1,
+          "min": -6,
+          "precipProb": 0,
           "precipSum": 0,
-          "windMax": 4,
+          "windMax": 2,
           "sunrise": "2026-12-02T07:17",
           "sunset": "2026-12-02T16:12"
         }
@@ -1276,13 +1276,13 @@
           "time": "2026-11-26T10:00",
           "temp": 1,
           "code": 55,
-          "precipProb": 68
+          "precipProb": 80
         },
         {
           "time": "2026-11-26T11:00",
           "temp": 2,
           "code": 3,
-          "precipProb": 5
+          "precipProb": 8
         },
         {
           "time": "2026-11-26T12:00",
@@ -1292,7 +1292,7 @@
         },
         {
           "time": "2026-11-26T13:00",
-          "temp": 4,
+          "temp": 3,
           "code": 3,
           "precipProb": 0
         },
@@ -1304,20 +1304,20 @@
         },
         {
           "time": "2026-11-26T15:00",
-          "temp": 4,
+          "temp": 3,
           "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-26T16:00",
-          "temp": 4,
-          "code": 3,
+          "temp": 3,
+          "code": 61,
           "precipProb": 0
         },
         {
           "time": "2026-11-26T17:00",
           "temp": 3,
-          "code": 61,
+          "code": 51,
           "precipProb": 0
         },
         {
@@ -1328,111 +1328,111 @@
         },
         {
           "time": "2026-11-26T19:00",
-          "temp": 3,
-          "code": 3,
-          "precipProb": 3
+          "temp": 2,
+          "code": 61,
+          "precipProb": 0
         },
         {
           "time": "2026-11-26T20:00",
-          "temp": 2,
-          "code": 3,
-          "precipProb": 3
+          "temp": 1,
+          "code": 61,
+          "precipProb": 10
         },
         {
           "time": "2026-11-26T21:00",
-          "temp": 2,
-          "code": 3,
+          "temp": 1,
+          "code": 45,
           "precipProb": 8
         },
         {
           "time": "2026-11-26T22:00",
           "temp": 2,
           "code": 61,
-          "precipProb": 8
+          "precipProb": 20
         },
         {
           "time": "2026-11-26T23:00",
-          "temp": 2,
+          "temp": 1,
           "code": 61,
-          "precipProb": 18
+          "precipProb": 25
         },
         {
           "time": "2026-11-27T00:00",
-          "temp": 2,
+          "temp": 1,
           "code": 61,
-          "precipProb": 30
+          "precipProb": 23
         },
         {
           "time": "2026-11-27T01:00",
           "temp": 1,
           "code": 61,
-          "precipProb": 33
+          "precipProb": 18
         },
         {
           "time": "2026-11-27T02:00",
           "temp": 1,
-          "code": 61,
-          "precipProb": 45
+          "code": 53,
+          "precipProb": 30
         },
         {
           "time": "2026-11-27T03:00",
-          "temp": 1,
+          "temp": 2,
           "code": 61,
-          "precipProb": 55
+          "precipProb": 48
         },
         {
           "time": "2026-11-27T04:00",
           "temp": 2,
           "code": 61,
-          "precipProb": 53
+          "precipProb": 60
         },
         {
           "time": "2026-11-27T05:00",
           "temp": 2,
           "code": 61,
-          "precipProb": 50
+          "precipProb": 73
         },
         {
           "time": "2026-11-27T06:00",
-          "temp": 2,
+          "temp": 1,
           "code": 61,
-          "precipProb": 58
+          "precipProb": 78
         },
         {
           "time": "2026-11-27T07:00",
           "temp": 1,
           "code": 61,
-          "precipProb": 60
+          "precipProb": 85
         },
         {
           "time": "2026-11-27T08:00",
           "temp": 1,
           "code": 61,
-          "precipProb": 68
+          "precipProb": 83
         },
         {
           "time": "2026-11-27T09:00",
           "temp": 2,
           "code": 61,
-          "precipProb": 53
+          "precipProb": 68
         },
         {
           "time": "2026-11-27T10:00",
           "temp": 2,
           "code": 3,
-          "precipProb": 43
+          "precipProb": 50
         },
         {
           "time": "2026-11-27T11:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 35
+          "precipProb": 38
         },
         {
           "time": "2026-11-27T12:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 15
+          "precipProb": 30
         },
         {
           "time": "2026-11-27T13:00",
@@ -1448,39 +1448,39 @@
         },
         {
           "time": "2026-11-27T15:00",
-          "temp": 4,
+          "temp": 3,
           "code": 3,
-          "precipProb": 5
+          "precipProb": 3
         },
         {
           "time": "2026-11-27T16:00",
-          "temp": 4,
+          "temp": 3,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-27T17:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-27T18:00",
-          "temp": 3,
+          "temp": 2,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-27T19:00",
-          "temp": 3,
+          "temp": 2,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-27T20:00",
-          "temp": 3,
+          "temp": 2,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-27T21:00",
@@ -1490,237 +1490,237 @@
         },
         {
           "time": "2026-11-27T22:00",
-          "temp": 2,
+          "temp": 1,
           "code": 3,
-          "precipProb": 5
+          "precipProb": 0
         },
         {
           "time": "2026-11-27T23:00",
-          "temp": 2,
+          "temp": 1,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-28T00:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 8
+          "precipProb": 0
         },
         {
           "time": "2026-11-28T01:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 5
+          "precipProb": 0
         },
         {
           "time": "2026-11-28T02:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 5
+          "precipProb": 0
         },
         {
           "time": "2026-11-28T03:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 6
+          "precipProb": 0
         },
         {
           "time": "2026-11-28T04:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 8
+          "precipProb": 0
         },
         {
           "time": "2026-11-28T05:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 11
+          "precipProb": 3
         },
         {
           "time": "2026-11-28T06:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 15
+          "precipProb": 5
         },
         {
           "time": "2026-11-28T07:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 20
+          "precipProb": 5
         },
         {
           "time": "2026-11-28T08:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 25
+          "precipProb": 8
         },
         {
           "time": "2026-11-28T09:00",
-          "temp": 1,
-          "code": 71,
-          "precipProb": 31
+          "temp": 2,
+          "code": 3,
+          "precipProb": 18
         },
         {
           "time": "2026-11-28T10:00",
           "temp": 2,
-          "code": 71,
-          "precipProb": 35
+          "code": 3,
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T11:00",
-          "temp": 2,
+          "temp": 3,
           "code": 3,
-          "precipProb": 37
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T12:00",
-          "temp": 2,
-          "code": 61,
-          "precipProb": 36
+          "temp": 3,
+          "code": 3,
+          "precipProb": 10
         },
         {
           "time": "2026-11-28T13:00",
           "temp": 3,
-          "code": 61,
-          "precipProb": 35
+          "code": 3,
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T14:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 31
+          "precipProb": 13
         },
         {
           "time": "2026-11-28T15:00",
           "temp": 3,
-          "code": 3,
-          "precipProb": 26
+          "code": 61,
+          "precipProb": 11
         },
         {
           "time": "2026-11-28T16:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 23
+          "precipProb": 10
         },
         {
           "time": "2026-11-28T17:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 23
+          "precipProb": 11
         },
         {
           "time": "2026-11-28T18:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 24
+          "precipProb": 13
         },
         {
           "time": "2026-11-28T19:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 25
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T20:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 27
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T21:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 30
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T22:00",
-          "temp": 3,
+          "temp": 2,
           "code": 3,
-          "precipProb": 30
+          "precipProb": 15
         },
         {
           "time": "2026-11-28T23:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 17
+          "precipProb": 16
         },
         {
           "time": "2026-11-29T00:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 16
+          "precipProb": 19
         },
         {
           "time": "2026-11-29T01:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 15
+          "precipProb": 20
         },
         {
           "time": "2026-11-29T02:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 15
+          "precipProb": 21
         },
         {
           "time": "2026-11-29T03:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 16
+          "precipProb": 22
         },
         {
           "time": "2026-11-29T04:00",
-          "temp": 3,
+          "temp": 2,
           "code": 3,
-          "precipProb": 17
+          "precipProb": 20
         },
         {
           "time": "2026-11-29T05:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 18
+          "precipProb": 14
         },
         {
           "time": "2026-11-29T06:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 19
+          "precipProb": 6
         },
         {
           "time": "2026-11-29T07:00",
-          "temp": 3,
+          "temp": 2,
           "code": 3,
-          "precipProb": 18
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T08:00",
-          "temp": 3,
+          "temp": 2,
           "code": 3,
-          "precipProb": 16
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T09:00",
-          "temp": 3,
+          "temp": 2,
           "code": 3,
-          "precipProb": 13
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T10:00",
           "temp": 3,
           "code": 3,
-          "precipProb": 9
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T11:00",
-          "temp": 4,
+          "temp": 3,
           "code": 3,
-          "precipProb": 5
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T12:00",
-          "temp": 4,
+          "temp": 3,
           "code": 3,
-          "precipProb": 2
+          "precipProb": 0
         },
         {
           "time": "2026-11-29T13:00",
@@ -1742,85 +1742,85 @@
         },
         {
           "time": "2026-11-29T16:00",
-          "temp": 4,
+          "temp": 3,
           "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-29T17:00",
-          "temp": 4,
-          "code": 2,
+          "temp": 3,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-29T18:00",
           "temp": 3,
-          "code": 2,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-29T19:00",
           "temp": 2,
-          "code": 2,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-29T20:00",
           "temp": 2,
-          "code": 1,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-29T21:00",
-          "temp": 1,
-          "code": 1,
+          "temp": 2,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-29T22:00",
-          "temp": 1,
-          "code": 1,
+          "temp": 2,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-29T23:00",
-          "temp": 0,
-          "code": 0,
+          "temp": 1,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-30T00:00",
-          "temp": 0,
-          "code": 0,
+          "temp": 1,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-30T01:00",
           "temp": 0,
-          "code": 0,
+          "code": 3,
           "precipProb": 0
         },
         {
           "time": "2026-11-30T02:00",
-          "temp": -1,
-          "code": 0,
+          "temp": 0,
+          "code": 2,
           "precipProb": 0
         },
         {
           "time": "2026-11-30T03:00",
-          "temp": -1,
-          "code": 0,
+          "temp": 0,
+          "code": 2,
           "precipProb": 0
         },
         {
           "time": "2026-11-30T04:00",
-          "temp": -1,
-          "code": 0,
+          "temp": 0,
+          "code": 2,
           "precipProb": 0
         },
         {
           "time": "2026-11-30T05:00",
-          "temp": -1,
+          "temp": 0,
           "code": 3,
           "precipProb": 0
         },
@@ -1844,381 +1844,381 @@
         },
         {
           "time": "2026-11-30T09:00",
-          "temp": -1,
+          "temp": 0,
           "code": 3,
-          "precipProb": 1
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T10:00",
           "temp": 0,
           "code": 3,
-          "precipProb": 2
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T11:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 2
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T12:00",
-          "temp": 1,
+          "temp": 2,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T13:00",
           "temp": 2,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T14:00",
           "temp": 2,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T15:00",
-          "temp": 1,
+          "temp": 2,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T16:00",
           "temp": 1,
           "code": 3,
-          "precipProb": 3
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T17:00",
-          "temp": 0,
-          "code": 2,
-          "precipProb": 3
+          "temp": 1,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T18:00",
           "temp": 0,
-          "code": 2,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T19:00",
-          "temp": 0,
-          "code": 2,
-          "precipProb": 3
+          "temp": -1,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T20:00",
           "temp": -1,
-          "code": 1,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T21:00",
-          "temp": -1,
-          "code": 1,
-          "precipProb": 3
+          "temp": -2,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T22:00",
           "temp": -2,
-          "code": 1,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-11-30T23:00",
-          "temp": -2,
-          "code": 1,
-          "precipProb": 3
+          "temp": -3,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T00:00",
           "temp": -3,
-          "code": 1,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T01:00",
           "temp": -3,
-          "code": 1,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T02:00",
           "temp": -3,
-          "code": 0,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T03:00",
           "temp": -4,
-          "code": 0,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T04:00",
           "temp": -4,
-          "code": 0,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T05:00",
           "temp": -4,
-          "code": 0,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T06:00",
           "temp": -4,
-          "code": 0,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T07:00",
           "temp": -4,
-          "code": 0,
-          "precipProb": 3
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T08:00",
           "temp": -4,
-          "code": 1,
-          "precipProb": 3
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T09:00",
-          "temp": -3,
-          "code": 1,
-          "precipProb": 3
+          "temp": -4,
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T10:00",
-          "temp": -2,
-          "code": 1,
-          "precipProb": 3
+          "temp": -3,
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T11:00",
-          "temp": -1,
-          "code": 0,
-          "precipProb": 3
+          "temp": -3,
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T12:00",
-          "temp": 0,
-          "code": 0,
-          "precipProb": 3
+          "temp": -3,
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T13:00",
-          "temp": 0,
-          "code": 0,
-          "precipProb": 3
+          "temp": -2,
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T14:00",
-          "temp": 0,
-          "code": 1,
-          "precipProb": 3
+          "temp": -2,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T15:00",
-          "temp": 0,
-          "code": 1,
-          "precipProb": 3
+          "temp": -3,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T16:00",
-          "temp": -1,
-          "code": 1,
-          "precipProb": 2
+          "temp": -3,
+          "code": 3,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T17:00",
-          "temp": -1,
-          "code": 1,
-          "precipProb": 2
+          "temp": -3,
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T18:00",
-          "temp": -2,
-          "code": 1,
-          "precipProb": 2
+          "temp": -3,
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T19:00",
-          "temp": -3,
-          "code": 1,
-          "precipProb": 2
+          "temp": -4,
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T20:00",
           "temp": -4,
-          "code": 0,
-          "precipProb": 1
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T21:00",
           "temp": -4,
-          "code": 0,
-          "precipProb": 1
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T22:00",
-          "temp": -5,
-          "code": 0,
-          "precipProb": 1
+          "temp": -4,
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-01T23:00",
           "temp": -5,
-          "code": 1,
+          "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T00:00",
-          "temp": -6,
-          "code": 1,
+          "temp": -5,
+          "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T01:00",
-          "temp": -6,
-          "code": 1,
+          "temp": -5,
+          "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T02:00",
-          "temp": -6,
+          "temp": -5,
           "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T03:00",
-          "temp": -7,
+          "temp": -5,
           "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T04:00",
-          "temp": -7,
+          "temp": -6,
           "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T05:00",
-          "temp": -7,
+          "temp": -6,
           "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T06:00",
-          "temp": -7,
+          "temp": -6,
           "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T07:00",
-          "temp": -7,
+          "temp": -6,
           "code": 0,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T08:00",
           "temp": -6,
-          "code": 0,
+          "code": 1,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T09:00",
           "temp": -5,
-          "code": 0,
+          "code": 1,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T10:00",
-          "temp": -3,
-          "code": 0,
+          "temp": -4,
+          "code": 1,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T11:00",
-          "temp": -2,
-          "code": 0,
+          "temp": -3,
+          "code": 1,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T12:00",
-          "temp": -1,
-          "code": 0,
+          "temp": -2,
+          "code": 1,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T13:00",
-          "temp": 0,
-          "code": 0,
+          "temp": -1,
+          "code": 1,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T14:00",
-          "temp": 0,
-          "code": 0,
+          "temp": -1,
+          "code": 2,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T15:00",
-          "temp": 0,
-          "code": 0,
+          "temp": -1,
+          "code": 2,
           "precipProb": 0
         },
         {
           "time": "2026-12-02T16:00",
-          "temp": -1,
-          "code": 0,
-          "precipProb": 1
+          "temp": -2,
+          "code": 2,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T17:00",
-          "temp": -1,
-          "code": 0,
-          "precipProb": 1
+          "temp": -2,
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T18:00",
-          "temp": -2,
-          "code": 0,
-          "precipProb": 1
+          "temp": -3,
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T19:00",
           "temp": -3,
-          "code": 0,
-          "precipProb": 2
+          "code": 1,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T20:00",
-          "temp": -3,
-          "code": 1,
-          "precipProb": 2
+          "temp": -4,
+          "code": 0,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T21:00",
           "temp": -4,
-          "code": 1,
-          "precipProb": 2
+          "code": 0,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T22:00",
           "temp": -5,
-          "code": 1,
-          "precipProb": 2
+          "code": 0,
+          "precipProb": 0
         },
         {
           "time": "2026-12-02T23:00",
           "temp": -5,
-          "code": 2,
-          "precipProb": 3
+          "code": 0,
+          "precipProb": 0
         }
       ]
     }
