@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-11-25T16:56:05.228Z",
+  "generatedAt": "2026-11-26T00:53:01.086Z",
   "live": false,
   "club": "HNK Hajduk Split",
   "news": [
+    {
+      "title": "Bivši trener Hajduka oduševio svoje poslodavce, najavljen je novi ugovor koji bi ga u klubu zadržao još dvije godine",
+      "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/bivsi-trener-hajduka-odusevio-svoje-poslodavce-najavljen-je-novi-ugovor-koji-bi-ga-u-klubu-zadrzao-jos-dvije-godine-1592402",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-25T22:18:00.000Z",
+      "summary": "Predsjednik rimskog Lazija Claudio Lotito najavio je da će pripremiti novi ugovor sadašnjem treneru Gennaru Gattusu koji će trajati do lipnja 2029. godine. Objavili su…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32656403.jpg"
+    },
+    {
+      "title": "Frane je bio oličenje vođe, baš kapetana u punom smislu te riječi. Bio je i rasni strijelac, bombarder s obje noge",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/frane-je-bio-olicenje-vode-bas-kapetana-u-punom-smislu-te-rijeci-bio-je-i-rasni-strijelac-bombarder-s-obje-noge-1592398",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-25T20:24:36.000Z",
+      "summary": "Čitava je povijest svjetskog nogometa, igra tandema: Bobek – Zebec, Di Stefano – Puskas, Meazza – Piola, Kocsis – Puskas... Genijalci, pa ipak niti jedan tandem nije…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/1828387.jpg"
+    },
+    {
+      "title": "Živi u Trogiru, igra za Kanadu: Hajduk ima novog Sigura, sličnost je nevjerojatna! Donosimo priču o novoj nadi Bijelih",
+      "link": "https://slobodnadalmacija.hr/sport/hajduk/zivi-u-trogiru-igra-za-kanadu-hajduk-ima-novog-sigura-slicnost-je-nevjerojatna-donosimo-pricu-o-novoj-nadi-bijelih-1592394",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-25T20:00:00.000Z",
+      "summary": "Sva sila hajdukovaca bila je u svojim reprezentacijama. „Pičili” su Bijeli po bijelom svijetu, od Kosova do Madagaskara. I znate ih uglavnom sve. Od naših su tu Šimun…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/24/32919194.jpg"
+    },
+    {
+      "title": "Trener Gonzalo Garcia i Leander Dendoncker uoči utakmice sa Sint-Truidenseom",
+      "link": "https://hajduk.hr/vijest/trener-gonzalo-garcia-i-leander-dendoncker-uoci-utakmice-sa-sint-truidenseom/18723",
+      "source": "hajduk.hr",
+      "official": true,
+      "publishedAt": "2026-11-25T19:03:00.000Z",
+      "summary": "Konferencija za medije uoči četvrte utakmice ligaške faze Konferencijske lige",
+      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-25-21-04-2204-.JPG"
+    },
+    {
+      "title": "Donesena je konačna odluka: znamo kada Dinamo i Hajduk igraju veliki derbi, sjajne vijesti i za sve navijače!",
+      "link": "https://slobodnadalmacija.hr/sport/domaci-nogomet/donesena-je-konacna-odluka-znamo-kada-dinamo-i-hajduk-igraju-veliki-derbi-sjajne-vijesti-i-za-sve-navijace-1592378",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-25T18:00:00.000Z",
+      "summary": "Derbi Dinamo – Hajduk igra se u nedjelju 20. prosinca u 15 sati. Tom utakmicom završit će nogometna godina u SHNL-u, a i prvi dio sezone 2026./27. Osim na MaxTV-u…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32643548.jpg"
+    },
+    {
+      "title": "Trener Belgijaca i napadač pred novinarima uoči europskog dvoboja: ‘Nije slučajnost da je Hajduk u ligi trenutno vodeći‘",
+      "link": "https://slobodnadalmacija.hr/sport/strani-nogomet/trener-belgijaca-i-napadac-pred-novinarima-uoci-europskog-dvoboja-nije-slucajnost-da-je-hajduk-u-ligi-trenutno-vodeci-1592366",
+      "source": "Slobodna Dalmacija",
+      "official": false,
+      "publishedAt": "2026-11-25T16:57:46.000Z",
+      "summary": "Hajduk će u četvrtoj utakmici ligaške faze KL-a ugostiti na Poljudu belgijski Sint-Truidense. Utakmicu su u ime gostiju najavili trener Jonas De Roeck i napadač Samed…",
+      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32923171.jpg"
+    },
     {
       "title": "Garcia i Dendoncker najavili novu europsku utakmicu Hajduka, trener otkrio detalje oko Livaje i stanje krila",
       "link": "https://slobodnadalmacija.hr/sport/hajduk/garcia-i-dendoncker-najavljuju-novu-europsku-utakmicu-hajduka-cekaju-se-detalji-oko-livaje-1592356",
@@ -20,6 +74,15 @@
       "publishedAt": "2026-11-25T15:21:00.000Z",
       "summary": "Hajduk sutra od 21 sat na Poljudu igra susret 4. kola Konferencijske lige protiv belgijskog Sint-Truidensea, a Bijeli danas imaju posljednji trening pred susret u kojem…",
       "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/25/32642841.jpg"
+    },
+    {
+      "title": "Juniori i kadeti se plasirali u finale Županijskog kupa",
+      "link": "https://hajduk.hr/vijest/juniori-i-kadeti-se-plasirali-u-finale-zupanijskog-kupa/18722",
+      "source": "hajduk.hr",
+      "official": true,
+      "publishedAt": "2026-11-25T15:11:00.000Z",
+      "summary": "Pobijedili su Vodice i GOŠK (D)",
+      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-25-17-20-8199-.jpg"
     },
     {
       "title": "Zbog kazne samo djeca mogu na Poljud. Ne tražite dalje, evo gdje možete pogledati prijenos Hajdukove utakmice",
@@ -119,69 +182,6 @@
       "publishedAt": "2026-11-23T22:20:00.000Z",
       "summary": "Željezničar proživljava jednu od najtežih kriza u svojoj povijesti. Osim rezultatskih problema koji su ih doveli do 8. mjesta Premijer lige nakon 14 utakmica, odnosno…",
       "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/27593719.jpg"
-    },
-    {
-      "title": "Iz DPH Ploče odali počast čovjeku koji je ‘živija Hajduk‘: ‘Mijo nikad nije tražija ništa zauzvrat. Fala ti, naš Mijo‘",
-      "link": "https://slobodnadalmacija.hr/dalmacija/s-mora-i-kraja/iz-dph-ploce-odali-pocast-covjeku-koji-je-zivija-hajduk-mijo-nikad-nije-trazija-nista-zauzvrat-fala-ti-nas-mijo-1591985",
-      "source": "Slobodna Dalmacija",
-      "official": false,
-      "publishedAt": "2026-11-23T19:38:00.000Z",
-      "summary": "Povodom obljetnice smrti Mije Medaka Anđina iz Komina, čovjeka koji je svojim imenom i djelovanjem ostavio neizbrisiv trag u navijačkoj povijesti Hajduka, predstavnici…",
-      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/32913887.jpg"
-    },
-    {
-      "title": "Ante Kostelić otkrio što ostavlja Janici i Ivici u nasljedstvo, a progovorio je i o obiteljskoj vezi s Hajdukom",
-      "link": "https://slobodnadalmacija.hr/mozaik/zivot/ante-kostelic-otkrio-sto-ostavlja-janici-i-ivici-u-nasljedstvo-a-progovorio-je-i-o-obiteljskoj-vezi-s-hajdukom-1591959",
-      "source": "Slobodna Dalmacija",
-      "official": false,
-      "publishedAt": "2026-11-23T16:49:18.000Z",
-      "summary": "Ante Kostelić, poznatiji pod nadimkom Gips, desetljećima je bio jedno od najvažnijih imena hrvatskog skijanja, a njegov trenerski rad obilježio je karijere njegove…",
-      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/31796444.jpg"
-    },
-    {
-      "title": "Lenka Gospodnetić poručila ugostiteljima: ‘Sve mi uzmi, kavu ne diraj!‘ U talijanskoj atrakciji cappuccino je - dva eura",
-      "link": "https://slobodnadalmacija.hr/turizam/aktualno/lenka-gospodnetic-porucila-ugostiteljima-sve-mi-uzmi-kavu-ne-diraj-u-talijanskoj-atrakciji-cappuccino-je-dva-eura-1591943",
-      "source": "Slobodna Dalmacija",
-      "official": false,
-      "publishedAt": "2026-11-23T15:11:17.000Z",
-      "summary": "Nisam sigurna za ostatak Hrvatske, ali postoji nekoliko pa i više splitskih, božeprosti, svetinja: Hajduk, Gospe moja i bila boja, Marjan, pašticada, Slobodna... I kava…",
-      "image": "https://static.slobodnadalmacija.hr/images/slike/2026/11/23/32913698.png"
-    },
-    {
-      "title": "Hajduk - Sint-Truidense: Važne informacije za dolazak djece i pratitelja na Poljud",
-      "link": "https://hajduk.hr/vijest/hajduk--sint-truidense-vazne-informacije-za-dolazak-djece-i-pratitelja-na-poljud-/18718",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-23T14:10:00.000Z",
-      "summary": "",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-23-16-13-7965-.jpg"
-    },
-    {
-      "title": "U prodaji ulaznice za utakmicu Hajduk - Rudeš",
-      "link": "https://hajduk.hr/vijest/u-prodaji-ulaznice-za-utakmicu-hajduk--rudes/18717",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-23T09:49:00.000Z",
-      "summary": "Utakmica 15. kola SuperSport HNL igra se u nedjelju s početkom u 18 sati",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-23-11-57-5647-.jpeg"
-    },
-    {
-      "title": "Pobjeda hajdučica protiv gradskog rivala",
-      "link": "https://hajduk.hr/vijest/pobjeda-hajducica-protiv-gradskog-rivala/18716",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-22T12:52:00.000Z",
-      "summary": "Rezultat je bio 1:5",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-22-14-52-6875-.jpg"
-    },
-    {
-      "title": "Khalil Fayad: Bilo je teško, ostali smo mirni i uspjeli",
-      "link": "https://hajduk.hr/vijest/khalil-fayad-bilo-je-tesko-ostali-smo-mirni-i-uspjeli/18715",
-      "source": "hajduk.hr",
-      "official": true,
-      "publishedAt": "2026-11-21T19:45:00.000Z",
-      "summary": "Veznjak Bijelih nakon pobjede protiv Lokomotive",
-      "image": "https://hajduk.hr/sadrzaj/slike-za-vijesti/800x400/2026-11-21-21-46-6540-.JPG"
     }
   ],
   "nextMatch": {
@@ -1125,8 +1125,8 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 2,
-      "note": "2 od 50 članaka spominje Hajduk"
+      "count": 5,
+      "note": "5 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
