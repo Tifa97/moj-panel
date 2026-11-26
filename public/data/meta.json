@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-26T08:24:12.002Z",
+  "generatedAt": "2026-11-26T09:14:40.036Z",
   "live": false,
-  "version": "202611260824",
+  "version": "202611260914",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -37,7 +37,7 @@
       "home": "https://dubrovnikdanas.com/kalendar-dogadanja-dubrovnik/",
       "ok": true,
       "count": 40,
-      "note": "74 u kalendaru, 40 od danas nadalje"
+      "note": "79 u kalendaru, 40 od danas nadalje"
     },
     {
       "name": "hajduk.hr",
@@ -49,8 +49,8 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 6,
-      "note": "6 od 50 članaka spominje Hajduk"
+      "count": 5,
+      "note": "5 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",

@@ -1,10 +1,46 @@
 {
-  "generatedAt": "2026-11-26T08:24:12.002Z",
+  "generatedAt": "2026-11-26T09:14:40.036Z",
   "live": false,
   "city": "Dubrovnik",
   "items": [
     {
-      "title": "28. prosinca palimo prvu adventsku svijeću",
+      "title": "Vodovod Dubrovnik prodaje osam rabljenih vozila, početne cijene već od 300 eura",
+      "link": "https://dulist.hr/vodovod-dubrovnik-prodaje-osam-rabljenih-vozila-pocetne-cijene-vec-od-300-eura/1058933/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-26T09:02:51.000Z",
+      "summary": "Vodovod Dubrovnik d.o.o. raspisao je javni natječaj za prodaju osam rabljenih vozila među kojima su osobna i teretna vozila te teretno vozilo s kranom. Prodaja se provodi prikupljanjem…",
+      "image": ""
+    },
+    {
+      "title": "Daj griz marende!",
+      "link": "https://www.dubrovniknet.hr/daj-griz-marende/",
+      "source": "DubrovnikNet",
+      "sourceHome": "https://www.dubrovniknet.hr",
+      "publishedAt": "2026-11-26T09:02:44.000Z",
+      "summary": "Pogledajte dnevnu ponudu marendi, izaberite i uz ukusnu marendu začinite dan! A sad provjerite gdje se što danas skuhalo. Dobar tek! Restoran Mezzanave, Dr. Ante Starčevića 24, telefoni…",
+      "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/Screenshot_20261126_095437_Instagram-625x1024.jpg"
+    },
+    {
+      "title": "OLUJNO JUGO I OBILNA KIŠA Vatrogasci pilali stablo i granu, ispumpavali vodu i spašavali mačku",
+      "link": "https://dulist.hr/olujno-jugo-i-obilna-kisa-vatrogasci-pilali-stablo-i-granu-ispumpavali-vodu-i-spasavali-macku/1058935/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-26T09:01:54.000Z",
+      "summary": "Olujno jugo i obilna kiša koji su tijekom noći i jutra zahvatili dubrovačko područje donijeli su posla dubrovačkim vatrogascima. Kako su izvijestili, jutros su u svega sat i pol imali…",
+      "image": ""
+    },
+    {
+      "title": "U DUBROVNIKU O BUDUĆNOSTI HRVATSKOG SPORTA Od olimpijskih legendi do novih generacija sportaša",
+      "link": "https://dulist.hr/u-dubrovniku-o-buducnosti-hrvatskog-sporta-od-olimpijskih-legendi-do-novih-generacija-sportasa/1058920/",
+      "source": "DuList",
+      "sourceHome": "https://dulist.hr",
+      "publishedAt": "2026-11-26T08:26:38.000Z",
+      "summary": "Više od 100 predstavnika nacionalnih sportskih saveza i lokalnih sportskih zajednica nazočilo je prvom danu Godišnje konferencije Hrvatskog olimpijskog odbora (HOO), koja se održava u…",
+      "image": "https://cdn.dulist.hr/wp-content/uploads/2026/11/hoo-godisnja-konferencija-1.jpg"
+    },
+    {
+      "title": "28. studenoga palimo prvu adventsku svijeću",
       "link": "https://www.dubrovniknet.hr/28-prosinca-palimo-prvu-adventsku-svijecu/",
       "source": "DubrovnikNet",
       "sourceHome": "https://www.dubrovniknet.hr",
@@ -182,42 +218,6 @@
       "publishedAt": "2026-11-25T17:26:46.000Z",
       "summary": "Na Stradunu pripreme za ovogodišnji advent u punom su jeku. Nakon nakon blagdanske rasvjete na više mjesta postavljeni su i borovi. Nisu preveliki, figuraju i privlače pozornost prolaznika…",
       "image": "https://www.dubrovniknet.hr/wp-content/uploads/2026/11/3-1536x1152.jpeg"
-    },
-    {
-      "title": "Novi Zakon o posredovanju u prometu nekretnina pred Ustavnim sudom",
-      "link": "https://dulist.hr/novi-zakon-o-posredovanju-u-prometu-nekretnina-pred-ustavnim-sudom/1058750/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-25T16:17:00.000Z",
-      "summary": "Hrvatska udruga posrednika nekretninama (HUPN) podnijela je Ustavnom sudu Republike Hrvatske prijedlog za ocjenu ustavnosti sedam odredbi novog Zakona o posredovanju u prometu nekretnina…",
-      "image": ""
-    },
-    {
-      "title": "ZBOG RADOVA Privremeno se ukida odlagalište otpada u Ulici bana Josipa Jelačića",
-      "link": "https://dulist.hr/zbog-radova-privremeno-se-ukida-odlagaliste-otpada-u-ulici-bana-josipa-jelacica/1058851/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-25T15:29:12.000Z",
-      "summary": "Građani koji koriste odlagalište otpada u Ulici bana Josipa Jelačića, u blizini kućnog broja 81, morat će do daljnjega koristiti druge lokacije za odlaganje otpada. Naime, zbog radova na…",
-      "image": ""
-    },
-    {
-      "title": "OLUJNO JUGO I OBILNA KIŠA Dubrovačko područje večeras pod narančastim upozorenjem",
-      "link": "https://dulist.hr/olujno-jugo-i-obilna-kisa-dubrovacko-podrucje-veceras-pod-narancastim-upozorenjem/1058864/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-25T14:37:23.000Z",
-      "summary": "Jako i olujno jugo te obilna kiša očekuju se večeras i tijekom noći na dubrovačkom području. Državni hidrometeorološki zavod (DHMZ) izdao je za Dubrovačko-neretvansku županiju narančasto…",
-      "image": ""
-    },
-    {
-      "title": "EUROPOL U DUBROVNIKU Božinović: Balkanski kartel odgovoran je za gotovo 50 posto kokaina koji dolazi na europsko tržište",
-      "link": "https://dulist.hr/europol-u-dubrovniku-bozinovic-balkanski-kartel-odgovoran-je-za-gotovo-50-posto-kokaina-koji-dolazi-na-europsko-trziste/1058871/",
-      "source": "DuList",
-      "sourceHome": "https://dulist.hr",
-      "publishedAt": "2026-11-25T14:29:40.000Z",
-      "summary": "U proteklih godinu dana 4,3 milijuna ljudi u Europi konzumiralo je kokain, odnosno svaki stoti Europljanin, dok je takozvani balkanski kartel odgovoran za gotovo 50 posto ukupnog kokaina…",
-      "image": ""
     }
   ],
   "events": [
@@ -784,7 +784,7 @@
   ],
   "counts": {
     "total": 24,
-    "today": 8,
+    "today": 12,
     "events": 40,
     "eventsToday": 5
   },
@@ -806,7 +806,7 @@
       "home": "https://dubrovnikdanas.com/kalendar-dogadanja-dubrovnik/",
       "ok": true,
       "count": 40,
-      "note": "74 u kalendaru, 40 od danas nadalje"
+      "note": "79 u kalendaru, 40 od danas nadalje"
     }
   ]
 }
