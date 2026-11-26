@@ -10,7 +10,7 @@
  *        /data/ key so the offline fallback holds live data, not the build.
  */
 const SHELL_TIMEOUT_MS = 1500;
-const VERSION = 'v4';
+const VERSION = 'v5';
 
 /**
  * Everything is addressed relative to where sw.js lives, so the app works
@@ -31,6 +31,7 @@ const SHELL = [
   'js/dom.js',
   'js/format.js',
   'js/openmeteo.js',
+  'js/notify.js',
   'js/places.js',
   'js/weather-codes.js',
   'js/views/shared.js',
@@ -75,6 +76,26 @@ self.addEventListener('activate', (event) => {
         )
       )
       .then(() => self.clients.claim())
+  );
+});
+
+/** Tapping a match notification opens the app on the Hajduk panel. */
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  const target = new URL(event.notification.data?.url || './#hajduk', self.location.href).href;
+
+  event.waitUntil(
+    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((clients) => {
+      const own = clients.find((c) => c.url.startsWith(self.registration.scope));
+      if (own) {
+        own.focus();
+        // Same-origin links stay in the app; article links open a new tab.
+        if (target.startsWith(self.registration.scope)) own.navigate(target).catch(() => {});
+        else self.clients.openWindow(target);
+        return;
+      }
+      return self.clients.openWindow(target);
+    })
   );
 });
 

@@ -539,6 +539,40 @@ a.event__link:hover { background: var(--accent-soft); }
 
 .news__arrow { width: 15px; height: 15px; color: var(--ink-3); margin-top: 3px; }
 
+/* --------------------------------------------------------- notifications */
+
+.notify {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.notify.is-on { border-color: var(--accent-line); background: var(--accent-soft); }
+
+.notify__icon { width: 20px; height: 20px; color: var(--ink-3); }
+.notify.is-on .notify__icon { color: var(--accent); }
+
+.notify__text { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+.notify__title { font-size: 13.5px; font-weight: 650; letter-spacing: -.005em; }
+.notify__hint { font-size: 11.5px; color: var(--ink-3); line-height: 1.4; }
+
+.notify__btn {
+  flex: none;
+  padding: 7px 15px;
+  border: 1px solid var(--accent-line);
+  background: var(--surface);
+  color: var(--accent-strong);
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.notify__btn:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+
 /* ----------------------------------------------------------- match card */
 
 .match {

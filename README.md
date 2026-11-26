@@ -138,6 +138,39 @@ Vrijeme je iznimka: snapshot ide u `public/data/weather.json` za offline, ali
 app u browseru ide direktno na Open-Meteo (CORS je dopušten) i pokazuje
 `uživo`. Ako to ne prođe, pada natrag na snapshot i piše `spremljeno`.
 
+## Obavijesti o utakmicama
+
+U Hajduk panelu se uključuju jednim gumbom. Javljaju dvije stvari:
+
+- **na dan utakmice** — "Danas igra Hajduk", s protivnikom, satom i kolom
+- **rezultat** — "Pobjeda Hajduka", s rezultatom i opisom iz izvještaja
+
+Obje nastaju **pri sinkronizaciji podataka**: na otvaranju appa, pri povratku
+u app nakon 5 minuta, i na ručni refresh. Nema push servera, pa app ne može
+javiti dok je zatvorena — ovo je dokle se ide bez njega.
+
+Detalji:
+
+- Pri uključivanju se postojeći rezultati označe kao viđeni da se ne reproducira
+  cijela sezona; utakmica koja je danas se svejedno javi, što ujedno potvrdi
+  da stvar radi.
+- Rezultati stariji od 4 dana se ne javljaju — to je povijest, ne vijest.
+- Svaka obavijest ima svoj `tag` pa se tri rezultata odjednom ne pregaze.
+- Viđene stavke se pamte u `localStorage` pod `cip:notify` (zadnjih 120).
+- Klik na obavijest otvara app na Hajduk panelu, odnosno izvještaj s utakmice
+  ako ga ima.
+- Hajduk podaci se dohvate u pozadini i kad je otvoren drugi panel, inače bi
+  obavijest ovisila o tome gdje si zadnji put stao.
+
+### Što bi trebalo za pravi push
+
+Da obavijest stigne bez otvaranja appa treba Web Push: VAPID ključevi,
+`push` handler u service workeru i nešto što šalje u pravi čas. Cron iz
+Actionsa bi to mogao, ali subscription je *capability URL* — tko ga ima,
+može slati obavijesti na uređaj — pa ne smije u javni repo, nego u repo
+secret. Uz to traži ili `web-push` dependency ili ručni VAPID JWT i AES128GCM
+enkripciju. Izvedivo, ali je to drugi red složenosti od ovoga.
+
 ## PWA
 
 - `manifest.webmanifest` — standalone, ikone 192/512 + maskable, shortcuti po panelu
@@ -145,6 +178,7 @@ app u browseru ide direktno na Open-Meteo (CORS je dopušten) i pokazuje
   podaci *network-first*, `/api/` samo s mreže uz zrcaljenje u cache
 - Radi offline: zadnji učitani paneli ostaju dostupni
 - `theme-color` se mijenja po aktivnom panelu
+- `notificationclick` u service workeru vraća fokus na app
 
 Ikone generira `npm run icons` (vlastiti PNG encoder, bez dependencyja).
 
@@ -160,6 +194,7 @@ public/                 ← ovo se deploya (statika, npr. GitHub Pages)
     format.js           hrvatski datumi, relativno vrijeme, množina
     openmeteo.js        dijeli ga i Node i browser
     weather-codes.js    WMO kodovi → hrvatski opis + ikona
+    notify.js           obavijesti o utakmicama i rezultatima
     places.js           vlastita mjesta + geocoding
     views/              dubrovnik | events | hajduk | weather | shared
   data/                 generirano, ne diraj ručno

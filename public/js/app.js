@@ -2,6 +2,7 @@ import { el, $, replaceChildren, icon } from './dom.js';
 import { relative, longDate } from './format.js';
 import { forecastUrl, normalise } from './openmeteo.js';
 import { allPlaces, addPlace, removePlace, searchPlaces } from './places.js';
+import * as notify from './notify.js';
 import { renderDubrovnik } from './views/dubrovnik.js';
 import { renderHajduk } from './views/hajduk.js';
 import { renderWeather } from './views/weather.js';
@@ -64,6 +65,8 @@ function init() {
 
   showTab(tabFromHash());
   loadMeta();
+  // Match-day alerts must not depend on which panel happens to be open.
+  if (notify.isEnabled() && state.tab !== 'hajduk') load('hajduk');
   registerServiceWorker();
 }
 
@@ -140,6 +143,8 @@ async function load(id, { force = false } = {}) {
     state.lastLoadedAt = Date.now();
     render(id);
     stampUpdated();
+    // Every sync is a chance to spot a match today or a fresh result.
+    if (id === 'hajduk') notify.check(state.data[id]);
   } catch (err) {
     if (!state.data[id]) showError(id, err);
   } finally {
@@ -284,7 +289,18 @@ function render(id) {
   if (!data) return;
 
   if (id === 'dubrovnik') replaceChildren(panels[id], renderDubrovnik(data));
-  else if (id === 'hajduk') replaceChildren(panels[id], renderHajduk(data));
+  else if (id === 'hajduk')
+    replaceChildren(
+      panels[id],
+      renderHajduk(data, {
+        notify: {
+          supported: notify.supported(),
+          permission: notify.permission(),
+          enabled: notify.isEnabled(),
+        },
+        onNotifyToggle: toggleNotifications,
+      })
+    );
   else
     replaceChildren(
       panels[id],
@@ -309,6 +325,17 @@ function render(id) {
         },
       })
     );
+}
+
+async function toggleNotifications(turnOn) {
+  if (turnOn) {
+    const outcome = await notify.enable(state.data.hajduk);
+    render('hajduk');
+    if (outcome === 'granted') notify.check(state.data.hajduk);
+  } else {
+    notify.disable();
+    render('hajduk');
+  }
 }
 
 function selectCity(id, { rerender = true } = {}) {

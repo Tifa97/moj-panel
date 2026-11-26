@@ -4,7 +4,7 @@ import { sourceStrip, emptyState, sectionTitle } from './shared.js';
 
 const OUTCOME_LABEL = { W: 'Pobjeda', D: 'Neriješeno', L: 'Poraz' };
 
-export function renderHajduk(data) {
+export function renderHajduk(data, handlers = {}) {
   const fixtures = data?.fixtures || [];
   const standings = data?.standings || [];
   const results = data?.results || [];
@@ -20,6 +20,7 @@ export function renderHajduk(data) {
     'div.stack',
     null,
     hero(ourRow),
+    notifyRow(handlers.notify, handlers.onNotifyToggle),
     data.nextMatch && nextMatchCard(data.nextMatch),
     results.length && resultsSection(results, data.friendlies || []),
     fixtures.length > 1 && fixturesSection(fixtures.slice(1)),
@@ -50,6 +51,40 @@ function hero(row) {
 
 const stat = (value, label) =>
   el('div.stat', null, el('span.stat__value', { text: String(value) }), el('span.stat__label', { text: label }));
+
+/* -------------------------------------------------------- notifications */
+
+function notifyRow(state, onToggle) {
+  if (!state?.supported) return null;
+
+  const denied = state.permission === 'denied';
+  const on = state.enabled;
+
+  return el(
+    'div.notify',
+    { class: on ? 'is-on' : '' },
+    icon(on ? 'bell' : 'bell-off', 'icon notify__icon'),
+    el(
+      'div.notify__text',
+      null,
+      el('span.notify__title', { text: 'Obavijesti o utakmicama' }),
+      el('span.notify__hint', {
+        text: denied
+          ? 'Blokirane su u postavkama preglednika — tamo ih treba vratiti.'
+          : on
+            ? 'Javlja na dan utakmice i kad stigne rezultat.'
+            : 'Na dan utakmice i nakon rezultata, pri osvježavanju podataka.',
+      })
+    ),
+    denied
+      ? null
+      : el('button.notify__btn', {
+          type: 'button',
+          text: on ? 'Isključi' : 'Uključi',
+          onclick: () => onToggle?.(!on),
+        })
+  );
+}
 
 /* ---------------------------------------------------------- next match */
 
