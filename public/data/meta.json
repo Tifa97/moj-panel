@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-27T11:14:52.238Z",
+  "generatedAt": "2026-11-27T20:11:18.050Z",
   "live": false,
-  "version": "202611271114",
+  "version": "202611272011",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -43,7 +43,7 @@
       "name": "hajduk.hr",
       "home": "https://hajduk.hr",
       "ok": true,
-      "count": 35
+      "count": 0
     },
     {
       "name": "Slobodna Dalmacija",
