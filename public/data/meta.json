@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-27T20:11:18.050Z",
+  "generatedAt": "2026-11-28T02:53:48.533Z",
   "live": false,
-  "version": "202611272011",
+  "version": "202611280253",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -49,8 +49,8 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 4,
-      "note": "4 od 50 članaka spominje Hajduk"
+      "count": 6,
+      "note": "6 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
