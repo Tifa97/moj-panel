@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T02:53:48.533Z",
+  "generatedAt": "2026-11-28T11:27:57.286Z",
   "live": false,
   "places": [
     {
@@ -2231,14 +2231,16 @@
     {
       "name": "Open-Meteo (Dubrovnik)",
       "home": "https://open-meteo.com",
-      "ok": true,
-      "count": 7
+      "ok": false,
+      "count": 0,
+      "error": "GET https://api.open-meteo.com/v1/forecast failed: fetch failed"
     },
     {
       "name": "Open-Meteo (Zagreb)",
       "home": "https://open-meteo.com",
-      "ok": true,
-      "count": 7
+      "ok": false,
+      "count": 0,
+      "error": "GET https://api.open-meteo.com/v1/forecast failed: fetch failed"
     }
   ]
 }
