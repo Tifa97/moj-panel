@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-28T11:27:57.286Z",
+  "generatedAt": "2026-11-28T19:05:32.049Z",
   "live": false,
-  "version": "202611281127",
+  "version": "202611281905",
   "tabs": [
     {
       "id": "dubrovnik",
@@ -49,8 +49,8 @@
       "name": "Slobodna Dalmacija",
       "home": "https://www.slobodnadalmacija.hr",
       "ok": true,
-      "count": 3,
-      "note": "3 od 50 članaka spominje Hajduk"
+      "count": 4,
+      "note": "4 od 50 članaka spominje Hajduk"
     },
     {
       "name": "hajduk.hr/raspored",
@@ -76,16 +76,14 @@
     {
       "name": "Open-Meteo (Dubrovnik)",
       "home": "https://open-meteo.com",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://api.open-meteo.com/v1/forecast failed: fetch failed"
+      "ok": true,
+      "count": 7
     },
     {
       "name": "Open-Meteo (Zagreb)",
       "home": "https://open-meteo.com",
-      "ok": false,
-      "count": 0,
-      "error": "GET https://api.open-meteo.com/v1/forecast failed: fetch failed"
+      "ok": true,
+      "count": 7
     }
   ],
   "healthy": false
